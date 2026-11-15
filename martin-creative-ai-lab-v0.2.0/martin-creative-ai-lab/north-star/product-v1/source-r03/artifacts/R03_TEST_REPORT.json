@@ -1,0 +1,147 @@
+{
+  "art_gate": "ART_REVIEW_PENDING",
+  "author_test_requested": false,
+  "checks": {
+    "21_full_class_kits": {
+      "detail": "21 research signature+utility+passive combinations, no owner ACK or balance",
+      "status": "NOT_CANON"
+    },
+    "3_boss_canonical_status": {
+      "detail": "B01/B02 proposed, B03 Rave Masters independent source",
+      "status": "NOT_CANON"
+    },
+    "C17_consumer": {
+      "PASS": true,
+      "abi": 3,
+      "revision": 1,
+      "status": "PASS",
+      "suite": "c17_to_cpp20_r03"
+    },
+    "NPC_quality": {
+      "detail": "Four illustrated NPC facing poses but no complete gait, reactive speech animation or visual human acceptance",
+      "status": "ART_REVIEW_PENDING"
+    },
+    "SQLite_journal_replay": {
+      "events": 121,
+      "revision": 121,
+      "status": "PASS",
+      "status_of_authority": "LAB_ONLY"
+    },
+    "camera_quarter_turns": {
+      "state": "PASS",
+      "status": "PASS",
+      "suite": "camera_four_views",
+      "views": 4
+    },
+    "game_product": {
+      "status": "PRODUCT_NO_GO"
+    },
+    "native_Windows_standard_user": {
+      "status": "NOT_RUN"
+    },
+    "native_cpp20_c17_wasm32": {
+      "note": "Linux .so; clang freestanding WASM32; no Windows claim",
+      "status": "PASS"
+    },
+    "native_cpp20_trace": {
+      "accepted_events": 121,
+      "original_native": true,
+      "status": "PASS"
+    },
+    "original_opening_animatic_duration": {
+      "art_grade": "ANIMATIC_NOT_FINAL",
+      "seconds": 18.0,
+      "status": "PASS"
+    },
+    "preserved_R02_historical_source_hashes": {
+      "files": 10,
+      "status": "PASS"
+    },
+    "python_regressions_sqlite_class_negative": {
+      "note": "includes R00/R01/R02 and R03 tests",
+      "status": "PASS",
+      "tests": 132
+    },
+    "r01_historical_wasm": {
+      "PASS": true,
+      "defeats": 3,
+      "events": 100,
+      "quest": 7,
+      "revision": 100,
+      "status": "PASS",
+      "suite": "native_cpp_vs_wasm_spatial_parity"
+    },
+    "r02_historical_wasm": {
+      "PASS": true,
+      "classes_implemented_as_lab_modes": 21,
+      "events": 116,
+      "final_quest": 7,
+      "rev": 116,
+      "status": "PASS",
+      "suite": "r02_world_full_natively_audited_WASM"
+    },
+    "r03_native_wasm_parity": {
+      "PASS": true,
+      "abilitiesPerProfile": 2,
+      "events": 121,
+      "finalQuest": 7,
+      "kitProfiles": 21,
+      "passiveFamilies": 7,
+      "status": "PASS",
+      "suite": "r03_authoritative_native_vs_wasm"
+    },
+    "real_browser_Windows": {
+      "no_admin_bypass": true,
+      "status": "NOT_RUN"
+    },
+    "real_renderer_Skia_CPU": {
+      "images": [
+        "R03_SKIA_VIEW_0.png",
+        "R03_SKIA_VIEW_1.png",
+        "R03_SKIA_VIEW_2.png",
+        "R03_SKIA_VIEW_3.png"
+      ],
+      "limitation": "Actual site/world.js on Skia Canvas, not Chromium/Windows/visual acceptance",
+      "size": [
+        1200,
+        760
+      ],
+      "status": "PASS",
+      "views": 4
+    },
+    "sprite_and_material_source_decode": {
+      "approval": "ART_REVIEW_PENDING",
+      "ground_material_variants": 45,
+      "npc_sprites": 16,
+      "status": "PASS"
+    },
+    "ui_mock_canvas": {
+      "PASS": true,
+      "authorityRevision": 1,
+      "draws": 588,
+      "orientationCycles": 4,
+      "status": "PASS",
+      "suite": "world_ui_wasm_mock_canvas"
+    }
+  },
+  "date": "2026-11-15",
+  "owner_authority": "world_r03.cpp C++20 ABI3 only",
+  "product_gate": "PRODUCT_NO_GO",
+  "schema": "mmai.product.v1.r03.qa.v1",
+  "sha256": {
+    "artifacts/R03_SQLITE_WORLD_JOURNAL.sqlite": "7dd529b9ae7ea36f656a21e444d78b040a733e0821c31bd6259d6c56a4afe4d5",
+    "artifacts/R03_WORLD_NATIVE_TRACE.json": "5323063bd86db477ee291c6a101e9afb79bccca63c0a501884fe2c7a766a85ba",
+    "core/world_r03.cpp": "0e5660f6571140a103f000f57f1b5d8a405cf39a0e8fd86b101194b7935d784a",
+    "core/world_r03.h": "5a0cee2eb3b401220e9a98db155b4e5d961609d55db195c456707f893eadb4a8",
+    "docs/R03_CLASS_KITS_LAB.json": "18b54d051804de74540f6a812b331978c280fdb8082e938842514c2f3f005794",
+    "site/app.js": "fa8b40fb6add71982cf8ca5b466a67407083ba35d0ed4bf602d9abc456c88187",
+    "site/product.wasm": "9fcaa63b7fb776e00e15f86805e640e0fd513b116d105d45dd4eeda9e0ec5cec",
+    "site/world.js": "ccc1f471b51433325f94fef47d6ae399b0e8825337bc21b82530b4806091ba3d"
+  },
+  "source_provenance": [
+    "MMAI C02 baseline",
+    "Combat Philosophies R01–R21",
+    "Rave Masters GDD separate historical reference"
+  ],
+  "work_type": "single_composed_product_v1"
+}

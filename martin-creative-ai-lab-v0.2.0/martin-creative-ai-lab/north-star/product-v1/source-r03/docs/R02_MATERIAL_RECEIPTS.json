@@ -1,0 +1,60 @@
+{
+  "model": "procedural material fixture",
+  "approval": "ART_REVIEW_PENDING",
+  "tiles": [
+    {
+      "tile_code": 0,
+      "path": "site/assets/world/material_0.webp",
+      "sha256": "0e5c6df0e85c9dbc3e19f5cbe6f995ad4b91a0ba5f14c6141c673ac448d18913",
+      "origin": "original Python raster shader"
+    },
+    {
+      "tile_code": 1,
+      "path": "site/assets/world/material_1.webp",
+      "sha256": "51936d063fba3605b8f4ddc441712eb8c64ae8c4eba9c3eb9b27a1d46cdd299e",
+      "origin": "original Python raster shader"
+    },
+    {
+      "tile_code": 2,
+      "path": "site/assets/world/material_2.webp",
+      "sha256": "ddbf87cb5780f94d0c7cbeab5dda739963d51a278129b4435e12641ea9b6e6c3",
+      "origin": "original Python raster shader"
+    },
+    {
+      "tile_code": 3,
+      "path": "site/assets/world/material_3.webp",
+      "sha256": "8988a02ed8581fbe75be9f220d5615857a6d3ac9d287d17254305034609caf06",
+      "origin": "original Python raster shader"
+    },
+    {
+      "tile_code": 4,
+      "path": "site/assets/world/material_4.webp",
+      "sha256": "7b6e66e595d278b0708efade2e2a8416496469fa1dbc65c1f3ccec72e2591a7a",
+      "origin": "original Python raster shader"
+    },
+    {
+      "tile_code": 6,
+      "path": "site/assets/world/material_6.webp",
+      "sha256": "ef9b7724b19c08e00cd54f06247dd6423f5219b89f7237124f435afc0dd1c510",
+      "origin": "original Python raster shader"
+    },
+    {
+      "tile_code": 7,
+      "path": "site/assets/world/material_7.webp",
+      "sha256": "0bcd0fef272030e9522bd8ae1d69f5164f06a5ebd5b97bfcd8c22c83eb89c366",
+      "origin": "original Python raster shader"
+    },
+    {
+      "tile_code": 8,
+      "path": "site/assets/world/material_8.webp",
+      "sha256": "158cedb637a5ae187d8b3bf53ae854f39009b1d7c50d8f5d9afe868a8bae43d9",
+      "origin": "original Python raster shader"
+    },
+    {
+      "tile_code": 9,
+      "path": "site/assets/world/material_9.webp",
+      "sha256": "850ff637543ba90c8f865336a68330878f88a16efc95923d031b425b72209014",
+      "origin": "original Python raster shader"
+    }
+  ]
+}

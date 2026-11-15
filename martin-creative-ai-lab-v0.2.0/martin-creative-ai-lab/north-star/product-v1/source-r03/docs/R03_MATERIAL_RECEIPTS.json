@@ -1,0 +1,276 @@
+{
+  "approval": "ART_REVIEW_PENDING",
+  "algorithm": "deterministic procedural raster; no per-cell dark outline",
+  "variants": [
+    {
+      "tile": 0,
+      "variant": 0,
+      "path": "site/assets/world/material_0_0.webp",
+      "sha256": "3b1b9ed941d3d4d00171b4e134c098eaf2ae37f59b4c724a9d25d6af03400347"
+    },
+    {
+      "tile": 0,
+      "variant": 1,
+      "path": "site/assets/world/material_0_1.webp",
+      "sha256": "191abb514620b89c7cb70b8c60f4ed5bbabda03b52a0ca6b0cdbe4d60f24df93"
+    },
+    {
+      "tile": 0,
+      "variant": 2,
+      "path": "site/assets/world/material_0_2.webp",
+      "sha256": "c451e95eaa8ce27e21baee98108becca49a20764c1d1b02556eba8ff64c27720"
+    },
+    {
+      "tile": 0,
+      "variant": 3,
+      "path": "site/assets/world/material_0_3.webp",
+      "sha256": "3e32c5426108254be189b2106db97cd684f1d641b3d891b9e57d0a8290c6e084"
+    },
+    {
+      "tile": 0,
+      "variant": 4,
+      "path": "site/assets/world/material_0_4.webp",
+      "sha256": "6cd3579d626e038ce084a0e4851c08836c0b08f7ad2bb1630bee12a59a2c125a"
+    },
+    {
+      "tile": 1,
+      "variant": 0,
+      "path": "site/assets/world/material_1_0.webp",
+      "sha256": "432abdb11fa6839b1823d2e99982be4d59a986c96f68df925bec5fe741309093"
+    },
+    {
+      "tile": 1,
+      "variant": 1,
+      "path": "site/assets/world/material_1_1.webp",
+      "sha256": "31dfa643d1625d58e71b725186ad6a7a8b61c9ba28f9471d93c2e22fd92b19e9"
+    },
+    {
+      "tile": 1,
+      "variant": 2,
+      "path": "site/assets/world/material_1_2.webp",
+      "sha256": "196e588825e30fcbbf416e91597361a9e1b0133ace9570b150800b2bd865e8e6"
+    },
+    {
+      "tile": 1,
+      "variant": 3,
+      "path": "site/assets/world/material_1_3.webp",
+      "sha256": "e864ef271c77e74fa7e1fd42fd9e21f4bf05f3cad953360e9fe20d2d59b654ab"
+    },
+    {
+      "tile": 1,
+      "variant": 4,
+      "path": "site/assets/world/material_1_4.webp",
+      "sha256": "be04d242da57c8d6b306894f4b0e916607c7dd88164a838ae7869966ab7c553a"
+    },
+    {
+      "tile": 2,
+      "variant": 0,
+      "path": "site/assets/world/material_2_0.webp",
+      "sha256": "a66ab2c1bb3e27e7cbd95df524bc5a13d97b5c685eb1101330778816369bd534"
+    },
+    {
+      "tile": 2,
+      "variant": 1,
+      "path": "site/assets/world/material_2_1.webp",
+      "sha256": "aeb71b379b00af8a8413dadb8ce249c7e7229e0d1a6a88aaaee482fec1b630e5"
+    },
+    {
+      "tile": 2,
+      "variant": 2,
+      "path": "site/assets/world/material_2_2.webp",
+      "sha256": "0e383cb91a7b29a844e745dcb86c30b03de94fa4d7e8d6a64b9edcecff33ee73"
+    },
+    {
+      "tile": 2,
+      "variant": 3,
+      "path": "site/assets/world/material_2_3.webp",
+      "sha256": "e57543ab056de1dd4ab053c944b70fcea1c9156265944af47214c92663aefd0b"
+    },
+    {
+      "tile": 2,
+      "variant": 4,
+      "path": "site/assets/world/material_2_4.webp",
+      "sha256": "9c6fb5b684c92ba74ccf7fb6aafbd0883a9fb165e30c11b8518310a0c0a6d149"
+    },
+    {
+      "tile": 3,
+      "variant": 0,
+      "path": "site/assets/world/material_3_0.webp",
+      "sha256": "ebb1aa12bde477a28689192597be7354fa5561b8f3902fc5faae9bef2dd265ac"
+    },
+    {
+      "tile": 3,
+      "variant": 1,
+      "path": "site/assets/world/material_3_1.webp",
+      "sha256": "2b4efe6fb304fb1255b6af1d0a4d81596b806dbcf44e941935873f7121087062"
+    },
+    {
+      "tile": 3,
+      "variant": 2,
+      "path": "site/assets/world/material_3_2.webp",
+      "sha256": "f03569203228680d51d4c8d6d168d921c2a5cf240927525a1ad27f5ed35f4586"
+    },
+    {
+      "tile": 3,
+      "variant": 3,
+      "path": "site/assets/world/material_3_3.webp",
+      "sha256": "2c686a17a2fd4115dab6f47bdcde91e883f47ee9e837e3a23f0aa10b730e4116"
+    },
+    {
+      "tile": 3,
+      "variant": 4,
+      "path": "site/assets/world/material_3_4.webp",
+      "sha256": "390efff617582e97cf4d68ed70b087d4d1ff2876ed7537cb0beffaf5e0fb6d04"
+    },
+    {
+      "tile": 4,
+      "variant": 0,
+      "path": "site/assets/world/material_4_0.webp",
+      "sha256": "3243edf3582598070ad7ebd4de441b1b723f2e1d4ed4e61e32fab0f84f3ac062"
+    },
+    {
+      "tile": 4,
+      "variant": 1,
+      "path": "site/assets/world/material_4_1.webp",
+      "sha256": "93d0ac01ed74678a917bbc24ec75a6d8a3a12eefb635c4e53919584c534c4bed"
+    },
+    {
+      "tile": 4,
+      "variant": 2,
+      "path": "site/assets/world/material_4_2.webp",
+      "sha256": "e9e8c6b34526f98c03013dd33bed2f65c80f259eeede1b503bdbfe4a7140bc1c"
+    },
+    {
+      "tile": 4,
+      "variant": 3,
+      "path": "site/assets/world/material_4_3.webp",
+      "sha256": "f27489858871d63460406770731dc251c38256da3791c2fa0059a79ee21ccaeb"
+    },
+    {
+      "tile": 4,
+      "variant": 4,
+      "path": "site/assets/world/material_4_4.webp",
+      "sha256": "f0f2a1284c118f83df69ec516b4a47c607674d86c9a93ccb83c844e15a0d4c7c"
+    },
+    {
+      "tile": 6,
+      "variant": 0,
+      "path": "site/assets/world/material_6_0.webp",
+      "sha256": "1dd131cb0d9b0a0307f482f1d132a14d64c7334616200c30f75692df9d25f84a"
+    },
+    {
+      "tile": 6,
+      "variant": 1,
+      "path": "site/assets/world/material_6_1.webp",
+      "sha256": "450368d4cfd7dd195f64a5d67747edc0be00b141c07a24a2e52466126086adbd"
+    },
+    {
+      "tile": 6,
+      "variant": 2,
+      "path": "site/assets/world/material_6_2.webp",
+      "sha256": "f23a706ee047230135bdc5cdcb1ef21d6f35e99575ba16725f7827fd302e8c20"
+    },
+    {
+      "tile": 6,
+      "variant": 3,
+      "path": "site/assets/world/material_6_3.webp",
+      "sha256": "438957bf40f07977afb31f04e119f6a62c4b5a8169b847ac272f987f95d79c76"
+    },
+    {
+      "tile": 6,
+      "variant": 4,
+      "path": "site/assets/world/material_6_4.webp",
+      "sha256": "620480ec9641ab65d9d0b1bf85ea66ed8de7e73ddbc744a1ce2dfc4dedd63d60"
+    },
+    {
+      "tile": 7,
+      "variant": 0,
+      "path": "site/assets/world/material_7_0.webp",
+      "sha256": "04d3a1852f5465c6413b409fafaab4e9161e44edb17abe2dcd35d1934471daf3"
+    },
+    {
+      "tile": 7,
+      "variant": 1,
+      "path": "site/assets/world/material_7_1.webp",
+      "sha256": "d87bd1081b848e010d6b55483b2841893f6a645801d166cea389378cffd6620e"
+    },
+    {
+      "tile": 7,
+      "variant": 2,
+      "path": "site/assets/world/material_7_2.webp",
+      "sha256": "e7132f11e89cacb94965fcdb42f117c60db7c73850069f474129dbd3bab0da2f"
+    },
+    {
+      "tile": 7,
+      "variant": 3,
+      "path": "site/assets/world/material_7_3.webp",
+      "sha256": "8c126ac93a039728a513c6121702425249b553284fdf8eed72766d42d046feee"
+    },
+    {
+      "tile": 7,
+      "variant": 4,
+      "path": "site/assets/world/material_7_4.webp",
+      "sha256": "dd0bb008682672a08a08690151fba8263f0c3f6c6cd711fb8f860f26787952e5"
+    },
+    {
+      "tile": 8,
+      "variant": 0,
+      "path": "site/assets/world/material_8_0.webp",
+      "sha256": "052653d2470fd438c2821f0ca5c522a1ef60bcfd8cc4b833f513fbff3bf5ad73"
+    },
+    {
+      "tile": 8,
+      "variant": 1,
+      "path": "site/assets/world/material_8_1.webp",
+      "sha256": "7a1db2e65e91ea10a18c59cf11acda45398d241cd91612f61a350cae1f2a734e"
+    },
+    {
+      "tile": 8,
+      "variant": 2,
+      "path": "site/assets/world/material_8_2.webp",
+      "sha256": "081c431901943bf31189bd12f632af29d572ab81cd3cf77f082901642b9915f7"
+    },
+    {
+      "tile": 8,
+      "variant": 3,
+      "path": "site/assets/world/material_8_3.webp",
+      "sha256": "b01dcf7d6998605ce6f1efc046d2d19b6be853ccec17e8fae184de55c45a9544"
+    },
+    {
+      "tile": 8,
+      "variant": 4,
+      "path": "site/assets/world/material_8_4.webp",
+      "sha256": "e93af31d5bef722f3d3f5765739cad0a4c5ed0bdfd82aa9197393370eb3e1c58"
+    },
+    {
+      "tile": 9,
+      "variant": 0,
+      "path": "site/assets/world/material_9_0.webp",
+      "sha256": "7280513248c2b6b0cc18a5de46edd1370fb666a0219a89f2475299e88065544f"
+    },
+    {
+      "tile": 9,
+      "variant": 1,
+      "path": "site/assets/world/material_9_1.webp",
+      "sha256": "65dad925126f5ab9440610cbb3ef433427812831da7e2bd074fdca70b5f981d3"
+    },
+    {
+      "tile": 9,
+      "variant": 2,
+      "path": "site/assets/world/material_9_2.webp",
+      "sha256": "99ff2307ae53760fba19785f5ff1e4cf48b9cdeabe2b21dce80153c0abe1db5d"
+    },
+    {
+      "tile": 9,
+      "variant": 3,
+      "path": "site/assets/world/material_9_3.webp",
+      "sha256": "9a86786e356e8037b818d135df8af61632477aed591b879691ef03ef7f6db880"
+    },
+    {
+      "tile": 9,
+      "variant": 4,
+      "path": "site/assets/world/material_9_4.webp",
+      "sha256": "42211a4eda572cdf7801aad96e703b6b2ddd0bb2d3213b233cc5c66d144d3028"
+    }
+  ]
+}
