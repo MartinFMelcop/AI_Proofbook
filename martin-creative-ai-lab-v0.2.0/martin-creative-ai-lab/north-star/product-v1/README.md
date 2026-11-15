@@ -189,3 +189,16 @@ Leia [R11_ART_INTEGRATION_AND_GATES](source-r11/docs/R11_ART_INTEGRATION_AND_GAT
 - Gates: cinema final, rig/direção de arte, direitos, consistência quatro fachadas, 21 kits e boss identidades canônicos, Windows/Chromium/GPU e multiplayer ainda ausentes/não verificados. Não propor teste autoral nem merge.
 
 Reprodução: extrair R06 numa cópia, aplicar R07/R08/R10/R11 e por último R12; rodar python3 tools/verify_r12.py. Fontes: [R12 visual audit](source-r12/docs/R12_VISUAL_AND_ENGINEERING_AUDIT.md) e [R12 test report](source-r12/artifacts/R12_TEST_REPORT.json).
+
+
+## R13 — direção visual de três bosses no Canvas real (15/11/2026)
+
+**ENGINEERING_LAB_PASS / ART_REVIEW_PENDING / PRODUCT_NO_GO.** Geração de nova arte falhou uma vez (não repetida): R13 **não** criou fachadas refeitas, sprites inéditos ou rigs. As 12 pinturas R11, C++20 ABI5, WASM e SQLite continuam idênticos por SHA.
+
+- **R13 delta compacto de 8.040.234 bytes (19 membros):** https://drive.google.com/file/d/119YYYpy2cwlgx0IS7l_8zNkoHJ_YIMWo/view — SHA-256 local 559df77c0a4c18837aecbefbb90360e90a42be5a41110a07c6f4e8a2202ff229; CRC e hash de cada entrada verificados localmente, metadados tamanho/pasta lidos no Drive, **redownload/hash remoto binário NOT_RUN**. Sem ZIP integral duplicado.
+- **Código:** [source-r13/](source-r13/) nove arquivos de delta, 9/9 conferidos exatamente em readback. site/r13_stagecraft.js desenha três linguagens gráficas visuais (B01 metal/âmbar; B02 espectro/violeta; B03 raízes/verde), placa nominal de combate e foco visual deslocado 30% em direção ao boss **somente com NSR13ArtLab=true**. São sprites R06 apenas ampliados e ornamentos em Canvas, não novos personagens. Nenhum valor de hitbox, dano, posição ou quest é criado no JavaScript; as células de perigo ainda são C++ nsw_wasm_boss_threatens.
+- **Teste executado:** 251 Python unittest do R12 em cópia R13, 44+67 verificações Node herdadas, 26 Node novos da arte pura, ABI5 C17 executada, 121 ações atuais C++↔WASM e 458 ações históricas R04=121/R03=121/R02=116/R01=100; journal 121 eventos. Quatro cenas sem chefe e seis frames de três confrontos renderizados pelo próprio site/world.js em Skia CPU, não em Windows. Revisão e coordenadas autoritativas permaneceram constantes ao desenhar.
+- **Comparação visual:** versus R12, 21,15%–25,95% dos pixels de cada cena de boss foram alterados sobretudo por reenquadramento, escala e ornamentos; **não** é medida de beleza. Quatro vistas sem chefe alteraram somente 0,148% (etiqueta de prévia), logo **arquitetura não foi corrigida**. OFF, 4/4 frames do cliente padrão continuam idênticos aos R12. Sem arte nova, sem aceite artístico, sem release.
+- **Bloqueios:** fachadas 4 vistas ainda incoerentes/sem ACK; novos rigs e autoria de três chefes pendentes; 21 kits de pesquisa não homologados; opening final, Windows/Chromium/GPU e MMO não aprovados. Main, Makers, MER, VEA, C02 e obras independentes preservados.
+
+Detalhes: [R13_ART_DIRECTION_AND_GATES](source-r13/docs/R13_ART_DIRECTION_AND_GATES.md) e [R13_TEST_REPORT](source-r13/artifacts/R13_TEST_REPORT.json). Prioridade seguinte: ARTE ORIGINAL e animação por partes autorais, não novos ornamentos sobre imagens antigas.
