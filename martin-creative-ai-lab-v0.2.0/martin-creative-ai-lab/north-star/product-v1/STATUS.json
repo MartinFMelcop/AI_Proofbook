@@ -5,18 +5,18 @@
   "product": "Virgo Diamond: The North Star",
   "status": {
     "integration": "INTERNAL_PREPRODUCTION",
-    "technical": "197_PYTHON_PASS_121_R05_NATIVE_WASM_121_R04_121_R03_116_R02_100_R01_11_REAL_SKIA_IMAGES",
+    "technical": "205_PYTHON_PASS_121_CURRENT_CPP_WASM_458_HISTORIC_WASM_11_SKIA_8_SOURCE_MATCH",
     "art": "ART_REVIEW_PENDING",
     "product": "PRODUCT_NO_GO",
     "publication": "NOT_AUTHORIZED"
   },
   "package": {
-    "drive_file_id": "1nbRdNSH8vOQiWFfMEm5ZLDLi-v08wFmd",
-    "name": "MMAI_PRODUCT_V1_20261115_R05.zip",
-    "bytes": 71105665,
-    "sha256_local": "e7e194033c018e602fce0e5c2b0304a03390ccbd779d5e574506b2235cf04c3c",
-    "file_count": 317,
-    "zip_integrity": "CRC_AND_EACH_ENTRY_SHA256_PASS_LOCAL",
+    "drive_file_id": "1vfOaM9mHEPJpqHklSsyLyUOtxdYz4OwT",
+    "name": "MMAI_PRODUCT_V1_20261115_R06.zip",
+    "bytes": 92955749,
+    "sha256_local": "cc94c5da05ffd446943aa8cbb30420ce20a7bba894ce206607e68920aade6008",
+    "file_count": 429,
+    "zip_integrity": "CRC_AND_EACH_ENTRY_SHA256_MATCH_LOCAL",
     "remote_metadata_readback": "SIZE_AND_PARENT_MATCH",
     "remote_binary_readback": "NOT_PERFORMED",
     "drive_parent_id": "1jVrmdP6yjTGI1udqKkSvjbD49sts0CGk"
@@ -28,7 +28,7 @@
     "rave_masters": "1Q3LwmkiD-p2gvw65756ZLk1bkNmJc32Z"
   },
   "evidence": {
-    "python_native_tests": 197,
+    "python_native_tests": 205,
     "node_wasm": "PASS",
     "node_camera4": "PASS",
     "chromium": "NOT_RUN",
@@ -43,7 +43,7 @@
     "original_opening_seconds": 18,
     "r02_native_wasm_field_parity_events": 116,
     "legacy_r01_native_wasm_parity_events": 100,
-    "c17_to_cpp20": "PASS_ABI5",
+    "c17_to_cpp20": "PASS_ABI5_UNCHANGED",
     "camera_views_skia_render": 4,
     "skia_canvas_source_executed": true,
     "sqlite_hash_chain_r02_events": 116,
@@ -85,7 +85,25 @@
     "structured_character_builds": 441,
     "architecture_structures": 3,
     "r05_source_delta_files": 27,
-    "r05_source_sampled_exact": "9_OF_9"
+    "r05_source_sampled_exact": "9_OF_9",
+    "r06_current_cpp_wasm_field_parity_events": 121,
+    "historical_wasm_events": {
+      "R04": 121,
+      "R03": 121,
+      "R02": 116,
+      "R01": 100
+    },
+    "skia_game_views": 4,
+    "skia_boss_scenes": 3,
+    "skia_motion_frames": 4,
+    "derived_npc_motion_frames": 48,
+    "derived_boss_motion_frames": 18,
+    "derived_wraith_frames": 16,
+    "skia_static_game_delta_percent_range": "0.004_to_0.011",
+    "skia_boss2_delta_percent": 0.969,
+    "skia_motion_delta_percent_range": "0.535_to_0.816",
+    "source_github_delta_files": 18,
+    "source_sampled_readback": "8_OF_8_EXACT"
   },
   "experience_requirements": [
     "studio_brand",
@@ -152,15 +170,15 @@
     }
   ],
   "gates": {
-    "visual_style": "ART_REVIEW_PENDING_GEOMETRY_STUDY_REJECTED_INTERNALLY",
+    "visual_style": "ART_REVIEW_PENDING_NOT_SATISFACTORY",
     "opening_final": "NOT_IMPLEMENTED_18S_ANIMATIC_ONLY",
-    "native_world_four_view": "FOUR_REAL_SKIA_VIEWS_GAME_FOUR_GEO_STUDY_NOT_ART_APPROVED",
-    "classes_and_skills": "21_RESEARCH_TWO_ACTION_PASSIVE_441_PAIRINGS_NO_AUTHOR_APPROVAL",
+    "native_world_four_view": "FOUR_REAL_SKIA_SCENE_VIEWS_BILLBOARD_BUILDINGS_STILL_1_FACE",
+    "classes_and_skills": "21_RESEARCH_KITS_441_PAIRINGS_NOT_CANON",
     "professions_quests": "CXX_MECHANICAL_MINING_SMELTING_UPGRADE_NOT_CANON",
-    "boss_behavior": "UNCHANGED_R04_LAB_ONLY_NOT_CANON",
+    "boss_behavior": "R05_CXX_OWNED_MECHANICS_UNCHANGED_B02_DERIVED_CONCEPT_ONLY",
     "standard_user_windows": "NOT_RUN",
     "owners_C_E_B_D": "PENDING",
-    "beings": "WORLD_DIRECTION_NATIVE_QUERY_AND_VISUAL_INTERPOLATION_ONLY_NO_FULL_RIG",
+    "beings": "MOTION_DERIVATIONS_OBSERVATIONAL_ONLY_NO_FINAL_RIG",
     "windows": "NOT_RUN"
   },
   "historical_blocks": [
@@ -182,7 +200,7 @@
     "vea": false,
     "unity": false
   },
-  "current_revision": "PRODUCT_V1_R05_2026-11-15",
+  "current_revision": "PRODUCT_V1_R06_2026-11-15",
   "package_previous": {
     "drive_file_id": "1fsbHm8vHKnTD7nj8M-Ua8NbQWbLb8uz0",
     "name": "MMAI_PRODUCT_V1_20261115.zip",
@@ -191,15 +209,15 @@
     "remote_binary_readback": "NOT_PERFORMED"
   },
   "code_status": {
-    "single_runtime_owner": "core/world_r05.cpp ABI5 (additive pure queries; no gameplay rule migration)",
+    "single_runtime_owner": "core/world_r05.cpp ABI5 unchanged; source-r06 is visual consumer only",
     "previous_owner_archived_for_regression": "core/world.cpp and core/product.cpp unchanged by SHA256",
     "client_wasm_abi": 5,
     "save_localstorage_schema": 6,
-    "source_location": "GitHub source-r05/ delta 27 files layered onto source-r04/ on same PR; full 317-file R05 archive on Drive",
+    "source_location": "GitHub source-r06/ delta 18 text files layered onto earlier source-r04/ + source-r05/; full 429 file R06 ZIP on Drive",
     "sql": "Python SQLite journal 116 events is LAB_ONLY, not browser save or MMO database",
     "github_text_sources": "49_PUSHED_AND_READBACK_SAMPLED_7_OF_7_EXACT",
-    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r05/",
-    "source_commit": "b7bf07261c9bdcb32255c731fa09a8242a9b3fb1",
+    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r06/",
+    "source_commit": "db3633435271687d37764828333650479a4846ef",
     "previous_owners": "R01 + R02 unchanged for independent regression",
     "legacy_binary_versions": [
       "world_r01.wasm",
@@ -224,8 +242,8 @@
       "B03_RAVE_MASTERS_HISTORIC_NOT_NORTH_STAR_CANON"
     ],
     "boss_mechanics": "B01 feint, B02 phase corrosive SP zone, B03 phase root pressure, ALL LAB_ONLY",
-    "camera": "FOUR_SKIA_ACTUAL_GAME_VIEWS_AND_FOUR_GEOMETRY_STUDY_VIEWS",
-    "visual_render_quality": "R04_RICH_ILLUSTRATED_BUILDINGS_RETAINED; FOUR_FACED_GEOMETRY_FAILED_ART_GATE",
+    "camera": "FOUR_REAL_SKIA_PROJECTIONS_WITH_4_TIME-LAPSE_FRAMES",
+    "visual_render_quality": "R06_STILL_BELOW_AUTHOR_TARGET_STATIC_GAME_VIEW_NEAR_IDENTICAL_TO_R05",
     "illustrated_NPCs": "4_IDENTITIES_X4_VIEWS_CONCEPT_NOT_ART_APPROVED",
     "npc_observation": "NEARBY_TALK_MASK_LAST_TALK_TICK_OWNER_ONLY_NO_REMOTE_OBSERVATION",
     "architecture_props": "9_TRANSPARENT_IMAGE_BILLBOARDS_NOT_AUTHORED_FOUR_FACING_MESHES",
@@ -233,7 +251,9 @@
     "telegraph": "CXX_ABI4_PURE_BOSS_THREAT_PREDICATE_SHARED_WITH_HIT_AND_CANVAS",
     "architecture_collider": "C++ pure structure_at for three pre-existing tile9 building footprints; no new collision",
     "npc_facing": "C++ pure world route query; client interpolates without tick change",
-    "architecture_actual_four_facing": "TECHNICAL_GEOMETRY_STUDY_ONLY_ART_REJECTED"
+    "architecture_actual_four_facing": "NOT_PRODUCED; GENERATIVE_IMAGE_TOOL_FAILED; R05_GEOMETRY_STUDY_REJECTED",
+    "npc_animation": "48_DERIVED_MOTION_FRAMES_4_NPCS_X4_VIEWS_X3_DEFORMATIONS_NOT_RIG",
+    "boss_visuals": "R04_B01_B03_DERIVED_CYCLES; R06_B02_WRAITH_DERIVED_FROM_NPC4_NONCANON"
   },
   "package_r01": {
     "drive_file_id": "19U1f3Yr7xhfResYMdrEtDAduJA6yscaV",
@@ -275,6 +295,17 @@
     "zip_integrity": "CRC_AND_EACH_ENTRY_SHA256_MATCH_LOCAL",
     "remote_metadata_readback": "SIZE_AND_PARENT_MATCH",
     "remote_binary_hash": "NOT_PERFORMED",
+    "drive_parent_id": "1jVrmdP6yjTGI1udqKkSvjbD49sts0CGk"
+  },
+  "package_r05": {
+    "drive_file_id": "1nbRdNSH8vOQiWFfMEm5ZLDLi-v08wFmd",
+    "name": "MMAI_PRODUCT_V1_20261115_R05.zip",
+    "bytes": 71105665,
+    "sha256_local": "e7e194033c018e602fce0e5c2b0304a03390ccbd779d5e574506b2235cf04c3c",
+    "file_count": 317,
+    "zip_integrity": "CRC_AND_EACH_ENTRY_SHA256_PASS_LOCAL",
+    "remote_metadata_readback": "SIZE_AND_PARENT_MATCH",
+    "remote_binary_readback": "NOT_PERFORMED",
     "drive_parent_id": "1jVrmdP6yjTGI1udqKkSvjbD49sts0CGk"
   }
 }
