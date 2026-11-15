@@ -5,8 +5,8 @@
   "product": "Virgo Diamond: The North Star",
   "status": {
     "integration": "INTERNAL_PREPRODUCTION",
-    "technical": "R14_257_PYTHON_191_NEW_NODE_44+67+26_OLD_NODE_121_NATIVE_WASM_458_HIST_14_REAL_SKIA_12_SOURCE_MATCH",
-    "art": "ART_REVIEW_PENDING_R14_NEW_92_FRAMES_ZERO_APPROVED",
+    "technical": "R15_257_PYTHON_PASS_691_GRAPHICAL_NODE_CHECKS_121_WASM_NATIVE_458_HISTORICAL_WASM_24_SKIA_FRAMES_13_EXACT_SOURCE_READBACK",
+    "art": "ART_REVIEW_PENDING_0_OF_92_R14_ASSETS_AUTHOR_APPROVED",
     "product": "PRODUCT_NO_GO",
     "publication": "NOT_AUTHORIZED"
   },
@@ -285,7 +285,42 @@
     "r14_github_source_exact_readback": "12_OF_12",
     "r14_windows": "NOT_RUN",
     "r14_browser_gpu": "NOT_RUN",
-    "r14_art_approved": "NO"
+    "r14_art_approved": "NO",
+    "r15_python_unittest": 257,
+    "r15_node_visual_checks": {
+      "R07": 44,
+      "R12": 67,
+      "R13": 26,
+      "R14": 191,
+      "R15": 363,
+      "total": 691
+    },
+    "r15_cpp_wasm_actions": 121,
+    "r15_historical_wasm": {
+      "R04": 121,
+      "R03": 121,
+      "R02": 116,
+      "R01": 100
+    },
+    "r15_c17_abi5": "COMPILED_AND_EXECUTED",
+    "r15_sqlite_journal_121_events": "VERIFIED",
+    "r15_actual_skia_frames": 24,
+    "r15_four_angles": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "r15_native_boss_accepted_defend_cases": 3,
+    "r15_boss_frames_native_turn_transitions": 12,
+    "r15_actor_frames_after_accepted_CXX_movement": 4,
+    "r15_default_fallback_identical_four_angles": true,
+    "r15_art_original_and_engine_immutables_sha256_count": 109,
+    "r15_visual_changed_pct_range_R14_to_R15": "8.3032_TO_8.8503",
+    "r15_reproducibility": "FULL_INHERITED_SUITE_PASS_AND_INDIVIDUAL_SKIA_AND_NODE_PASS;ONE_MONOLITHIC_R15_CALL_TIMED_OUT_AND_IS_NOT_PASS",
+    "r15_chromium_windows_gpu": "NOT_RUN",
+    "r15_new_generated_paintings": 0,
+    "r15_user_art_approval": "PENDING"
   },
   "experience_requirements": [
     "studio_brand",
@@ -352,17 +387,17 @@
     }
   ],
   "gates": {
-    "visual_style": "NEW_ORIGINAL_ART_IN_ACTUAL_RENDERER_BUT_ART_REVIEW_PENDING",
+    "visual_style": "R15_NATIVE_SYNC_ART_CONSUMER_PASS_IMAGE_PIXEL_REPAINT_FAILED",
     "opening_final": "ANIMATIC_18S_ONLY",
     "native_world_four_view": "FOUR_SKIA_CANDIDATE_VIEWS_0_90_180_270_DEFAULT_UNCHANGED",
     "classes_and_skills": "21_RESEARCH_KITS_441_PAIRINGS_NOT_CANON",
     "professions_quests": "CXX_MECHANICAL_MINING_SMELTING_UPGRADE_NOT_CANON",
-    "boss_behavior": "R14_48_ORIGINAL_FRAME_CANDIDATES_FOR_3_CPP_OWNED_LAB_BOSSES_NOT_CANON",
+    "boss_behavior": "R15_3_CPP_BOSSES_TELEGRAPH_POST_ADJUDICATION_SEQUENCE_VERIFIED_NONCANON",
     "standard_user_windows": "NOT_RUN",
     "owners_C_E_B_D": "PENDING",
-    "beings": "R14_32_ORIGINAL_FRAME_CANDIDATES_NOT_RIGS_OR_FINAL",
+    "beings": "R15_R14_WALK_CYCLES_ANCHORED_TO_CXX_ACCEPTED_MOVEMENT_NOT_RIGS",
     "windows": "NOT_RUN",
-    "facade_art": "R14_12_NEW_PAINTED_CANDIDATES_0_AUTHOR_APPROVED",
+    "facade_art": "R14_12_NEW_CANDIDATE_PAINTINGS_0_AUTHOR_APPROVED_R15_RENDER_ANCHORS_ONLY",
     "being_animation": "R06_DERIVED_MOTION_NOT_FINAL_RIG",
     "boss_art": "R06_DERIVED_ONLY_NONCANON",
     "facade_preflight": "12_DISTINCT_PHYSICAL_PAINTINGS_ANCHOR_CHECK_PASS_LICENSE_AND_AUTHOR_ACK_PENDING"
@@ -386,7 +421,7 @@
     "vea": false,
     "unity": false
   },
-  "current_revision": "PRODUCT_V1_R14_ORIGINAL_ART_GAMEPLAY_PREVIEW_2026-11-15",
+  "current_revision": "PRODUCT_V1_R15_NATIVE_BOSS_ANIMATION_SYNC_2026-11-15",
   "package_previous": {
     "drive_file_id": "1fsbHm8vHKnTD7nj8M-Ua8NbQWbLb8uz0",
     "name": "MMAI_PRODUCT_V1_20261115.zip",
@@ -399,10 +434,10 @@
     "previous_owner_archived_for_regression": "core/world.cpp and core/product.cpp unchanged by SHA256",
     "client_wasm_abi": 5,
     "save_localstorage_schema": 6,
-    "source_location": "Same PR #3 source-r14/ 12 source and QA files; R14 compact ZIP stores eight original sheets, 92 individual WebP, actual Skia screenshots and tests; no full R06 binary copy",
+    "source_location": "same draft PR #3 source-r15/ 13 text source/test/report files; 34.8MB Drive proof holds 24 real Skia frames and contacts; R14 92 sprites remain reused without duplication",
     "sql": "Python SQLite journal 116 events is LAB_ONLY, not browser save or MMO database",
     "github_text_sources": "49_PUSHED_AND_READBACK_SAMPLED_7_OF_7_EXACT",
-    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r14/",
+    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r15/",
     "source_commit": "db3633435271687d37764828333650479a4846ef",
     "previous_owners": "R01 + R02 unchanged for independent regression",
     "legacy_binary_versions": [
@@ -677,5 +712,30 @@
     "original_sheets_preserved": true,
     "background_alpha": "AUTOMATED_MATTE_REMOVAL_ART_REVIEW_PENDING",
     "note": "Genuinely newly-generated painted source sheets, cropped into 4-view architecture and 4x4 animation candidates. No rig/human art approval. Rave Masters canonical independence and all gates preserved."
+  },
+  "r15_delivery": {
+    "mode": "TEXT_SOURCE_PLUS_ACTUAL_CANVAS_EVIDENCE_DELTA_NO_NEW_GAME_BUILD",
+    "package_drive_file_id": "1BFf18PcCA8vHBKZMRc1kvmM76gATbhgZ",
+    "package_name": "MMAI_PRODUCT_V1_R15_VISUAL_PHASE_DELTA.zip",
+    "bytes": 34761319,
+    "sha256_local": "adbd4af0bd560f1fb7b4036c582b9446fbcc2e72c8f24967e5f42a5ac7acc670",
+    "zip_entries": 40,
+    "crc_and_members_sha256": "PASS_ALL_LOCAL",
+    "drive_remote_readback": "SIZE_AND_PARENT_VERIFIED_REMOTE_BINARY_SHA256_NOT_RUN",
+    "last_full_game_r06": "1vfOaM9mHEPJpqHklSsyLyUOtxdYz4OwT",
+    "last_new_painted_art_r14": "1jel3JX7tc0kHwdDTXmfyZl6Qx0y-yDn6",
+    "github_source_folder": "source-r15/",
+    "github_source_commit": "8dae2725d26e02ef8ef185cdee1f8c0874c2c8d4",
+    "github_source_files": 13,
+    "github_exact_readback": "13_OF_13",
+    "new_image_files": 0,
+    "unchanged_original_R14_art_sprites": 92,
+    "original_source_sheets_preserved": 8,
+    "art_source_pixel_changes": 0,
+    "alpha_improvement": "RENDER_TIME_ALPHA_BOUNDING_BOX_AND_BOOT_GROUND_ALIGNMENT_ONLY",
+    "native_boss_frame_sequence": "CXX_INTENT_1_SELECTS_PREPARE_OR_TELEGRAPH;CXX_INTENT_2_SELECTS_POST_RESOLUTION_IMPACT_OR_RECOVERY",
+    "no_gameplay_authority_in_JS": true,
+    "original_client_pixel_exact_fallback": 4,
+    "product_final": "PRODUCT_NO_GO"
   }
 }
