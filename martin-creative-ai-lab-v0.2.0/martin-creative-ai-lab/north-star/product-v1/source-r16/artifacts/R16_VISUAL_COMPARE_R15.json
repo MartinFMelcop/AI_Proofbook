@@ -1,0 +1,30 @@
+{
+  "world_scene_pixel_changes_not_quality_score": {
+    "0": {
+      "pixel_gt18_pct": 0.1978,
+      "pixel_gt3_pct": 0.3309,
+      "mean_abs_rgb": 0.2507
+    },
+    "90": {
+      "pixel_gt18_pct": 0.1978,
+      "pixel_gt3_pct": 0.3533,
+      "mean_abs_rgb": 0.2515
+    },
+    "180": {
+      "pixel_gt18_pct": 0.1978,
+      "pixel_gt3_pct": 0.3595,
+      "mean_abs_rgb": 0.254
+    },
+    "270": {
+      "pixel_gt18_pct": 0.1975,
+      "pixel_gt3_pct": 0.3364,
+      "mean_abs_rgb": 0.2473
+    }
+  },
+  "fallback_exact": {
+    "0": true,
+    "90": true,
+    "180": true,
+    "270": true
+  }
+}
