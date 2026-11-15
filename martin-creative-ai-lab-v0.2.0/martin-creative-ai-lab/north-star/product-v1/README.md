@@ -122,3 +122,17 @@ Fontes: [R05_COMPOSED_DELTA](source-r05/docs/R05_COMPOSED_DELTA.md), [R05_VISUAL
 - **BLOQUEIO REAL:** a geração de fachadas ilustradas four-facing falhou; preservados os billboards R04 e rejeitada novamente a geometria feia R05. Nenhuma abertura cinematográfica final ou build Windows/browser. ART_REVIEW_PENDING / PRODUCT_NO_GO.
 
 Detalhes: [R06_COMPOSED_DELTA](source-r06/docs/R06_COMPOSED_DELTA.md), [R06_VISUAL_AUDIT](source-r06/docs/R06_VISUAL_AUDIT.md), [R06_TEST_REPORT](source-r06/artifacts/R06_TEST_REPORT.json). Próximo R07 deve priorizar arte original das quatro fachadas e animações convincentes, antes de solicitar teste humano do RPG.
+
+
+## R07 — renderizador observacional + gate de arte 4-fachadas (15/11/2026)
+
+**ART_BLOCKED_FACADES / PRODUCT_NO_GO. NÃO há ZIP integral R07.** A folha de 12 pinturas originais (3 edifícios ×4 orientações) não foi produzida: a ferramenta de geração de arte falhou e não foi repetida. A qualidade ainda não justifica outro pacote de 100 MB; o último completo continua sendo [R06 no Drive](https://drive.google.com/file/d/1vfOaM9mHEPJpqHklSsyLyUOtxdYz4OwT/view).
+
+- [source-r07/](source-r07/) contém 17 arquivos de delta real: iluminação, sombras e fumaça ligadas à projeção do mundo, seleção fail-closed de fachadas, contrato JSON, validação física SHA/alpha/dimensões, 3 renderizadores Skia de teste e QA. **12/12** arquivos críticos relidos com igualdade exata.
+- **Prova:** 215 testes Python, 44 asserções Node sobre autorização/direção/repetição/hashes, consumidor C17 ABI5, 121 ações C++ ↔ WASM, regressões R04=121/R03=121/R02=116/R01=100 e SQLite 121 eventos, 4 imagens de mundo +3 chefes +4 temporais produzidas pelo Canvas real em Skia CPU. Nenhuma autoridade JS para combate ou NPC.
+- **Evidência artística negativa:** R06→R07 só 0,0933% / 0,1050% / 0,1003% / 0,2226% dos pixels modificados acima do limiar por vista. Não comprova salto visual. Edifícios continuam com a mesma pintura R04 em todos os ângulos; geometria R05 reprovada não voltou. Nenhuma classe, boss, lore ou rig foi canonizado.
+- **Política de promoção:** quatro arquivos físicos *distintos por construção*, hash distinto confirmado do arquivo real, transparência, mesma âncora, fonte/direitos, quatro vistas renderizadas e AUTHOR_ART_APPROVED explícito. Até lá, **R04_FALLBACK**. O validador não concede aprovação por conta própria.
+
+Arquivos de prova: [R07_COMPOSED_DELTA](source-r07/docs/R07_COMPOSED_DELTA.md), [R07_VISUAL_AUDIT](source-r07/docs/R07_VISUAL_AUDIT.md), [R07_TEST_REPORT](source-r07/artifacts/R07_TEST_REPORT.json).
+
+**Não solicite teste humano, não faça merge, não apresente mockup como gameplay.** Próximo incremento deve gerar/obter arte original de 12 vistas e chefes autorais coerentes, integrar no renderer e comprovar qualidade comparando as quatro vistas; sem isso, manter NO-GO e não ocupar mais espaço na biblioteca.
