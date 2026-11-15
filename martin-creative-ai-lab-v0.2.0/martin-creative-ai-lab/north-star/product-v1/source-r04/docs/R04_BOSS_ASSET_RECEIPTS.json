@@ -1,0 +1,39 @@
+{
+  "status": "LAB_CONCEPT_NOT_CANON",
+  "assets": [
+    {
+      "boss": "B01",
+      "direction": 0,
+      "path": "site/assets/world/r04_ruinguardian_0.webp",
+      "source": "site/assets/world/npc_1_0.webp",
+      "sha256": "9a7dbf097c1f475774ab4b0954e7362e825c7eb45b4a756a4e1a1fc29099c6b0"
+    },
+    {
+      "boss": "B01",
+      "direction": 1,
+      "path": "site/assets/world/r04_ruinguardian_1.webp",
+      "source": "site/assets/world/npc_1_1.webp",
+      "sha256": "c4eeee34decae8d7626e8900ddbdad185c2745db3b8a5ced1b734505111db758"
+    },
+    {
+      "boss": "B01",
+      "direction": 2,
+      "path": "site/assets/world/r04_ruinguardian_2.webp",
+      "source": "site/assets/world/npc_1_2.webp",
+      "sha256": "56d00358902b3c9d53094ccf3d2b9c4f83ff88f461c53ac4137f4103dbd3e91f"
+    },
+    {
+      "boss": "B01",
+      "direction": 3,
+      "path": "site/assets/world/r04_ruinguardian_3.webp",
+      "source": "site/assets/world/npc_1_3.webp",
+      "sha256": "43f609f613edebdb1d1927770eb060b3229963d23346498481447292505ac194"
+    },
+    {
+      "boss": "B02",
+      "path": "site/assets/world/r04_wisp.webp",
+      "source": "PIL originally procedural lab spirit",
+      "sha256": "df67bdc02e1a8d0f7a69ac22aa942234c47fdefb4deed213372f3341e1e9587b"
+    }
+  ]
+}

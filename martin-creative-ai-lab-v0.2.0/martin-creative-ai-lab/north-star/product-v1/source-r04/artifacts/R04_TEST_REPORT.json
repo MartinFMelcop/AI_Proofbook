@@ -1,0 +1,187 @@
+{
+  "checks": {
+    "21_class_kits": {
+      "detail": "R03 21 signature/utility/passive research profiles preserved, not 21 approved kits",
+      "status": "LAB_ONLY"
+    },
+    "3_bosses": {
+      "detail": "B01/B02 candidates, B03 GDD Rave Masters independent, no North Star canon",
+      "status": "LAB_ONLY"
+    },
+    "art_assets": {
+      "count": 15,
+      "names": [
+        "cottage",
+        "forge",
+        "apothecary",
+        "stonebridge",
+        "lamppost",
+        "fountain",
+        "blossom",
+        "eldertree",
+        "shrine",
+        "wisp",
+        "guardian_boss",
+        "ruinguardian_0",
+        "ruinguardian_1",
+        "ruinguardian_2",
+        "ruinguardian_3"
+      ],
+      "status": "PASS_DECODE_NOT_ART_APPROVAL"
+    },
+    "boss_visual_authority": {
+      "Cxx_function": "nsw_boss_threatens",
+      "derived_sprite_warning": "PRODUCTION_ART_NOT_APPROVED",
+      "status": "PASS",
+      "visual_footprint": "same C++ predicate used for boss hit; no JS duplicate radius",
+      "wasm_function": "nsw_wasm_boss_threatens"
+    },
+    "c17_cpp20": {
+      "PASS": true,
+      "abi": 4,
+      "revision": 1,
+      "suite": "c17_to_cpp20_r04"
+    },
+    "camera": {
+      "state": "PASS",
+      "suite": "camera_four_views",
+      "views": 4
+    },
+    "canvas_mock": {
+      "PASS": true,
+      "authorityRevision": 1,
+      "draws": 590,
+      "orientationCycles": 4,
+      "suite": "world_ui_wasm_mock_canvas"
+    },
+    "historical_wasm": {
+      "r01": {
+        "events": 100,
+        "status": "PASS"
+      },
+      "r02": {
+        "events": 116,
+        "status": "PASS"
+      },
+      "r03": {
+        "events": 121,
+        "status": "PASS"
+      }
+    },
+    "lab_sqlite": {
+      "events": 121,
+      "head": "3059887232f960e8e9a256c9583593fd4e28eb880beefd1cb95a3c5e6c1d6892",
+      "revision": 121,
+      "scope": "LAB_ONLY",
+      "status": "PASS"
+    },
+    "native_cpp_to_wasm": {
+      "PASS": true,
+      "abilitiesPerProfile": 2,
+      "events": 121,
+      "finalQuest": 7,
+      "kitProfiles": 21,
+      "passiveFamilies": 7,
+      "suite": "r04_authoritative_native_vs_wasm"
+    },
+    "opening": {
+      "final_cinematic": "NOT_IMPLEMENTED",
+      "status": "ANIMATIC_ONLY"
+    },
+    "python_unittest": {
+      "status": "PASS",
+      "testcases": 167
+    },
+    "skia_four_views": {
+      "angles": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "canvas_size": [
+        1200,
+        760
+      ],
+      "render_source": "site/world.js ACTUAL Skia CPU",
+      "status": "PASS",
+      "visual_approval": "NOT_APPROVED"
+    },
+    "skia_three_bosses": {
+      "noncanon": true,
+      "scenes": [
+        {
+          "angle": 0,
+          "boss": 1,
+          "bytes": 1195594,
+          "file": "R04_BOSS_1.png",
+          "revision": 55,
+          "state_unchanged": true,
+          "threat_radius": 1
+        },
+        {
+          "angle": 90,
+          "boss": 2,
+          "bytes": 1218992,
+          "file": "R04_BOSS_2.png",
+          "revision": 81,
+          "state_unchanged": true,
+          "threat_radius": 2
+        },
+        {
+          "angle": 180,
+          "boss": 3,
+          "bytes": 1321576,
+          "file": "R04_BOSS_3.png",
+          "revision": 104,
+          "state_unchanged": true,
+          "threat_radius": 1
+        }
+      ],
+      "status": "PASS"
+    },
+    "unchanged_historical_r03_sha256": {
+      "files": {
+        "art_sources/r03_npc_four_view_original.png": "7db0ed32c7350be4cac000287dc82348bbceec9848c33be618ff41ea5effb1ba",
+        "artifacts/R03_TEST_REPORT.json": "40dcb3333e5b6ffc11cba64fc7d07b1bbbb2a729711a49f8c134bd3c462f3845",
+        "core/world_r03.cpp": "0e5660f6571140a103f000f57f1b5d8a405cf39a0e8fd86b101194b7935d784a",
+        "core/world_r03.h": "5a0cee2eb3b401220e9a98db155b4e5d961609d55db195c456707f893eadb4a8",
+        "site/assets/opening_animatic.mp4": "3534f226398ea0fd297fbd0324d1747bf35ad2b8d85f4516d4478128c1b11e9c",
+        "site/assets/world/npc_1_0.webp": "752b9cc7b285e2e4555734e7f2ad294a35b31093893b67ef64666a1150184732"
+      },
+      "status": "PASS"
+    },
+    "visual_delta_r03_to_r04": {
+      "mean_abs_rgb_difference": 9.8,
+      "percentage_pixels_changed_l1_threshold_18": 17.82,
+      "status": "MEASURED_NOT_ART_PASS"
+    }
+  },
+  "date": "2026-11-15",
+  "gate": {
+    "art": "ART_REVIEW_PENDING",
+    "author_test": "NOT_REQUESTED",
+    "multiplayer": "NOT_IMPLEMENTED",
+    "product": "PRODUCT_NO_GO",
+    "real_browser": "NOT_RUN",
+    "technical": "LAB_PASS",
+    "windows": "NOT_RUN"
+  },
+  "original_sources": [
+    "Drive C02",
+    "Combat Philosophies R01–R21",
+    "Rave Masters GDD independent historical only"
+  ],
+  "product": "Virgo Diamond: The North Star",
+  "schema": "mmai.product.v1.r04.qa.v1",
+  "source_sha256": {
+    "art_sources/r04_architecture_sheet.png": "9a6a0fa287ea55f880ef62b0ee8c862f5eca9082c06f971b9b67df947090f5fe",
+    "artifacts/R04_SQLITE_WORLD_JOURNAL.sqlite": "645c138bbdc796bb7b7fee68c65d4d60f8f64cfdf25a1b523f9e5aac9d541d53",
+    "artifacts/R04_WORLD_NATIVE_TRACE.json": "82e0b1366e37c5e5fc7db9ba9a7de77f82151250aad77197964d7cbec31eb008",
+    "core/world_r04.cpp": "88b3023a15e6a7f74c9558d81f3c9e24b01f38894bcf9e5cea7ff72586359291",
+    "core/world_r04.h": "970305082192790c7bdf88b14e6fa2f22d09c6f71642cb6b9e39ee0cd735703c",
+    "site/app.js": "b0d32fd0a5cf8b7ef752fba3ccf62f568bef41bd13fefa044e7f796b87a047b6",
+    "site/product.wasm": "383dc49456f5a0cc9022edbebaf96479cd42d3172012d4737dc200301b020fda",
+    "site/world.js": "378be6518302a354c93ccc56d037ab87e806703aeb46983cb91950500ec72e55"
+  }
+}
