@@ -1,0 +1,14 @@
+{
+  "schema": "mmai.facade.4view.r07.v1",
+  "date": "2026-11-15",
+  "state": "ART_BLOCKED",
+  "reason": "Original four-view illustrated facades not generated; image generation failed this turn. Do not reuse the same perspective or mirrored images as 4 genuine sides.",
+  "promotion_requires": ["four distinct native paintings per building", "matching roofline and openings across directions", "stable pixel footprint and anchor", "verified rights and source provenance", "explicit AUTHOR_ART_APPROVED", "visual review on Skia images for all four angles"],
+  "buildings": {
+    "1": {"name":"r04_cottage","fallback":"r04_cottage","faces":null,"sha256":null,"license_checked":false,"scale_anchor_reviewed":false},
+    "2": {"name":"r04_forge","fallback":"r04_forge","faces":null,"sha256":null,"license_checked":false,"scale_anchor_reviewed":false},
+    "3": {"name":"r04_apothecary","fallback":"r04_apothecary","faces":null,"sha256":null,"license_checked":false,"scale_anchor_reviewed":false}
+  },
+  "decision": "R07 default rendering keeps R04 original illustrated assets. R05 geometric study remains ART_REJECTED_INTERNAL.",
+  "authority": "Visual metadata only; never modifies tile collision, quest, combat, NPC memory, or save"
+}
