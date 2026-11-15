@@ -1,0 +1,218 @@
+{
+  "schema": "mmai.r02.classes.research-ui.v1",
+  "source_drive_id": "1hd8QM4x5aKP3gh6LnaedpbauHzMpFFZJM47N0-kBKY8",
+  "source_authority": "research/author-approved 21 design identities; A3/A4 gated",
+  "rogue_caveat": "R04 and R05 share the historical legacy ROGUE class key; structural independence not proven",
+  "records": [
+    {
+      "id": 1,
+      "source_id": "R01",
+      "name": "Soldier",
+      "research_principle": "Coordenar sob limites de agência",
+      "research_primary_hex": "#CD7F32",
+      "lab_mode_name": "Comando de abertura",
+      "lab_effect_description": "Marca uma oportunidade e prepara guarda limitada.",
+      "status": "RESEARCH_PROFILE_LAB_MECHANIC_NOT_CANON"
+    },
+    {
+      "id": 2,
+      "source_id": "R02",
+      "name": "Dragon Slayer",
+      "research_principle": "Interpretar escala e condição",
+      "research_primary_hex": "#9B111E",
+      "lab_mode_name": "Leitura de escala",
+      "lab_effect_description": "Resposta mais forte quando o inimigo altera fase.",
+      "status": "RESEARCH_PROFILE_LAB_MECHANIC_NOT_CANON"
+    },
+    {
+      "id": 3,
+      "source_id": "R03",
+      "name": "Berserker",
+      "research_principle": "Pressionar assumindo um custo",
+      "research_primary_hex": "#DC143C",
+      "lab_mode_name": "Pressão arriscada",
+      "lab_effect_description": "Golpe forte que cobra vitalidade do usuário.",
+      "status": "RESEARCH_PROFILE_LAB_MECHANIC_NOT_CANON"
+    },
+    {
+      "id": 4,
+      "source_id": "R04",
+      "name": "Rogue A",
+      "research_principle": "Explorar uma abertura verdadeira",
+      "research_primary_hex": "#862F88",
+      "lab_mode_name": "Brecha calculada",
+      "lab_effect_description": "Resposta ganha valor após recuperação do oponente.",
+      "status": "RESEARCH_PROFILE_LAB_MECHANIC_NOT_CANON"
+    },
+    {
+      "id": 5,
+      "source_id": "R05",
+      "name": "Rogue B",
+      "research_principle": "Desorientar sem comandar a reação",
+      "research_primary_hex": "#996666",
+      "lab_mode_name": "Finta defensiva",
+      "lab_effect_description": "Provoca uma janela defensiva e restringe uma reação.",
+      "status": "RESEARCH_PROFILE_LAB_MECHANIC_NOT_CANON"
+    },
+    {
+      "id": 6,
+      "source_id": "R06",
+      "name": "Knight",
+      "research_principle": "Interpor-se e assumir exposição",
+      "research_primary_hex": "#000080",
+      "lab_mode_name": "Interposição",
+      "lab_effect_description": "Reserva proteção para o próximo contato.",
+      "status": "RESEARCH_PROFILE_LAB_MECHANIC_NOT_CANON"
+    },
+    {
+      "id": 7,
+      "source_id": "R07",
+      "name": "Ranger",
+      "research_principle": "Preparar alcance e terreno",
+      "research_primary_hex": "#8A9A5B",
+      "lab_mode_name": "Geometria de tiro",
+      "lab_effect_description": "Técnica muda desempenho conforme distância.",
+      "status": "RESEARCH_PROFILE_LAB_MECHANIC_NOT_CANON"
+    },
+    {
+      "id": 8,
+      "source_id": "R08",
+      "name": "Warrior",
+      "research_principle": "Decidir pelo contato e instrumento",
+      "research_primary_hex": "#4682B4",
+      "lab_mode_name": "Controle de contato",
+      "lab_effect_description": "Golpe depende de proximidade real.",
+      "status": "RESEARCH_PROFILE_LAB_MECHANIC_NOT_CANON"
+    },
+    {
+      "id": 9,
+      "source_id": "R09",
+      "name": "Monk",
+      "research_principle": "Equilibrar e redirecionar",
+      "research_primary_hex": "#E0B59A",
+      "lab_mode_name": "Fluxo corporal",
+      "lab_effect_description": "Converte foco observado em resposta e defesa.",
+      "status": "RESEARCH_PROFILE_LAB_MECHANIC_NOT_CANON"
+    },
+    {
+      "id": 10,
+      "source_id": "R10",
+      "name": "Battlemage",
+      "research_principle": "Integrar instrumento e magia",
+      "research_primary_hex": "#9966CC",
+      "lab_mode_name": "Convergência",
+      "lab_effect_description": "Ataque e proteção na mesma decisão.",
+      "status": "RESEARCH_PROFILE_LAB_MECHANIC_NOT_CANON"
+    },
+    {
+      "id": 11,
+      "source_id": "R11",
+      "name": "Dark Mage",
+      "research_principle": "Condicionar adversários com limites",
+      "research_primary_hex": "#4C515D",
+      "lab_mode_name": "Condição pendente",
+      "lab_effect_description": "Prepara marca para outro momento.",
+      "status": "RESEARCH_PROFILE_LAB_MECHANIC_NOT_CANON"
+    },
+    {
+      "id": 12,
+      "source_id": "R12",
+      "name": "Pyromancer",
+      "research_principle": "Gerir propagação do calor",
+      "research_primary_hex": "#CC5500",
+      "lab_mode_name": "Chama residual",
+      "lab_effect_description": "Aplica consequência térmica em turnos.",
+      "status": "RESEARCH_PROFILE_LAB_MECHANIC_NOT_CANON"
+    },
+    {
+      "id": 13,
+      "source_id": "R13",
+      "name": "Necromancer",
+      "research_principle": "Rastrear agentes e persistência",
+      "research_primary_hex": "#301934",
+      "lab_mode_name": "Eco condicionado",
+      "lab_effect_description": "Mantém um efeito posterior verificável.",
+      "status": "RESEARCH_PROFILE_LAB_MECHANIC_NOT_CANON"
+    },
+    {
+      "id": 14,
+      "source_id": "R14",
+      "name": "Esper",
+      "research_principle": "Antecipar sob incerteza",
+      "research_primary_hex": "#E6E6FA",
+      "lab_mode_name": "Antevisão limitada",
+      "lab_effect_description": "Abre tempo de resposta sem conhecimento absoluto.",
+      "status": "RESEARCH_PROFILE_LAB_MECHANIC_NOT_CANON"
+    },
+    {
+      "id": 15,
+      "source_id": "R15",
+      "name": "Alchemist",
+      "research_principle": "Preparar reações materiais",
+      "research_primary_hex": "#CFB53B",
+      "lab_mode_name": "Reagente limitado",
+      "lab_effect_description": "Consome preparado para aumentar a potência.",
+      "status": "RESEARCH_PROFILE_LAB_MECHANIC_NOT_CANON"
+    },
+    {
+      "id": 16,
+      "source_id": "R16",
+      "name": "Cryomancer",
+      "research_principle": "Segmentar temporariamente o espaço",
+      "research_primary_hex": "#AFEEEE",
+      "lab_mode_name": "Trava fugaz",
+      "lab_effect_description": "Restringe uma reação por duração finita.",
+      "status": "RESEARCH_PROFILE_LAB_MECHANIC_NOT_CANON"
+    },
+    {
+      "id": 17,
+      "source_id": "R17",
+      "name": "Bard",
+      "research_principle": "Sincronizar oportunidades coletivas",
+      "research_primary_hex": "#DA70D6",
+      "lab_mode_name": "Cadência",
+      "lab_effect_description": "Recupera ritmo e prepara janela temporária.",
+      "status": "RESEARCH_PROFILE_LAB_MECHANIC_NOT_CANON"
+    },
+    {
+      "id": 18,
+      "source_id": "R18",
+      "name": "Cleric",
+      "research_principle": "Priorizar preservação",
+      "research_primary_hex": "#FFFFF0",
+      "lab_mode_name": "Socorro",
+      "lab_effect_description": "Troca impacto por recuperação limitada.",
+      "status": "RESEARCH_PROFILE_LAB_MECHANIC_NOT_CANON"
+    },
+    {
+      "id": 19,
+      "source_id": "R19",
+      "name": "Druid",
+      "research_principle": "Adaptar-se ao ambiente existente",
+      "research_primary_hex": "#808000",
+      "lab_mode_name": "Leitura do terreno",
+      "lab_effect_description": "Cura conforme o terreno ou prepara proteção.",
+      "status": "RESEARCH_PROFILE_LAB_MECHANIC_NOT_CANON"
+    },
+    {
+      "id": 20,
+      "source_id": "R20",
+      "name": "Sentinel",
+      "research_principle": "Antecipar defesa de um setor",
+      "research_primary_hex": "#C0C0C0",
+      "lab_mode_name": "Vigília",
+      "lab_effect_description": "Protege mais conforme o ataque telegráfico.",
+      "status": "RESEARCH_PROFILE_LAB_MECHANIC_NOT_CANON"
+    },
+    {
+      "id": 21,
+      "source_id": "R21",
+      "name": "Shaman",
+      "research_principle": "Ancorar focos espaciais",
+      "research_primary_hex": "#0F8F99",
+      "lab_mode_name": "Foco ancorado",
+      "lab_effect_description": "Prepara marca e eco limitado, sem onisciência.",
+      "status": "RESEARCH_PROFILE_LAB_MECHANIC_NOT_CANON"
+    }
+  ]
+}
