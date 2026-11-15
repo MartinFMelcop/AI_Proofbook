@@ -176,3 +176,16 @@ Reproduzir somente em cópia isolada de R06 + deltas R07/R08/R10 + assets do pac
 - **Gates preservados:** arte/copyright/escalas/arquitetura pendentes de revisão humana do autor; 21 kits e três bosses não canônicos; opening, being rigs, Windows, browser, MMO e roteiros finais ainda insuficientes. `PRODUCT_NO_GO / ART_REVIEW_PENDING`; nenhum merge na `main`, alteração em Makers/MER/VEA/cânone ou convite ao autor para testar a build.
 
 Leia [R11_ART_INTEGRATION_AND_GATES](source-r11/docs/R11_ART_INTEGRATION_AND_GATES.md) e [R11_TEST_REPORT](source-r11/artifacts/R11_TEST_REPORT.json). R06 integral, deltas R07/R08/R10 e todas as fontes históricas são preservados.
+
+
+## R12 — anchor de silhueta e animação visual na câmera real (15/11/2026)
+
+**PRODUCT_NO_GO / ART_REVIEW_PENDING. Novas pinturas: ZERO; 12 pinturas R11 candidatas intactas.** A nova geração de imagens falhou e não foi repetida. Portanto, incoerências pintadas de porta, chaminé e telhado NÃO foram solucionadas; apenas aspectos técnicos de escala, âncora de solo e iluminação foram alterados em modo interno.
+
+- Drive R12 delta/evidências, sem cópia integral: https://drive.google.com/file/d/1J_39TF4-IMsvZJE1o2fqyPoDtHBeLFwq/view — 27.176.073 bytes, 37 arquivos; SHA-256 local c613c99a2abe2821d941bac0f80d4dd945a090a13cf6550533274f854bd61803; CRC e SHA dos 37 membros PASS local, Drive readback de tamanho e pasta, hash remoto binário não refeito. Base R06 e artes R10/R11 preservadas.
+- Fonte R12: [source-r12/](source-r12/) contém 15 arquivos de código/teste/contratos, 15/15 verificados por leitura posterior. site/r12_asset_anchors.js, site/r12_finishing.js, site/world.js, medição física das 12 silhuetas RGBA, testes C++/Canvas e QA. A flag NSR12VisualLab=true é laboratório opt-in; OFF, quatro telas pixel a pixel idênticas ao fallback R11. Nenhuma pintura final foi promovida para o cliente normal.
+- O que o jogo real renderiza: site/world.js em Skia CPU alinha as 12 perspectivas pelos pixels pintados, normaliza dimensão aparente por edifício e posiciona sombras de contato/luz local. Beings e 3 boss-fixtures têm *timing* visual de inclinação/bob e brilho de antecipação, observando boss_intent e boss_pattern da ABI5, sem alterar regras/dano/alvo, sem rigs. As células vermelhas de ataque continuam usando somente o predicado C++ nsw_wasm_boss_threatens.
+- QA executada: 251 Python PASS, 44 Node herdadas+67 Node próprias; consumidor C17 ABI5 compilado e executado; C++20/WASM R05 121 ações e regressões R04=121/R03=121/R02=116/R01=100; SQLite 121 eventos. 18 quadros Skia reais: 4 vistas +4 fallback +6 de três boss (dois tempos) +4 temporais de beings. Quatro fallback idênticos ao R11. Delta visual R11→R12 7,6294 / 8,4766 / 7,2896 / 7,8478% de pixels acima do limiar RGB>18. Mudança não é aprovação estética.
+- Gates: cinema final, rig/direção de arte, direitos, consistência quatro fachadas, 21 kits e boss identidades canônicos, Windows/Chromium/GPU e multiplayer ainda ausentes/não verificados. Não propor teste autoral nem merge.
+
+Reprodução: extrair R06 numa cópia, aplicar R07/R08/R10/R11 e por último R12; rodar python3 tools/verify_r12.py. Fontes: [R12 visual audit](source-r12/docs/R12_VISUAL_AND_ENGINEERING_AUDIT.md) e [R12 test report](source-r12/artifacts/R12_TEST_REPORT.json).
