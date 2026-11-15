@@ -60,3 +60,8 @@ Next source-consumer work: four-facing coherent in-game architecture and animati
 - Reproducibility details: `docs/R02_COMPOSED_DELTA.md`, `artifacts/R02_TEST_REPORT.json`, `docs/R02_CLASS_RESEARCH_BINDINGS.json` inside R02 ZIP.
 
 Next gate **ART / authored gameplay quality**: player and beings consistent across 4 camera views, production animation/visual world, specialized 21 kits with author adjudication, three authored boss identities/patterns, opening and normal-user Windows build. Do not issue another fragmented user-test executable or promote any technical pass to `PRODUCT_GO`.
+
+
+### Source mirror on the same draft PR
+
+After the full R02 source ZIP was uploaded to Drive and its local integrity verified, **49 UTF-8 sources** (C/C++, Python, JavaScript, CSS, HTML, tests, documentation) were additionally committed under [source-r02](source-r02/) on this branch. Sample readback of 7 actual files matched the source bundle exactly. All large source art, animation, compiled binaries and rendered evidence remain in the single ZIP on Drive; no binary duplication or main-branch merge. The transient 228 KB JSON bridge used for this push was deleted from Drive after verification. This supersedes the earlier note saying the source was not mirrored to GitHub.
