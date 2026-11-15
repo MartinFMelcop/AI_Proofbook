@@ -5,8 +5,8 @@
   "product": "Virgo Diamond: The North Star",
   "status": {
     "integration": "INTERNAL_PREPRODUCTION",
-    "technical": "205_PYTHON_PASS_121_CURRENT_CPP_WASM_458_HISTORIC_WASM_11_SKIA_8_SOURCE_MATCH",
-    "art": "ART_REVIEW_PENDING",
+    "technical": "215_PYTHON_PASS_44_NODE_FACADE_ASSERT_121_WASM_NATIVE_458_HIST_WASM_11_SKIA_12_READBACK",
+    "art": "ART_BLOCKED_FACADES",
     "product": "PRODUCT_NO_GO",
     "publication": "NOT_AUTHORIZED"
   },
@@ -28,7 +28,7 @@
     "rave_masters": "1Q3LwmkiD-p2gvw65756ZLk1bkNmJc32Z"
   },
   "evidence": {
-    "python_native_tests": 205,
+    "python_native_tests": 215,
     "node_wasm": "PASS",
     "node_camera4": "PASS",
     "chromium": "NOT_RUN",
@@ -102,8 +102,27 @@
     "skia_static_game_delta_percent_range": "0.004_to_0.011",
     "skia_boss2_delta_percent": 0.969,
     "skia_motion_delta_percent_range": "0.535_to_0.816",
-    "source_github_delta_files": 18,
-    "source_sampled_readback": "8_OF_8_EXACT"
+    "source_github_delta_files": 17,
+    "source_sampled_readback": "8_OF_8_EXACT",
+    "js_facade_contract_assertions": 44,
+    "r07_native_wasm_field_parity_events": 121,
+    "r07_historical_wasm_events": {
+      "R04": 121,
+      "R03": 121,
+      "R02": 116,
+      "R01": 100
+    },
+    "skia_actual_boss_scenes": 3,
+    "skia_actual_temporal_frames": 4,
+    "r06_to_r07_visual_changes_pct": [
+      0.0933,
+      0.105,
+      0.1003,
+      0.2226
+    ],
+    "source_sampled_exact": "12_OF_12",
+    "new_illustrated_facades": 0,
+    "real_browser": "NOT_RUN"
   },
   "experience_requirements": [
     "studio_brand",
@@ -170,16 +189,19 @@
     }
   ],
   "gates": {
-    "visual_style": "ART_REVIEW_PENDING_NOT_SATISFACTORY",
-    "opening_final": "NOT_IMPLEMENTED_18S_ANIMATIC_ONLY",
-    "native_world_four_view": "FOUR_REAL_SKIA_SCENE_VIEWS_BILLBOARD_BUILDINGS_STILL_1_FACE",
+    "visual_style": "ART_BLOCKED_NEW_FOUR_VIEW_PAINTINGS_FAILED",
+    "opening_final": "ANIMATIC_18S_ONLY",
+    "native_world_four_view": "FOUR_SKIA_SCENE_VIEWS_BUT_BUILDINGS_STILL_SINGLE_FACE_R04",
     "classes_and_skills": "21_RESEARCH_KITS_441_PAIRINGS_NOT_CANON",
     "professions_quests": "CXX_MECHANICAL_MINING_SMELTING_UPGRADE_NOT_CANON",
     "boss_behavior": "R05_CXX_OWNED_MECHANICS_UNCHANGED_B02_DERIVED_CONCEPT_ONLY",
     "standard_user_windows": "NOT_RUN",
     "owners_C_E_B_D": "PENDING",
     "beings": "MOTION_DERIVATIONS_OBSERVATIONAL_ONLY_NO_FINAL_RIG",
-    "windows": "NOT_RUN"
+    "windows": "NOT_RUN",
+    "facade_art": "3_BUILDINGS_X4_GENUINE_PAINTINGS_REQUIRED_0_OF_12_READY",
+    "being_animation": "R06_DERIVED_MOTION_NOT_FINAL_RIG",
+    "boss_art": "R06_DERIVED_NONCANON_NOT_FINAL"
   },
   "historical_blocks": [
     "R51_OPEN",
@@ -200,7 +222,7 @@
     "vea": false,
     "unity": false
   },
-  "current_revision": "PRODUCT_V1_R06_2026-11-15",
+  "current_revision": "PRODUCT_V1_R07_SOURCE_DELTA_2026-11-15",
   "package_previous": {
     "drive_file_id": "1fsbHm8vHKnTD7nj8M-Ua8NbQWbLb8uz0",
     "name": "MMAI_PRODUCT_V1_20261115.zip",
@@ -209,14 +231,14 @@
     "remote_binary_readback": "NOT_PERFORMED"
   },
   "code_status": {
-    "single_runtime_owner": "core/world_r05.cpp ABI5 unchanged; source-r06 is visual consumer only",
+    "single_runtime_owner": "core/world_r05.cpp ABI5 UNCHANGED",
     "previous_owner_archived_for_regression": "core/world.cpp and core/product.cpp unchanged by SHA256",
     "client_wasm_abi": 5,
     "save_localstorage_schema": 6,
-    "source_location": "GitHub source-r06/ delta 18 text files layered onto earlier source-r04/ + source-r05/; full 429 file R06 ZIP on Drive",
+    "source_location": "Same PR #3 source-r07/ contains 17 textual R07 delta files; last complete self-contained binary/art package remains R06 on Google Drive",
     "sql": "Python SQLite journal 116 events is LAB_ONLY, not browser save or MMO database",
     "github_text_sources": "49_PUSHED_AND_READBACK_SAMPLED_7_OF_7_EXACT",
-    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r06/",
+    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r07/",
     "source_commit": "db3633435271687d37764828333650479a4846ef",
     "previous_owners": "R01 + R02 unchanged for independent regression",
     "legacy_binary_versions": [
@@ -307,5 +329,26 @@
     "remote_metadata_readback": "SIZE_AND_PARENT_MATCH",
     "remote_binary_readback": "NOT_PERFORMED",
     "drive_parent_id": "1jVrmdP6yjTGI1udqKkSvjbD49sts0CGk"
+  },
+  "last_full_package": {
+    "drive_file_id": "1vfOaM9mHEPJpqHklSsyLyUOtxdYz4OwT",
+    "name": "MMAI_PRODUCT_V1_20261115_R06.zip",
+    "bytes": 92955749,
+    "sha256_local": "cc94c5da05ffd446943aa8cbb30420ce20a7bba894ce206607e68920aade6008",
+    "file_count": 429,
+    "zip_integrity": "CRC_AND_EACH_ENTRY_SHA256_MATCH_LOCAL",
+    "remote_metadata_readback": "SIZE_AND_PARENT_MATCH",
+    "remote_binary_readback": "NOT_PERFORMED",
+    "drive_parent_id": "1jVrmdP6yjTGI1udqKkSvjbD49sts0CGk"
+  },
+  "r07_delivery": {
+    "mode": "SOURCE_DELTA_ONLY_NO_NEW_FULL_ZIP",
+    "reason": "Original illustrated four-view facade asset generation failed and R07 added only minor observational graphic changes. User explicitly requested no redundant archives unless substantive advancement.",
+    "base_drive_file_id": "1vfOaM9mHEPJpqHklSsyLyUOtxdYz4OwT",
+    "source_folder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r07/",
+    "source_files": 17,
+    "source_commit": "e5dff4d8fe8e31b71ea7c19fd14ed3ea0e73ca77",
+    "source_sample_readback": "12_OF_12_EXACT",
+    "visual_art_created": false
   }
 }
