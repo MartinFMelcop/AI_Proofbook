@@ -138,7 +138,14 @@
     "r08_real_game_boss_screenshots_pixel_identical_to_R07": "7_OF_7",
     "r08_untouched_core_graphics_sources_sha_identical": "10_OF_10",
     "r08_github_source_readback": "7_OF_7_EXACT",
-    "author_art": "NOT_APPROVED"
+    "author_art": "NOT_APPROVED",
+    "r09_python_verifier_unchanged_r08": 234,
+    "r09_js_assertions_unchanged_r08": 44,
+    "r09_wasm_parity_unchanged_r08": 121,
+    "r09_new_artworks": 0,
+    "r09_archive_indices_inspected": 9,
+    "r09_new_render_images": 0,
+    "r09_windows": "NOT_RUN"
   },
   "experience_requirements": [
     "studio_brand",
@@ -239,7 +246,7 @@
     "vea": false,
     "unity": false
   },
-  "current_revision": "PRODUCT_V1_R08_SOURCE_DELTA_2026-11-15",
+  "current_revision": "PRODUCT_V1_R09_ART_RECOVERY_GATE_2026-11-15",
   "package_previous": {
     "drive_file_id": "1fsbHm8vHKnTD7nj8M-Ua8NbQWbLb8uz0",
     "name": "MMAI_PRODUCT_V1_20261115.zip",
@@ -381,5 +388,29 @@
     "missing_original_facades": 12,
     "no_new_art_or_skia_changes": true,
     "recovered_VEA_art": "NO_EXPLICIT_FOUR_VIEW_ATLAS_FOUND_IN_DIRECT_VEA_RECOVERY_LIST; INNER_ARCHIVES_NOT_EXHAUSTIVELY_INSPECTED"
+  },
+  "r09_checkpoint": {
+    "status": "NO_NEW_FOUR_VIEW_ART_RECOVERED",
+    "source_change_count": 0,
+    "added_artworks": 0,
+    "required_artworks": 12,
+    "new_full_archive": false,
+    "previous_integral_drive_id": "1vfOaM9mHEPJpqHklSsyLyUOtxdYz4OwT",
+    "tested_with": "python tools/verify_r08.py in unchanged local R08 workspace",
+    "inherited_verifier_result": {
+      "pass": true,
+      "python": 234,
+      "node_assertions": 44,
+      "wasm_parity": 121,
+      "seven_rendered_scene_images_same_as_r07": true
+    },
+    "recovery": {
+      "historical_r04_architecture_sheet": "one perspective for each of three structures; insufficient",
+      "vea_recovery_direct_folder": "1YnCuJBiLPUIdZkozt4FC_Gi_K9JoKr3S",
+      "zip_archives_indexed": 9,
+      "recovered_valid_fourview_atlases": 0,
+      "note": "Archive directory entries were inspected. M09-M13 contain technical images and studies; no identifiable 3-by-4 facade atlas in filenames. Not proof that no suitable image exists anywhere or that all images were manually inspected."
+    },
+    "rule": "Do not create ZIP or claim visual progress without original aligned illustrated faces and in-render four-view comparison."
   }
 }
