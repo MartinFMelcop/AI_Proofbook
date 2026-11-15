@@ -5,8 +5,8 @@
   "product": "Virgo Diamond: The North Star",
   "status": {
     "integration": "INTERNAL_PREPRODUCTION",
-    "technical": "R13_251_PYTHON_111_NODE_PREVIOUS_26_NEW_121_WASM_458_HISTORY_4_SKIA_SCENES_6_BOSS_FRAMES_9_READBACK",
-    "art": "ART_REVIEW_PENDING_NO_NEW_FACADE_PAINTINGS_OR_BOSS_SPRITES",
+    "technical": "R14_257_PYTHON_191_NEW_NODE_44+67+26_OLD_NODE_121_NATIVE_WASM_458_HIST_14_REAL_SKIA_12_SOURCE_MATCH",
+    "art": "ART_REVIEW_PENDING_R14_NEW_92_FRAMES_ZERO_APPROVED",
     "product": "PRODUCT_NO_GO",
     "publication": "NOT_AUTHORIZED"
   },
@@ -252,7 +252,40 @@
     "r13_source_readback": "9_OF_9_EXACT",
     "r13_windows": "NOT_RUN",
     "r13_browser_gpu": "NOT_RUN",
-    "r13_final_boss_art": "NOT_APPROVED"
+    "r13_final_boss_art": "NOT_APPROVED",
+    "r14_python_unittest": 257,
+    "r14_new_node_asset_checks": 191,
+    "r14_historical_node_checks": {
+      "R07": 44,
+      "R12": 67,
+      "R13": 26
+    },
+    "r14_cpp_wasm_current_actions": 121,
+    "r14_cpp_wasm_historical_actions": {
+      "R04": 121,
+      "R03": 121,
+      "R02": 116,
+      "R01": 100
+    },
+    "r14_c17_abi5": "COMPILED_EXECUTED_PASS",
+    "r14_sqlite": "R05_121_EVENTS_VERIFIED",
+    "r14_skia_four_camera": 4,
+    "r14_skia_three_boss_two_frames": 6,
+    "r14_skia_fallback": 4,
+    "r14_scene_pixels_changed_pct": [
+      9.1124,
+      9.5695,
+      8.5763,
+      8.599
+    ],
+    "r14_three_boss_pixel_change_ranges_pct": "22.5_TO_26.8",
+    "r14_default_fallback_pixel_identical_four_views": true,
+    "r14_six_core_and_game_sources_sha_identical": true,
+    "r14_camera_and_animation_revision_player_position_unchanged": true,
+    "r14_github_source_exact_readback": "12_OF_12",
+    "r14_windows": "NOT_RUN",
+    "r14_browser_gpu": "NOT_RUN",
+    "r14_art_approved": "NO"
   },
   "experience_requirements": [
     "studio_brand",
@@ -319,17 +352,17 @@
     }
   ],
   "gates": {
-    "visual_style": "R13_BOSS_FOCUS_AND_GFX_ONLY_NOT_ART_APPROVED",
+    "visual_style": "NEW_ORIGINAL_ART_IN_ACTUAL_RENDERER_BUT_ART_REVIEW_PENDING",
     "opening_final": "ANIMATIC_18S_ONLY",
     "native_world_four_view": "FOUR_SKIA_CANDIDATE_VIEWS_0_90_180_270_DEFAULT_UNCHANGED",
     "classes_and_skills": "21_RESEARCH_KITS_441_PAIRINGS_NOT_CANON",
     "professions_quests": "CXX_MECHANICAL_MINING_SMELTING_UPGRADE_NOT_CANON",
-    "boss_behavior": "THREE_CPP_OWNED_LAB_BOSS_PRESENTATION_IMPROVED_ART_AND_IDENTITY_UNAPPROVED",
+    "boss_behavior": "R14_48_ORIGINAL_FRAME_CANDIDATES_FOR_3_CPP_OWNED_LAB_BOSSES_NOT_CANON",
     "standard_user_windows": "NOT_RUN",
     "owners_C_E_B_D": "PENDING",
-    "beings": "R12_LAB_ONLY_NO_NEW_SPRITE_R13",
+    "beings": "R14_32_ORIGINAL_FRAME_CANDIDATES_NOT_RIGS_OR_FINAL",
     "windows": "NOT_RUN",
-    "facade_art": "12_R11_PAINTINGS_0_AUTHOR_APPROVED;NO_NEW_R13_PAINTINGS",
+    "facade_art": "R14_12_NEW_PAINTED_CANDIDATES_0_AUTHOR_APPROVED",
     "being_animation": "R06_DERIVED_MOTION_NOT_FINAL_RIG",
     "boss_art": "R06_DERIVED_ONLY_NONCANON",
     "facade_preflight": "12_DISTINCT_PHYSICAL_PAINTINGS_ANCHOR_CHECK_PASS_LICENSE_AND_AUTHOR_ACK_PENDING"
@@ -353,7 +386,7 @@
     "vea": false,
     "unity": false
   },
-  "current_revision": "PRODUCT_V1_R13_BOSS_STAGECRAFT_PREVIEW_2026-11-15",
+  "current_revision": "PRODUCT_V1_R14_ORIGINAL_ART_GAMEPLAY_PREVIEW_2026-11-15",
   "package_previous": {
     "drive_file_id": "1fsbHm8vHKnTD7nj8M-Ua8NbQWbLb8uz0",
     "name": "MMAI_PRODUCT_V1_20261115.zip",
@@ -366,10 +399,10 @@
     "previous_owner_archived_for_regression": "core/world.cpp and core/product.cpp unchanged by SHA256",
     "client_wasm_abi": 5,
     "save_localstorage_schema": 6,
-    "source_location": "Same draft PR #3 source-r13/ 9 text files; compact 8MB R13 ZIP has real screenshots. Existing R06+R07-R12 required.",
+    "source_location": "Same PR #3 source-r14/ 12 source and QA files; R14 compact ZIP stores eight original sheets, 92 individual WebP, actual Skia screenshots and tests; no full R06 binary copy",
     "sql": "Python SQLite journal 116 events is LAB_ONLY, not browser save or MMO database",
     "github_text_sources": "49_PUSHED_AND_READBACK_SAMPLED_7_OF_7_EXACT",
-    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r13/",
+    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r14/",
     "source_commit": "db3633435271687d37764828333650479a4846ef",
     "previous_owners": "R01 + R02 unchanged for independent regression",
     "legacy_binary_versions": [
@@ -616,5 +649,33 @@
     "boss_art_staging": "CXX_OWNER_POSITION_FOCUS_30PCT;THREE_DISTINCT_ORNAMENTS;SOURCE_SPRITES_ENLARGED;COSMETIC_ONLY",
     "viewer_mode": "NSR13ArtLab=true_OPT_IN;OFF_BIT_IDENTICAL_TO_R12_FALLBACK",
     "image_generation": "FAILED_DO_NOT_RETRY_WITHOUT_NEW_REQUEST"
+  },
+  "r14_delivery": {
+    "mode": "COMPACT_ORIGINAL_ART_AND_ACTUAL_RENDERER_DELTA_NOT_FULL_GAME",
+    "package_drive_file_id": "1jel3JX7tc0kHwdDTXmfyZl6Qx0y-yDn6",
+    "package_name": "MMAI_PRODUCT_V1_R14_ART_INTEGRATION_DELTA.zip",
+    "bytes": 45169963,
+    "package_sha256_local": "c0ad0dda8d12720d984209af816a4ea28e31353ac0812fdf620aa655b14d6573",
+    "members": 130,
+    "zip_member_crc_and_sha256": "PASS_LOCAL",
+    "drive_size_parent": "CONFIRMED",
+    "drive_remote_binary_sha256": "NOT_RUN",
+    "source_sheets": 8,
+    "new_imagegen_sprites": 92,
+    "new_building_facades": 12,
+    "new_hero_guard_frames": 32,
+    "new_three_boss_frames": 48,
+    "art_approved": 0,
+    "art_rights_review": "PENDING",
+    "three_boss_canon_approved": 0,
+    "source_files": 12,
+    "source_folder": "source-r14/",
+    "source_commit": "ef23a9a07ea2a52888604c04836d76dbf7d3d829",
+    "source_exact_readback": "12_OF_12",
+    "preview_only": "NSR14ArtLab=true;OFF_DEFAULT_PIXEL_EXACT_TO_R13",
+    "last_full_game_zip": "1vfOaM9mHEPJpqHklSsyLyUOtxdYz4OwT",
+    "original_sheets_preserved": true,
+    "background_alpha": "AUTOMATED_MATTE_REMOVAL_ART_REVIEW_PENDING",
+    "note": "Genuinely newly-generated painted source sheets, cropped into 4-view architecture and 4x4 animation candidates. No rig/human art approval. Rave Masters canonical independence and all gates preserved."
   }
 }
