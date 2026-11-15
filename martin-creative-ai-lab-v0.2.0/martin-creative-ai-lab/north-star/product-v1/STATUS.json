@@ -5,8 +5,8 @@
   "product": "Virgo Diamond: The North Star",
   "status": {
     "integration": "INTERNAL_PREPRODUCTION",
-    "technical": "R10_240_PYTHON_44_NODE_121_NATIVE_WASM_458_HIST_121_SQLITE_4_SKIA_4_FALLBACK_MATCH",
-    "art": "ART_REVIEW_PENDING_12_CANDIDATE_VIEWS_0_APPROVED",
+    "technical": "R11_240_PYTHON_44_NODE_121_WASM_458_HISTORICAL_WASM_4_REAL_SKIA_FALLBACK_MATCH_8_SOURCE_MATCH",
+    "art": "ART_REVIEW_PENDING_R11_12_CANDIDATES_0_APPROVED",
     "product": "PRODUCT_NO_GO",
     "publication": "NOT_AUTHORIZED"
   },
@@ -168,7 +168,30 @@
     "r10_camera_does_not_mutate_owner": "ASSERTED_4_VIEWS",
     "r10_gameplay_frozen_sources": "6_OF_6_SHA_IDENTICAL",
     "r10_art_status": "HUMAN_REVIEW_PENDING",
-    "r10_source_readback": "10_OF_10_EXACT"
+    "r10_source_readback": "10_OF_10_EXACT",
+    "r11_python_unit_tests": 240,
+    "r11_node_contract_assertions": 44,
+    "r11_cpp_wasm_events": 121,
+    "r11_historic_regressions": {
+      "R04": 121,
+      "R03": 121,
+      "R02": 116,
+      "R01": 100
+    },
+    "r11_c17_consumer": "PASS_ABI5",
+    "r11_sqlite": "PASS_121_HISTORIC_EVENTS",
+    "r11_actual_skia_views": 4,
+    "r11_fallback_pixel_exact_views": 4,
+    "r11_r10_visual_change_percent_by_angle": {
+      "0": 5.6367,
+      "90": 6.2005,
+      "180": 5.4107,
+      "270": 5.9292
+    },
+    "r11_sha256_owner_immutable_files": 6,
+    "r11_source_readback": "8_OF_8_EXACT",
+    "r11_windows": "NOT_RUN",
+    "r11_author_art": "NOT_APPROVED"
   },
   "experience_requirements": [
     "studio_brand",
@@ -235,9 +258,9 @@
     }
   ],
   "gates": {
-    "visual_style": "FOUR_VIEW_ART_CANDIDATE_PENDING_HUMAN_VISUAL_APPROVAL",
+    "visual_style": "R11_REFINED_ISOLATED_SKIA_PREVIEW_ART_REVIEW_PENDING",
     "opening_final": "ANIMATIC_18S_ONLY",
-    "native_world_four_view": "FOUR_REAL_SKIA_CANDIDATE_VIEWS_DEFAULT_FALLBACK_UNCHANGED",
+    "native_world_four_view": "FOUR_SKIA_CANDIDATE_VIEWS_0_90_180_270_DEFAULT_UNCHANGED",
     "classes_and_skills": "21_RESEARCH_KITS_441_PAIRINGS_NOT_CANON",
     "professions_quests": "CXX_MECHANICAL_MINING_SMELTING_UPGRADE_NOT_CANON",
     "boss_behavior": "R05_CXX_OWNED_MECHANICS_UNCHANGED_B02_DERIVED_CONCEPT_ONLY",
@@ -245,7 +268,7 @@
     "owners_C_E_B_D": "PENDING",
     "beings": "R06_DERIVED_ONLY_NOT_FINAL",
     "windows": "NOT_RUN",
-    "facade_art": "12_PAINTED_CANDIDATE_VIEWS_AVAILABLE_0_OF_12_AUTHOR_APPROVED",
+    "facade_art": "12_R11_PAINTED_CANDIDATES_0_AUTHOR_ART_APPROVED",
     "being_animation": "R06_DERIVED_MOTION_NOT_FINAL_RIG",
     "boss_art": "R06_DERIVED_ONLY_NONCANON",
     "facade_preflight": "12_DISTINCT_PHYSICAL_PAINTINGS_ANCHOR_CHECK_PASS_LICENSE_AND_AUTHOR_ACK_PENDING"
@@ -269,7 +292,7 @@
     "vea": false,
     "unity": false
   },
-  "current_revision": "PRODUCT_V1_R10_FOURVIEW_ART_CANDIDATE_2026-11-15",
+  "current_revision": "PRODUCT_V1_R11_REFINED_FOURVIEW_ART_CANDIDATE_2026-11-15",
   "package_previous": {
     "drive_file_id": "1fsbHm8vHKnTD7nj8M-Ua8NbQWbLb8uz0",
     "name": "MMAI_PRODUCT_V1_20261115.zip",
@@ -464,5 +487,26 @@
     "art_fallback": "R04_UNCHANGED_EXACT_PIXELS_WHEN_PREVIEW_OFF",
     "preview": "R10_ART_CANDIDATE_NOT_APPROVED_WATERMARK_ONLY",
     "gameplay_mutations": 0
+  },
+  "r11_delivery": {
+    "mode": "NEW_ART_CANDIDATE_DELTA_NOT_FULL_PRODUCT",
+    "package_drive_id": "1hz4YoQdZGq2H4nNBZlrC8vXMGrj6KOTp",
+    "name": "MMAI_PRODUCT_V1_R11_ART_CANDIDATE_DELTA.zip",
+    "bytes": 37221947,
+    "file_count": 46,
+    "local_sha256": "d4191a85bb57c4c0b081a2745792646a101d91d008a036dff68187e834e96820",
+    "local_crc_and_member_sha256": "PASS_ALL_46_MEMBERS",
+    "remote_drive_readback": "SIZE_AND_PARENT_ONLY_NO_BIN_SHA",
+    "new_source_sheets": 3,
+    "new_painted_faces": 12,
+    "author_approved_faces": 0,
+    "source_commit": "bc62ff9daaebd1fd71ac4c61c51e7621ed7f0720",
+    "source_folder": "source-r11/",
+    "source_files": 8,
+    "source_readback": "8_OF_8_EXACT",
+    "gameplay_owner": "core/world_r05.cpp ABI5 UNCHANGED",
+    "source_dependency": "R06 full game + R07 R08 R10 deltas + R11 art ZIP",
+    "preview_only": "NSR11ArtPreview=true OPTIONAL; NORMAL_CLIENT_FALLBACK_MATCHES_R10",
+    "final_art_gate": "ART_REVIEW_PENDING_AUTHOR_SCALE_ARCHITECTURE_AND_RIGHTS"
   }
 }
