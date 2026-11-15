@@ -5,20 +5,20 @@
   "product": "Virgo Diamond: The North Star",
   "status": {
     "integration": "INTERNAL_PREPRODUCTION",
-    "technical": "167_PYTHON_PASS_121_R04_WASM_121_R03_116_R02_100_R01_4_SKIA_3_BOSS_SKIA_12_SOURCE_MATCH",
+    "technical": "197_PYTHON_PASS_121_R05_NATIVE_WASM_121_R04_121_R03_116_R02_100_R01_11_REAL_SKIA_IMAGES",
     "art": "ART_REVIEW_PENDING",
     "product": "PRODUCT_NO_GO",
     "publication": "NOT_AUTHORIZED"
   },
   "package": {
-    "drive_file_id": "1tU1Tk6g7JshWv5IGlUdLx7-gTf0f-zif",
-    "name": "MMAI_PRODUCT_V1_20261115_R04.zip",
-    "bytes": 55322074,
-    "sha256_local": "89eb4a57c1c6dfb912c7c1a9d8afc2ac8bc272f8710cab5a3cc93efcc54e9656",
-    "file_count": 279,
-    "zip_integrity": "CRC_AND_EACH_ENTRY_SHA256_MATCH_LOCAL",
+    "drive_file_id": "1nbRdNSH8vOQiWFfMEm5ZLDLi-v08wFmd",
+    "name": "MMAI_PRODUCT_V1_20261115_R05.zip",
+    "bytes": 71105665,
+    "sha256_local": "e7e194033c018e602fce0e5c2b0304a03390ccbd779d5e574506b2235cf04c3c",
+    "file_count": 317,
+    "zip_integrity": "CRC_AND_EACH_ENTRY_SHA256_PASS_LOCAL",
     "remote_metadata_readback": "SIZE_AND_PARENT_MATCH",
-    "remote_binary_hash": "NOT_PERFORMED",
+    "remote_binary_readback": "NOT_PERFORMED",
     "drive_parent_id": "1jVrmdP6yjTGI1udqKkSvjbD49sts0CGk"
   },
   "documentation": {
@@ -28,7 +28,7 @@
     "rave_masters": "1Q3LwmkiD-p2gvw65756ZLk1bkNmJc32Z"
   },
   "evidence": {
-    "python_native_tests": 167,
+    "python_native_tests": 197,
     "node_wasm": "PASS",
     "node_camera4": "PASS",
     "chromium": "NOT_RUN",
@@ -43,7 +43,7 @@
     "original_opening_seconds": 18,
     "r02_native_wasm_field_parity_events": 116,
     "legacy_r01_native_wasm_parity_events": 100,
-    "c17_to_cpp20": "PASS_ABI4",
+    "c17_to_cpp20": "PASS_ABI5",
     "camera_views_skia_render": 4,
     "skia_canvas_source_executed": true,
     "sqlite_hash_chain_r02_events": 116,
@@ -72,7 +72,20 @@
     "visual_delta_r03_to_r04_pixel_percent": 17.82,
     "source_github_text_files": 102,
     "github_sampled_exact_matches": "12_OF_12",
-    "browser": "NOT_RUN"
+    "browser": "NOT_RUN",
+    "r05_native_wasm_field_parity_events": 121,
+    "r04_historical_wasm_events": 121,
+    "r03_historical_wasm_events": 121,
+    "r02_historical_wasm_events": 116,
+    "r01_historical_wasm_events": 100,
+    "r05_actual_skia_game_views": 4,
+    "r05_internal_geometry_views": 4,
+    "r05_skia_boss_scenes": 3,
+    "r05_geometry_study": "TECH_PASS_ART_REJECTED",
+    "structured_character_builds": 441,
+    "architecture_structures": 3,
+    "r05_source_delta_files": 27,
+    "r05_source_sampled_exact": "9_OF_9"
   },
   "experience_requirements": [
     "studio_brand",
@@ -116,7 +129,10 @@
     "canon": "NOT_AUTHORIZED",
     "rogue_independence": "UNVERIFIED",
     "source_id": "1hd8QM4x5aKP3gh6LnaedpbauHzMpFFZJM47N0-kBKY8",
-    "lab_kits": "21 research profiles each one signature active, one utility active and one limited passive (7 passive families), NOT canonical kits"
+    "lab_kits": "21 research profiles each one signature active, one utility active and one limited passive (7 passive families), NOT canonical kits",
+    "valid_character_pairings": 441,
+    "approved_kits": 0,
+    "research_profile_count": 21
   },
   "encounters": [
     {
@@ -136,15 +152,15 @@
     }
   ],
   "gates": {
-    "visual_style": "BELOW_AUTHOR_TARGET_ART_REVIEW_PENDING_NOT_APPROVED",
+    "visual_style": "ART_REVIEW_PENDING_GEOMETRY_STUDY_REJECTED_INTERNALLY",
     "opening_final": "NOT_IMPLEMENTED_18S_ANIMATIC_ONLY",
-    "native_world_four_view": "FOUR_SKIA_FRAMES_REAL_CANVAS_QUARTER_TURNS_BUT_BILLBOARD_PROP_ART",
-    "classes_and_skills": "21_RESEARCH_SIGNATURE_UTILITY_PASSIVE_HISTORICAL_NO_CANON",
+    "native_world_four_view": "FOUR_REAL_SKIA_VIEWS_GAME_FOUR_GEO_STUDY_NOT_ART_APPROVED",
+    "classes_and_skills": "21_RESEARCH_TWO_ACTION_PASSIVE_441_PAIRINGS_NO_AUTHOR_APPROVAL",
     "professions_quests": "CXX_MECHANICAL_MINING_SMELTING_UPGRADE_NOT_CANON",
-    "boss_behavior": "THREE_LAB_ENCOUNTERS_SKIA_ACTUAL_3_SCENES_THREAT_MATCH_CPP_NONCANON",
+    "boss_behavior": "UNCHANGED_R04_LAB_ONLY_NOT_CANON",
     "standard_user_windows": "NOT_RUN",
     "owners_C_E_B_D": "PENDING",
-    "beings": "4_ILLUSTRATED_NPCS_CONTEXT_ROUTINES_NOT_FINAL_ANIMATION_AI",
+    "beings": "WORLD_DIRECTION_NATIVE_QUERY_AND_VISUAL_INTERPOLATION_ONLY_NO_FULL_RIG",
     "windows": "NOT_RUN"
   },
   "historical_blocks": [
@@ -166,7 +182,7 @@
     "vea": false,
     "unity": false
   },
-  "current_revision": "PRODUCT_V1_R04_2026-11-15",
+  "current_revision": "PRODUCT_V1_R05_2026-11-15",
   "package_previous": {
     "drive_file_id": "1fsbHm8vHKnTD7nj8M-Ua8NbQWbLb8uz0",
     "name": "MMAI_PRODUCT_V1_20261115.zip",
@@ -175,15 +191,15 @@
     "remote_binary_readback": "NOT_PERFORMED"
   },
   "code_status": {
-    "single_runtime_owner": "core/world_r04.cpp C++20 ABI4",
+    "single_runtime_owner": "core/world_r05.cpp ABI5 (additive pure queries; no gameplay rule migration)",
     "previous_owner_archived_for_regression": "core/world.cpp and core/product.cpp unchanged by SHA256",
-    "client_wasm_abi": 4,
-    "save_localstorage_schema": 5,
-    "source_location": "source-r04/ 102 exact UTF-8 files on existing draft PR; full 279-file R04 ZIP in Drive",
+    "client_wasm_abi": 5,
+    "save_localstorage_schema": 6,
+    "source_location": "GitHub source-r05/ delta 27 files layered onto source-r04/ on same PR; full 317-file R05 archive on Drive",
     "sql": "Python SQLite journal 116 events is LAB_ONLY, not browser save or MMO database",
     "github_text_sources": "49_PUSHED_AND_READBACK_SAMPLED_7_OF_7_EXACT",
-    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r04/",
-    "source_commit": "a3d819dc0713e86ff282d551aa8329ccf5f97bbe",
+    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r05/",
+    "source_commit": "b7bf07261c9bdcb32255c731fa09a8242a9b3fb1",
     "previous_owners": "R01 + R02 unchanged for independent regression",
     "legacy_binary_versions": [
       "world_r01.wasm",
@@ -208,13 +224,16 @@
       "B03_RAVE_MASTERS_HISTORIC_NOT_NORTH_STAR_CANON"
     ],
     "boss_mechanics": "B01 feint, B02 phase corrosive SP zone, B03 phase root pressure, ALL LAB_ONLY",
-    "camera": "FOUR_ACTUAL_SKIA_CPU_PROJECTIONS",
-    "visual_render_quality": "R04_ADDED_LIT_COTTAGES_FORGE_APOTHECARY_BRIDGE_FOUNTAIN_FLORA_BOSS_CONCEPTS; ART_REVIEW_PENDING",
+    "camera": "FOUR_SKIA_ACTUAL_GAME_VIEWS_AND_FOUR_GEOMETRY_STUDY_VIEWS",
+    "visual_render_quality": "R04_RICH_ILLUSTRATED_BUILDINGS_RETAINED; FOUR_FACED_GEOMETRY_FAILED_ART_GATE",
     "illustrated_NPCs": "4_IDENTITIES_X4_VIEWS_CONCEPT_NOT_ART_APPROVED",
     "npc_observation": "NEARBY_TALK_MASK_LAST_TALK_TICK_OWNER_ONLY_NO_REMOTE_OBSERVATION",
     "architecture_props": "9_TRANSPARENT_IMAGE_BILLBOARDS_NOT_AUTHORED_FOUR_FACING_MESHES",
     "r04_boss_concept_art": "B01 4 derived directional; B02 single procedural specter; B03 recolored original tree, all NONCANON",
-    "telegraph": "CXX_ABI4_PURE_BOSS_THREAT_PREDICATE_SHARED_WITH_HIT_AND_CANVAS"
+    "telegraph": "CXX_ABI4_PURE_BOSS_THREAT_PREDICATE_SHARED_WITH_HIT_AND_CANVAS",
+    "architecture_collider": "C++ pure structure_at for three pre-existing tile9 building footprints; no new collision",
+    "npc_facing": "C++ pure world route query; client interpolates without tick change",
+    "architecture_actual_four_facing": "TECHNICAL_GEOMETRY_STUDY_ONLY_ART_REJECTED"
   },
   "package_r01": {
     "drive_file_id": "19U1f3Yr7xhfResYMdrEtDAduJA6yscaV",
@@ -245,6 +264,17 @@
     "zip_integrity": "CRC_AND_PER_FILE_SHA256_VERIFIED_LOCAL",
     "remote_metadata_readback": "SIZE_AND_PARENT_MATCH",
     "remote_binary_readback": "NOT_PERFORMED",
+    "drive_parent_id": "1jVrmdP6yjTGI1udqKkSvjbD49sts0CGk"
+  },
+  "package_r04": {
+    "drive_file_id": "1tU1Tk6g7JshWv5IGlUdLx7-gTf0f-zif",
+    "name": "MMAI_PRODUCT_V1_20261115_R04.zip",
+    "bytes": 55322074,
+    "sha256_local": "89eb4a57c1c6dfb912c7c1a9d8afc2ac8bc272f8710cab5a3cc93efcc54e9656",
+    "file_count": 279,
+    "zip_integrity": "CRC_AND_EACH_ENTRY_SHA256_MATCH_LOCAL",
+    "remote_metadata_readback": "SIZE_AND_PARENT_MATCH",
+    "remote_binary_hash": "NOT_PERFORMED",
     "drive_parent_id": "1jVrmdP6yjTGI1udqKkSvjbD49sts0CGk"
   }
 }
