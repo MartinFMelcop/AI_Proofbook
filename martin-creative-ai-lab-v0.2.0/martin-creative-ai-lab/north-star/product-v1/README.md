@@ -45,3 +45,18 @@ This change is additive and reviewable. Existing baselines, Makers, MER, VEA, Un
 - Technical details in `docs/R01_SPATIAL_DELTA.md` and `artifacts/R01_TEST_REPORT.json` inside the R01 ZIP; this PR remains **DRAFT / PRODUCT_NO_GO**.
 
 Next source-consumer work: four-facing coherent in-game architecture and animation with artistic gates; real 1–2-class kit binding; beings with personality-specific behavior; richer authored three-boss encounters; Windows standard-user build and human art/play review. No extra author-facing test ZIP until composite quality warrants it.
+
+
+## R02 — Class research modes, bounded beings, materials and real Canvas render (2026-11-15)
+
+**Same composite PRODUCT V1, new isolated revision, still `DRAFT / ART_REVIEW_PENDING / PRODUCT_NO_GO`.**
+
+- R02 complete source package on Drive: https://drive.google.com/file/d/1I81NOh4eI83g-gYGJkGZtOyIbjzTeDVL/view, 29,080,893 bytes, 124 files. Local ZIP SHA-256 `ec71760455d19fedc78639fee42f859a33841d0bc199bc469929e2b4ef804fa8` (archive member CRC and SHA256 verified locally; remote readback confirmed size/folder only, not binary digest). Historic R00 and R01 remain unmodified.
+- C++20 `core/world_r02.cpp`/C17 `world_r02.h` new **ABI 2** (old `world.cpp` ABI1 unchanged). Native `libns_world_r02.so` and new `site/product.wasm` use ONE experimental world authority; source and artifacts live in the R02 ZIP, not yet mirrored as executable source in GitHub. All 21 profiles R01–R21 can use **differentiated RESEARCH/LAB_ONLY** ability modes selected primary or secondary, including conditional costs and effects; **NOT 21 approved class kits**.
+- New optional mining → smelting → tool upgrade loop with measurable attack changes, bounded C++ being behavioral modes (idle/patrol/attentive/working/concerned/alert; no true RPG AI), three distinct boss-fixture telegraphs, phase/patterns and counterplay. Two bosses proposed; the Tree belongs to a separate Rave Masters GDD historical source and is not canon North Star.
+- Four 90° camera projections rendered by **actual** `site/world.js` Canvas code under Skia CPU. 16 concept pose frames and nine deterministic material tiles. Four Skia PNG artifacts in ZIP are **not browser captures**. On internal inspection the scene still has repeated grid textures and geometric NPCs: **art gate stays pending**.
+- Technical evidence: **101 Python unittest PASS**, C17 executable linked to C++20 ABI2 PASS, **116 native intents** with field-by-field WASM parity incl being behavior, 100 archived R01 actions parity, 4 distinct Skia renders, SQLite 116-event verified hash-chain/replay, 6 preserved R01 source/asset SHA256 matches. Opening is unchanged 18s motion-comic, not a finished anime-quality video.
+- Lab SQLite ledger is NOT authoritative online account/save. Client localStorage journal is version 3 ABI2, fails closed on incompatible R01 save (does not overwrite old key). Windows, real browser, art approval and multiplayer are NOT_RUN / NOT_APPROVED.
+- Reproducibility details: `docs/R02_COMPOSED_DELTA.md`, `artifacts/R02_TEST_REPORT.json`, `docs/R02_CLASS_RESEARCH_BINDINGS.json` inside R02 ZIP.
+
+Next gate **ART / authored gameplay quality**: player and beings consistent across 4 camera views, production animation/visual world, specialized 21 kits with author adjudication, three authored boss identities/patterns, opening and normal-user Windows build. Do not issue another fragmented user-test executable or promote any technical pass to `PRODUCT_GO`.
