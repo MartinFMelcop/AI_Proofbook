@@ -5,7 +5,7 @@
   "product": "Virgo Diamond: The North Star",
   "status": {
     "integration": "INTERNAL_PREPRODUCTION",
-    "technical": "R11_240_PYTHON_44_NODE_121_WASM_458_HISTORICAL_WASM_4_REAL_SKIA_FALLBACK_MATCH_8_SOURCE_MATCH",
+    "technical": "251_PYTHON_PASS_44_PLUS_67_NODE_121_CPP_WASM_458_HIST_WASM_18_SKIA_FRAMES_15_SOURCE_MATCH",
     "art": "ART_REVIEW_PENDING_R11_12_CANDIDATES_0_APPROVED",
     "product": "PRODUCT_NO_GO",
     "publication": "NOT_AUTHORIZED"
@@ -191,7 +191,41 @@
     "r11_sha256_owner_immutable_files": 6,
     "r11_source_readback": "8_OF_8_EXACT",
     "r11_windows": "NOT_RUN",
-    "r11_author_art": "NOT_APPROVED"
+    "r11_author_art": "NOT_APPROVED",
+    "r12_python_unittests": 251,
+    "r12_js_r07_contract_checks": 44,
+    "r12_js_new_checks": 67,
+    "r12_current_cpp_wasm_accepted_intents": 121,
+    "r12_historic_wasm_events": {
+      "R04": 121,
+      "R03": 121,
+      "R02": 116,
+      "R01": 100
+    },
+    "r12_c17_consumer": "PASS_COMPILED_EXECUTED_ABI5",
+    "r12_sqlite": "VERIFIED_HISTORICAL_R05_121_EVENTS",
+    "r12_skia_camera_views": 4,
+    "r12_skia_default_fallback_views": 4,
+    "r12_skia_boss_frames": 6,
+    "r12_skia_being_frames": 4,
+    "r12_skia_total_frames": 18,
+    "r12_visual_change_pct_r11_to_r12": [
+      7.6294,
+      8.4766,
+      7.2896,
+      7.8478
+    ],
+    "r12_default_fallback_pixel_identical_views": 4,
+    "r12_boss_temporal_changed_pct": [
+      0.6971,
+      1.0777,
+      2.657
+    ],
+    "r12_engine_immutable_sha_matches": 5,
+    "r12_original_r11_sprite_sha_matches": 12,
+    "r12_source_readback": "15_OF_15_EXACT",
+    "r12_windows": "NOT_RUN",
+    "r12_human_art": "NOT_APPROVED"
   },
   "experience_requirements": [
     "studio_brand",
@@ -258,17 +292,17 @@
     }
   ],
   "gates": {
-    "visual_style": "R11_REFINED_ISOLATED_SKIA_PREVIEW_ART_REVIEW_PENDING",
+    "visual_style": "R12_ALIGNMENT_AND_TEMPORAL_LAB_NOT_FINAL_PAINTING",
     "opening_final": "ANIMATIC_18S_ONLY",
     "native_world_four_view": "FOUR_SKIA_CANDIDATE_VIEWS_0_90_180_270_DEFAULT_UNCHANGED",
     "classes_and_skills": "21_RESEARCH_KITS_441_PAIRINGS_NOT_CANON",
     "professions_quests": "CXX_MECHANICAL_MINING_SMELTING_UPGRADE_NOT_CANON",
-    "boss_behavior": "R05_CXX_OWNED_MECHANICS_UNCHANGED_B02_DERIVED_CONCEPT_ONLY",
+    "boss_behavior": "R12_THREE_CPP_OWNER_BOSSES_TEMPORAL_VISUAL_LAB_ONLY_NONCANON",
     "standard_user_windows": "NOT_RUN",
     "owners_C_E_B_D": "PENDING",
-    "beings": "R06_DERIVED_ONLY_NOT_FINAL",
+    "beings": "R12_BOUNDED_CANVAS_ANIMATION_STUDY_NO_RIG",
     "windows": "NOT_RUN",
-    "facade_art": "12_R11_PAINTED_CANDIDATES_0_AUTHOR_ART_APPROVED",
+    "facade_art": "12_R11_CANDIDATES_ALIGNED_IN_R12_0_APPROVED",
     "being_animation": "R06_DERIVED_MOTION_NOT_FINAL_RIG",
     "boss_art": "R06_DERIVED_ONLY_NONCANON",
     "facade_preflight": "12_DISTINCT_PHYSICAL_PAINTINGS_ANCHOR_CHECK_PASS_LICENSE_AND_AUTHOR_ACK_PENDING"
@@ -292,7 +326,7 @@
     "vea": false,
     "unity": false
   },
-  "current_revision": "PRODUCT_V1_R11_REFINED_FOURVIEW_ART_CANDIDATE_2026-11-15",
+  "current_revision": "PRODUCT_V1_R12_SPATIAL_ART_ALIGNMENT_AND_MOTION_2026-11-15",
   "package_previous": {
     "drive_file_id": "1fsbHm8vHKnTD7nj8M-Ua8NbQWbLb8uz0",
     "name": "MMAI_PRODUCT_V1_20261115.zip",
@@ -301,14 +335,14 @@
     "remote_binary_readback": "NOT_PERFORMED"
   },
   "code_status": {
-    "single_runtime_owner": "core/world_r05.cpp C++20/ABI5 UNCHANGED",
+    "single_runtime_owner": "core/world_r05.cpp C++20/C17 ABI5 UNCHANGED",
     "previous_owner_archived_for_regression": "core/world.cpp and core/product.cpp unchanged by SHA256",
     "client_wasm_abi": 5,
     "save_localstorage_schema": 6,
-    "source_location": "Existing PR #3 source-r10/ 10 text changes; 12 generated WebP assets and provenance in one 25 MB Drive art-candidate ZIP; full R06 unchanged",
+    "source_location": "Same PR #3 source-r12/ 15 original source/test/report text files; full R06 + art R11 + R07/R08/R10 overlays required; R12 ZIP 27MB contains source and actual Skia frames, no duplicated binary/paintings",
     "sql": "Python SQLite journal 116 events is LAB_ONLY, not browser save or MMO database",
     "github_text_sources": "49_PUSHED_AND_READBACK_SAMPLED_7_OF_7_EXACT",
-    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r10/",
+    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r12/",
     "source_commit": "db3633435271687d37764828333650479a4846ef",
     "previous_owners": "R01 + R02 unchanged for independent regression",
     "legacy_binary_versions": [
@@ -508,5 +542,29 @@
     "source_dependency": "R06 full game + R07 R08 R10 deltas + R11 art ZIP",
     "preview_only": "NSR11ArtPreview=true OPTIONAL; NORMAL_CLIENT_FALLBACK_MATCHES_R10",
     "final_art_gate": "ART_REVIEW_PENDING_AUTHOR_SCALE_ARCHITECTURE_AND_RIGHTS"
+  },
+  "r12_delivery": {
+    "mode": "SCOPED_RENDERER_SOURCE_AND_SKIA_EVIDENCE_DELTA_NO_NEW_FULL_GAME",
+    "package_drive_file_id": "1J_39TF4-IMsvZJE1o2fqyPoDtHBeLFwq",
+    "package_name": "MMAI_PRODUCT_V1_R12_VISUAL_DELTA.zip",
+    "package_bytes": 27176073,
+    "package_sha256_local": "c613c99a2abe2821d941bac0f80d4dd945a090a13cf6550533274f854bd61803",
+    "members": 37,
+    "local_zip_crc_and_member_hash": "PASS_ALL_37",
+    "drive_size_parent_readback": "MATCH",
+    "drive_remote_binary_sha256": "NOT_PERFORMED",
+    "code_source_folder": "source-r12/",
+    "source_files": 15,
+    "source_commit": "2c7f012c3a2d2b4cb869ff5aaf3f5643077ced0c",
+    "source_readback": "15_OF_15_EXACT",
+    "last_integral_r06": "1vfOaM9mHEPJpqHklSsyLyUOtxdYz4OwT",
+    "last_art_r11": "1hz4YoQdZGq2H4nNBZlrC8vXMGrj6KOTp",
+    "new_painted_artwork_count": 0,
+    "existing_r11_candidate_paintings_preserved": 12,
+    "author_art_approved_count": 0,
+    "preview_only": "NSR12VisualLab=true_OPT_IN;NORMAL_CLIENT_IDENTICAL_TO_R11",
+    "temporal_being_animation": "R06_SOURCE_SPRITES_WITH_BOUNDED_CANVAS_GAIT_NO_RIG",
+    "temporal_boss_animation": "3_CPP_OWNER_BOSSES_VISUAL_BOB_TILT_GLOW_WITH_CPP_THREAT_ONLY; LAB_NOT_CANON",
+    "image_generation_result": "FAILED_NO_RETRY"
   }
 }
