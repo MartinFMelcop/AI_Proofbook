@@ -1,0 +1,151 @@
+{
+  "schema": "mmai.r06.boss.art.derived.v1",
+  "source": "R03 generated NPC #4 illustrations, NOT a new independent painted boss",
+  "approval": "ART_REVIEW_PENDING",
+  "entries": [
+    {
+      "source": "npc_4_0.webp",
+      "source_sha256": "588a76c892047d422eafbe53de4017168dc6e9243f1ddbb57da3b6bd38af10c6",
+      "target": "r06_wraith_0_0.webp",
+      "target_sha256": "a2401e29ef50c21f307ba6b4089fd1e27f9b514131580035a9f133a27e9b21ad",
+      "face": 0,
+      "frame": 0,
+      "provenance": "DERIVED_EXISTING_NPC_ART_NONCANON"
+    },
+    {
+      "source": "npc_4_0.webp",
+      "source_sha256": "588a76c892047d422eafbe53de4017168dc6e9243f1ddbb57da3b6bd38af10c6",
+      "target": "r06_wraith_0_1.webp",
+      "target_sha256": "c88a7a6de274c1193f77dd88222e75ee54395ac4cfd23c2c3770404e4ee4593e",
+      "face": 0,
+      "frame": 1,
+      "provenance": "DERIVED_EXISTING_NPC_ART_NONCANON"
+    },
+    {
+      "source": "npc_4_0.webp",
+      "source_sha256": "588a76c892047d422eafbe53de4017168dc6e9243f1ddbb57da3b6bd38af10c6",
+      "target": "r06_wraith_0_2.webp",
+      "target_sha256": "25b3e14fdfb5c5c56a8e81851b923431996bd1a5405ac46d77cd2fae45308348",
+      "face": 0,
+      "frame": 2,
+      "provenance": "DERIVED_EXISTING_NPC_ART_NONCANON"
+    },
+    {
+      "source": "npc_4_0.webp",
+      "source_sha256": "588a76c892047d422eafbe53de4017168dc6e9243f1ddbb57da3b6bd38af10c6",
+      "target": "r06_wraith_0_3.webp",
+      "target_sha256": "35ec0740a8b9811b08a1a4e041ac994219b0fa914164202343a76068654fd231",
+      "face": 0,
+      "frame": 3,
+      "provenance": "DERIVED_EXISTING_NPC_ART_NONCANON"
+    },
+    {
+      "source": "npc_4_1.webp",
+      "source_sha256": "70bc48a2affc3486b521d2075e64b7c382959b3ef653875dd9bb141a565cb401",
+      "target": "r06_wraith_1_0.webp",
+      "target_sha256": "e3bf2591a120057cce9eda9de635c837b61bf667014accbb3e0bae53704e2fe2",
+      "face": 1,
+      "frame": 0,
+      "provenance": "DERIVED_EXISTING_NPC_ART_NONCANON"
+    },
+    {
+      "source": "npc_4_1.webp",
+      "source_sha256": "70bc48a2affc3486b521d2075e64b7c382959b3ef653875dd9bb141a565cb401",
+      "target": "r06_wraith_1_1.webp",
+      "target_sha256": "93cb299ec927fa6b980dff404a2c8bffc34c8fc796d642ce6f992d7aaeed5571",
+      "face": 1,
+      "frame": 1,
+      "provenance": "DERIVED_EXISTING_NPC_ART_NONCANON"
+    },
+    {
+      "source": "npc_4_1.webp",
+      "source_sha256": "70bc48a2affc3486b521d2075e64b7c382959b3ef653875dd9bb141a565cb401",
+      "target": "r06_wraith_1_2.webp",
+      "target_sha256": "f097f1d9ac786d14d7b7d22d21c3d59dd0491a39931e669ae22032b9cca6007e",
+      "face": 1,
+      "frame": 2,
+      "provenance": "DERIVED_EXISTING_NPC_ART_NONCANON"
+    },
+    {
+      "source": "npc_4_1.webp",
+      "source_sha256": "70bc48a2affc3486b521d2075e64b7c382959b3ef653875dd9bb141a565cb401",
+      "target": "r06_wraith_1_3.webp",
+      "target_sha256": "5329c876bd47858f2780df5ed17ada1b91124839c7315b30fba6fc96242f9980",
+      "face": 1,
+      "frame": 3,
+      "provenance": "DERIVED_EXISTING_NPC_ART_NONCANON"
+    },
+    {
+      "source": "npc_4_2.webp",
+      "source_sha256": "9a071e72980bcebc0ff52ba52d2af9d2206fd9c84fe837605ab62dd65a36c3c6",
+      "target": "r06_wraith_2_0.webp",
+      "target_sha256": "065ff4fa9caa3af2cafac32030123be6bf057dcaaef7052c52b7fb7646115c71",
+      "face": 2,
+      "frame": 0,
+      "provenance": "DERIVED_EXISTING_NPC_ART_NONCANON"
+    },
+    {
+      "source": "npc_4_2.webp",
+      "source_sha256": "9a071e72980bcebc0ff52ba52d2af9d2206fd9c84fe837605ab62dd65a36c3c6",
+      "target": "r06_wraith_2_1.webp",
+      "target_sha256": "dc537cac753fcfd420146bb95d689e5bfeb1841a4ac920445318ddd455d805ce",
+      "face": 2,
+      "frame": 1,
+      "provenance": "DERIVED_EXISTING_NPC_ART_NONCANON"
+    },
+    {
+      "source": "npc_4_2.webp",
+      "source_sha256": "9a071e72980bcebc0ff52ba52d2af9d2206fd9c84fe837605ab62dd65a36c3c6",
+      "target": "r06_wraith_2_2.webp",
+      "target_sha256": "8688c0e79c681770e6c7498df7725734be32b003dfcec7a6a7e96b891a612922",
+      "face": 2,
+      "frame": 2,
+      "provenance": "DERIVED_EXISTING_NPC_ART_NONCANON"
+    },
+    {
+      "source": "npc_4_2.webp",
+      "source_sha256": "9a071e72980bcebc0ff52ba52d2af9d2206fd9c84fe837605ab62dd65a36c3c6",
+      "target": "r06_wraith_2_3.webp",
+      "target_sha256": "a6a3c6f7841ab7aa703351655a14be6671c58a21b88d275830487305ad9f042f",
+      "face": 2,
+      "frame": 3,
+      "provenance": "DERIVED_EXISTING_NPC_ART_NONCANON"
+    },
+    {
+      "source": "npc_4_3.webp",
+      "source_sha256": "4df65b8a60a9d224c37d3b984b3adefaf6ddea9bae1ec51a9776fc6387ed3161",
+      "target": "r06_wraith_3_0.webp",
+      "target_sha256": "009fb35b4d9ec1c62595a73dda77db5f7f57a68b5a468bb2605767a0faf0d8f9",
+      "face": 3,
+      "frame": 0,
+      "provenance": "DERIVED_EXISTING_NPC_ART_NONCANON"
+    },
+    {
+      "source": "npc_4_3.webp",
+      "source_sha256": "4df65b8a60a9d224c37d3b984b3adefaf6ddea9bae1ec51a9776fc6387ed3161",
+      "target": "r06_wraith_3_1.webp",
+      "target_sha256": "c612b423d3de648f72a6b36c2fac335fe04377d25d1d010edc8f8bb5faee2724",
+      "face": 3,
+      "frame": 1,
+      "provenance": "DERIVED_EXISTING_NPC_ART_NONCANON"
+    },
+    {
+      "source": "npc_4_3.webp",
+      "source_sha256": "4df65b8a60a9d224c37d3b984b3adefaf6ddea9bae1ec51a9776fc6387ed3161",
+      "target": "r06_wraith_3_2.webp",
+      "target_sha256": "f62626ffb22a8adcf9fd39288bdbf507f938bc344457ff619bd72e524dfe2c8f",
+      "face": 3,
+      "frame": 2,
+      "provenance": "DERIVED_EXISTING_NPC_ART_NONCANON"
+    },
+    {
+      "source": "npc_4_3.webp",
+      "source_sha256": "4df65b8a60a9d224c37d3b984b3adefaf6ddea9bae1ec51a9776fc6387ed3161",
+      "target": "r06_wraith_3_3.webp",
+      "target_sha256": "66adf5d07a8c10b3f2734da3bb2d019f669a3ec1ab517159bf289bf5c116886c",
+      "face": 3,
+      "frame": 3,
+      "provenance": "DERIVED_EXISTING_NPC_ART_NONCANON"
+    }
+  ]
+}

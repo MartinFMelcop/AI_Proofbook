@@ -1,0 +1,188 @@
+{
+  "checks": {
+    "c17_cpp20": {
+      "PASS": true,
+      "abi": 5,
+      "revision": 1,
+      "suite": "c17_to_cpp20_r05"
+    },
+    "camera": {
+      "state": "PASS",
+      "suite": "camera_four_views",
+      "views": 4
+    },
+    "current_CPP_WASM_events": 121,
+    "derived_boss_motion_frames": 18,
+    "derived_npc_motion_frames": 48,
+    "derived_wraith_frames": 16,
+    "historic_WASM_events": {
+      "R01": 100,
+      "R02": 116,
+      "R03": 121,
+      "R04": 121
+    },
+    "python_testcases": 205,
+    "skia_bosses": [
+      {
+        "angle": 0,
+        "boss": 1,
+        "bytes": 1193358,
+        "file": "R06_BOSS_1.png",
+        "revision": 55,
+        "state_unchanged": true,
+        "threat_radius": 1
+      },
+      {
+        "angle": 90,
+        "boss": 2,
+        "bytes": 1220543,
+        "file": "R06_BOSS_2.png",
+        "revision": 81,
+        "state_unchanged": true,
+        "threat_radius": 2
+      },
+      {
+        "angle": 180,
+        "boss": 3,
+        "bytes": 1318649,
+        "file": "R06_BOSS_3.png",
+        "revision": 104,
+        "state_unchanged": true,
+        "threat_radius": 1
+      }
+    ],
+    "skia_game_views": [
+      {
+        "angle": 0,
+        "bytes": 1577968,
+        "file": "R06_GAME_VIEW_0.png",
+        "title": "A Estrada do Sul"
+      },
+      {
+        "angle": 90,
+        "bytes": 1518202,
+        "file": "R06_GAME_VIEW_1.png",
+        "title": "A Estrada do Sul"
+      },
+      {
+        "angle": 180,
+        "bytes": 1512739,
+        "file": "R06_GAME_VIEW_2.png",
+        "title": "A Estrada do Sul"
+      },
+      {
+        "angle": 270,
+        "bytes": 1573523,
+        "file": "R06_GAME_VIEW_3.png",
+        "title": "A Estrada do Sul"
+      }
+    ],
+    "skia_motion_frames": [
+      {
+        "angle": 0,
+        "bytes": 1577968,
+        "file": "R06_MOTION_FRAME_0.png",
+        "time": 2500,
+        "title": "A Estrada do Sul"
+      },
+      {
+        "angle": 0,
+        "bytes": 1578770,
+        "file": "R06_MOTION_FRAME_1.png",
+        "time": 2610,
+        "title": "A Estrada do Sul"
+      },
+      {
+        "angle": 0,
+        "bytes": 1578779,
+        "file": "R06_MOTION_FRAME_2.png",
+        "time": 2720,
+        "title": "A Estrada do Sul"
+      },
+      {
+        "angle": 0,
+        "bytes": 1578761,
+        "file": "R06_MOTION_FRAME_3.png",
+        "time": 2830,
+        "title": "A Estrada do Sul"
+      }
+    ],
+    "sqlite_journal": {
+      "events": 121,
+      "head": "a37bf4822f3815f945e3fd5ac13d8ed88d04b7f681e7d6bec439823dd84b499d",
+      "revision": 121,
+      "status": "PASS"
+    },
+    "ui_simulated": {
+      "PASS": true,
+      "authorityRevision": 1,
+      "draws": 590,
+      "orientationCycles": 4,
+      "suite": "world_r05_ui_wasm_mock_canvas"
+    },
+    "unchanged_R05_sources": {
+      "core/world_r05.cpp": "4cfe6d912f831326c2289a64cd0c912f4869ab1d2263aba8cd2e2ecc201275e3",
+      "core/world_r05.h": "53bdba1ebe1a3d265dfc852242bda1d8108c92efe8e845f4275b0195ae10fa51",
+      "site/app.js": "2a89110c78d21dab55f905ffac2d822bcb37984af9879941d2f272d04b1ce0c6",
+      "site/assets/opening_animatic.mp4": "3534f226398ea0fd297fbd0324d1747bf35ad2b8d85f4516d4478128c1b11e9c",
+      "site/assets/world/npc_1_0.webp": "752b9cc7b285e2e4555734e7f2ad294a35b31093893b67ef64666a1150184732",
+      "site/assets/world/r04_apothecary.webp": "82bf40cc71ca8cb37d340e8cfc8dca70d66134cb486f268e09bf8cc2d1462390",
+      "site/assets/world/r04_cottage.webp": "f6f464c9919c70fe02e6a5ed406047ae18f1112098f21963438459ed46b8e7a3",
+      "site/assets/world/r04_forge.webp": "7d1a1171cce7973e12107d56109550b11fd3b9c5bd2e125765c394bd1d5a7eba",
+      "site/assets/world/r04_guardian_boss.webp": "359fcb8dcdfd85197981742953589afecaf7c1f5772aad45483b91706d26e978",
+      "site/assets/world/r04_wisp.webp": "df67bdc02e1a8d0f7a69ac22aa942234c47fdefb4deed213372f3341e1e9587b"
+    },
+    "visual_deltas_not_quality_scores": {
+      "0": {
+        "percent_changed_rgb_l1_gt18": 0.004,
+        "r06_png_bytes": 1577968
+      },
+      "1": {
+        "percent_changed_rgb_l1_gt18": 0.006,
+        "r06_png_bytes": 1518202
+      },
+      "2": {
+        "percent_changed_rgb_l1_gt18": 0.005,
+        "r06_png_bytes": 1512739
+      },
+      "3": {
+        "percent_changed_rgb_l1_gt18": 0.011,
+        "r06_png_bytes": 1573523
+      },
+      "boss_2_percent_changed": 0.969,
+      "motion": {
+        "1": 0.535,
+        "2": 0.703,
+        "3": 0.816
+      }
+    }
+  },
+  "constraints": {
+    "art_assets": "original R04 structures preserved as rendered, R05 rejected geometry remains internal only",
+    "bosses": "B01 B02 proposed; B03 Rave Masters separate; NONE approved",
+    "class_kits": "21 research only; 441 selection configurations, NO canon or balance",
+    "current_owner": "world_r05.cpp ABI5 UNCHANGED",
+    "multiplayer": "not implemented",
+    "opening": "18 sec animatic unchanged, NOT final",
+    "rights": "original generated sources and deterministic derived studies only, final rights review pending"
+  },
+  "date": "2026-11-15",
+  "schema": "mmai.product.v1.r06.qa.v1",
+  "sha256": {
+    "docs/R06_MOTION_RECEIPTS.json": "6d5d3efa60135ddf5e87de088076c99c2b41988bec3becc3f7a9f12e634b5856",
+    "docs/R06_WRAITH_RECEIPTS.json": "91965aeffa34ab52a1b08b094aa3e4268c82e64a3c3b2ce69e1264a737ca7ff9",
+    "site/ambience_r06.js": "fe6c129c548264d60f5e8beb8da84ce3b615d4ddc3b4af7d2493db3d5f68fddd",
+    "site/product.wasm": "ee34bcf284951c79fce076c808140a96fc376ac34c29afbddd1ea6ba67e06ba7",
+    "site/world.js": "9243ab83fedab8cc9d929ac53c1adf9f9750705126cb7d62eee1182a8ce61d39"
+  },
+  "status": {
+    "Windows": "NOT_RUN",
+    "art": "ART_REVIEW_PENDING",
+    "engineering": "LAB_PASS",
+    "facades_4_authored_painted": "NOT_PRODUCED_IMAGE_GENERATION_FAILED",
+    "new_boss_art": "DERIVED_STUDY_NOT_CANON",
+    "player_test": "NOT_REQUESTED",
+    "product": "PRODUCT_NO_GO",
+    "real_browser": "NOT_RUN"
+  }
+}
