@@ -5,8 +5,8 @@
   "product": "Virgo Diamond: The North Star",
   "status": {
     "integration": "INTERNAL_PREPRODUCTION",
-    "technical": "R15_257_PYTHON_PASS_691_GRAPHICAL_NODE_CHECKS_121_WASM_NATIVE_458_HISTORICAL_WASM_24_SKIA_FRAMES_13_EXACT_SOURCE_READBACK",
-    "art": "ART_REVIEW_PENDING_0_OF_92_R14_ASSETS_AUTHOR_APPROVED",
+    "technical": "R16_257_PYTHON_983_GRAPHICAL_NODE_121_CURRENT_WASM_458_HISTORIC_WASM_24_SKIA_FRAMES_19_EXACT_SOURCE",
+    "art": "ART_REVIEW_PENDING_R16_EDGE_DERIVATIVES_0_APPROVED_NO_AESTHETIC_GO",
     "product": "PRODUCT_NO_GO",
     "publication": "NOT_AUTHORIZED"
   },
@@ -320,7 +320,47 @@
     "r15_reproducibility": "FULL_INHERITED_SUITE_PASS_AND_INDIVIDUAL_SKIA_AND_NODE_PASS;ONE_MONOLITHIC_R15_CALL_TIMED_OUT_AND_IS_NOT_PASS",
     "r15_chromium_windows_gpu": "NOT_RUN",
     "r15_new_generated_paintings": 0,
-    "r15_user_art_approval": "PENDING"
+    "r15_user_art_approval": "PENDING",
+    "r16_python_tests": 257,
+    "r16_visual_node_assertions": {
+      "R07": 44,
+      "R12": 67,
+      "R13": 26,
+      "R14": 191,
+      "R15": 363,
+      "R16": 292,
+      "total": 983
+    },
+    "r16_cpp_wasm_current": 121,
+    "r16_historical_actions": {
+      "R04": 121,
+      "R03": 121,
+      "R02": 116,
+      "R01": 100
+    },
+    "r16_c17": "COMPILED_EXECUTED_PASS_IN_VERIFY_R12",
+    "r16_sqlite": "R05_121_EVENTS_VERIFIED",
+    "r16_skia_frames_actual_world_js": 24,
+    "r16_camera_views": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "r16_boss_native_accepted_defend": 3,
+    "r16_native_boss_stage_events": 12,
+    "r16_unchanged_hashes_count": 108,
+    "r16_default_fallback_pixel_exact_four": true,
+    "r16_camera_visual_change_gt18_pct": [
+      0.1978,
+      0.1978,
+      0.1978,
+      0.1975
+    ],
+    "r16_art_quality_assessment": "VISUAL_CHANGE_SMALL_NOT_ARTISTIC_SATISFACTION",
+    "r16_windows_chromium_gpu": "NOT_RUN",
+    "r16_art_human": "NOT_APPROVED",
+    "r16_source_readback": "19_OF_19_EXACT"
   },
   "experience_requirements": [
     "studio_brand",
@@ -387,17 +427,17 @@
     }
   ],
   "gates": {
-    "visual_style": "R15_NATIVE_SYNC_ART_CONSUMER_PASS_IMAGE_PIXEL_REPAINT_FAILED",
+    "visual_style": "R16_MATTE_EDGES_REFINED_ONLY_NO_NEW_PAINTED_REDESIGN",
     "opening_final": "ANIMATIC_18S_ONLY",
     "native_world_four_view": "FOUR_SKIA_CANDIDATE_VIEWS_0_90_180_270_DEFAULT_UNCHANGED",
     "classes_and_skills": "21_RESEARCH_KITS_441_PAIRINGS_NOT_CANON",
     "professions_quests": "CXX_MECHANICAL_MINING_SMELTING_UPGRADE_NOT_CANON",
-    "boss_behavior": "R15_3_CPP_BOSSES_TELEGRAPH_POST_ADJUDICATION_SEQUENCE_VERIFIED_NONCANON",
+    "boss_behavior": "R16_NATIVE_SYNCHRONIZED_48_BOSS_FRAMES_ALPHA_CLEANUP_NONCANON",
     "standard_user_windows": "NOT_RUN",
     "owners_C_E_B_D": "PENDING",
-    "beings": "R15_R14_WALK_CYCLES_ANCHORED_TO_CXX_ACCEPTED_MOVEMENT_NOT_RIGS",
+    "beings": "R16_PHYSICAL_ALPHA_CORRECTION_ON_32_PAINTED_CHARACTER_FRAMES_NO_RIG",
     "windows": "NOT_RUN",
-    "facade_art": "R14_12_NEW_CANDIDATE_PAINTINGS_0_AUTHOR_APPROVED_R15_RENDER_ANCHORS_ONLY",
+    "facade_art": "R16_12_EDGE_REFINED_DERIVATIVES_R14_ORIGINAL_PAINTINGS_0_AUTHOR_APPROVED_ROOFS_DOORS_CHIMNEYS_INCOHERENT",
     "being_animation": "R06_DERIVED_MOTION_NOT_FINAL_RIG",
     "boss_art": "R06_DERIVED_ONLY_NONCANON",
     "facade_preflight": "12_DISTINCT_PHYSICAL_PAINTINGS_ANCHOR_CHECK_PASS_LICENSE_AND_AUTHOR_ACK_PENDING"
@@ -421,7 +461,7 @@
     "vea": false,
     "unity": false
   },
-  "current_revision": "PRODUCT_V1_R15_NATIVE_BOSS_ANIMATION_SYNC_2026-11-15",
+  "current_revision": "PRODUCT_V1_R16_EDGE_REFINED_92_PAINTED_CANDIDATES_2026-11-15",
   "package_previous": {
     "drive_file_id": "1fsbHm8vHKnTD7nj8M-Ua8NbQWbLb8uz0",
     "name": "MMAI_PRODUCT_V1_20261115.zip",
@@ -434,10 +474,10 @@
     "previous_owner_archived_for_regression": "core/world.cpp and core/product.cpp unchanged by SHA256",
     "client_wasm_abi": 5,
     "save_localstorage_schema": 6,
-    "source_location": "same draft PR #3 source-r15/ 13 text source/test/report files; 34.8MB Drive proof holds 24 real Skia frames and contacts; R14 92 sprites remain reused without duplication",
+    "source_location": "PR #3 source-r16/ 19 verified text files and compact R16 Drive ZIP with 92 edited sprite derivatives, 2 contact screenshots and QA. R14 originals stay untouched.",
     "sql": "Python SQLite journal 116 events is LAB_ONLY, not browser save or MMO database",
     "github_text_sources": "49_PUSHED_AND_READBACK_SAMPLED_7_OF_7_EXACT",
-    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r15/",
+    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r16/",
     "source_commit": "db3633435271687d37764828333650479a4846ef",
     "previous_owners": "R01 + R02 unchanged for independent regression",
     "legacy_binary_versions": [
@@ -737,5 +777,34 @@
     "no_gameplay_authority_in_JS": true,
     "original_client_pixel_exact_fallback": 4,
     "product_final": "PRODUCT_NO_GO"
+  },
+  "r16_delivery": {
+    "mode": "PHYSICAL_SPRITE_EDGE_REFINEMENT_DELTA_AND_SOURCE_WITH_REAL_SKIA_EVIDENCE",
+    "package_drive_file_id": "1DrnhpBbVXmSAIOz2db3OgY92L3UH6EY_",
+    "package_name": "MMAI_PRODUCT_V1_R16_MATTE_DELTA.zip",
+    "package_bytes": 17695228,
+    "sha256_local": "8c833b938fd6140113a364b5cd1449457b6bb94401a857e466ed10d6549316a8",
+    "members": 113,
+    "zip_member_crc_and_sha256": "PASS_ALL_113_LOCAL",
+    "drive_remote_check": "SIZE_AND_PARENT_VERIFIED_REMOTE_BINARY_SHA_NOT_EXECUTED",
+    "last_integral_R06": "1vfOaM9mHEPJpqHklSsyLyUOtxdYz4OwT",
+    "source_art_R14": "1jel3JX7tc0kHwdDTXmfyZl6Qx0y-yDn6",
+    "previous_R15_delta": "1BFf18PcCA8vHBKZMRc1kvmM76gATbhgZ",
+    "source_folder": "source-r16/",
+    "source_files": 19,
+    "source_commit": "4c95cb7c16f469111590fae1a35e9605e70ece00",
+    "source_readback": "19_OF_19_EXACT",
+    "original_R14_WebPs_unchanged": 92,
+    "source_sheets_unchanged": 8,
+    "derived_R16_physical_sprite_files": 92,
+    "physical_rgba_changed_pixels": 3033486,
+    "source_pixels_semantically_repainted": false,
+    "algorithm": "CONSERVATIVE_ALPHA_EDGE_COLOR_DECONTAMINATION_AND_ALPHA_LE_4_RESIDUE_REMOVAL",
+    "preview": "NSR16ArtLab=true_OPT_IN;DEFAULT_FALLBACK_FOUR_VIEWS_EXACTLY_R15",
+    "code_core_gameplay_changed": false,
+    "new_imagegen_art": 0,
+    "imagegen_result": "FAILED_NO_RETRY",
+    "rights_and_art_review": "PENDING",
+    "author_approved_painted_assets": 0
   }
 }
