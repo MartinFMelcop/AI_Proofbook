@@ -1,0 +1,85 @@
+{
+  "art_gate": {
+    "perceptual_detection_is_heuristic_not_proof_of_originality": true,
+    "reason": "12 independent painted views absent",
+    "software_gate_cannot_grant_author_art_approved": true,
+    "status": "BLOCKED"
+  },
+  "date": "2026-11-15",
+  "delivery": {
+    "baseline_drive_r06": "1vfOaM9mHEPJpqHklSsyLyUOtxdYz4OwT",
+    "delta": "source-r08/ in existing PR #3",
+    "full_archive": "NO_NEW_ZIP",
+    "main": "UNCHANGED"
+  },
+  "schema": "mmai.product.v1.r08.qa.v1",
+  "source_recovery": {
+    "VEA_recovery_folder": "1YnCuJBiLPUIdZkozt4FC_Gi_K9JoKr3S: 17 direct children, code/interop/recovery archives; no approved 12-face atlas found among listed files; inner archives not exhaustively inspected",
+    "new_art_generation": "FAILED; no retry",
+    "original_R04_sheet": "one view per building, not a 3x4 atlas"
+  },
+  "status": {
+    "art": "ART_BLOCKED_FACADES",
+    "browser_windows": "NOT_RUN",
+    "human_art_approval": "PENDING",
+    "new_original_paintings": 0,
+    "product": "PRODUCT_NO_GO",
+    "release": "NOT_AUTHORIZED",
+    "requested_original_facades": 12,
+    "source_only_delta": true
+  },
+  "verification": {
+    "c17": "PASS_ABI5",
+    "frozen_engine_ui_art_source_sha_identical": {
+      "core/world_r05.cpp": true,
+      "core/world_r05.h": true,
+      "site/assets/opening_animatic.mp4": true,
+      "site/assets/world/r04_apothecary.webp": true,
+      "site/assets/world/r04_cottage.webp": true,
+      "site/assets/world/r04_forge.webp": true,
+      "site/facades_r07.js": true,
+      "site/index.html": true,
+      "site/product.wasm": true,
+      "site/world.js": true
+    },
+    "historical_wasm_regressions": {
+      "R01": 100,
+      "R02": 116,
+      "R03": 121,
+      "R04": 121
+    },
+    "native_cpp_wasm_parity": 121,
+    "negative_tests": [
+      "rotated/mirrored copy",
+      "recolor of same view",
+      "duplicate hashes",
+      "missing files",
+      "wrong SHA256",
+      "misaligned ground anchor",
+      "unverified rights",
+      "opaque images",
+      "incomplete atlas",
+      "wrong grid",
+      "overwrite refused",
+      "R04 single-side sheet cannot masquerade as atlas"
+    ],
+    "node_facade_checks": 44,
+    "python_unittest": 234,
+    "r08_new_tests": 19,
+    "same_scene_r07_vs_r08_pixel_identical": {
+      "R07_BOSS_1.png": true,
+      "R07_BOSS_2.png": true,
+      "R07_BOSS_3.png": true,
+      "R07_GAME_VIEW_0.png": true,
+      "R07_GAME_VIEW_1.png": true,
+      "R07_GAME_VIEW_2.png": true,
+      "R07_GAME_VIEW_3.png": true
+    },
+    "skia_real_canvas": {
+      "boss": 3,
+      "motion": 4,
+      "world": 4
+    },
+    "sqlite_journal": "PASS_121_EVENTS"
+  }
+}

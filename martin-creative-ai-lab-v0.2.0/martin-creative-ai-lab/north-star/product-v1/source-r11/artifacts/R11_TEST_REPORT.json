@@ -1,0 +1,83 @@
+{
+  "approved_artwork_count": 0,
+  "art_status": "PENDING_AUTHOR_AESTHETICS_AND_PROVENANCE_REVIEW",
+  "asset_sha256": {
+    "apothecary": [
+      "43ed14fc7f134cb1a1905202f5164f295e1d5d3f1f55eded2a07d93da403dacf",
+      "13cd88342753daf9c2e304421e58c6651c3f5bc79fcbbd0ffe4d92cb943f584e",
+      "5c60062712b3d3ed82dae14254c5dbe32f443285f52423682898355db38ba1b6",
+      "ea6e29ae7a775a50f7eacd128e2176474164a97ffc5b604514fecfba6a683d9a"
+    ],
+    "cottage": [
+      "de79a45f624a7bdbf69eab5ebc48bd5c08bf3226e74535baa8561692c0aca872",
+      "3c358e7553ad9b7a282dfe3aaf2950ebcd18305bf65697aa0f8060b6dd23004c",
+      "9ebbb5242a8898e0afbbd3cac6c97147013a99426c4d6ed0fbe3602a90d40121",
+      "938acc41ac5974af4caa47f37dc6e97f7b0cca822ea304920d00b1dcec990138"
+    ],
+    "forge": [
+      "6a95431cf6c9362cf55f15463293cfb865716b057b97cd2cd9825001aeee9fa4",
+      "65e31e09904f913dab18901cf24d4a0dd8deb0416a6b3873c11e9cb4b9a3df19",
+      "46f4673da5e66818a73e31b6fc43783ab5d13337d82e757855584a4a505d6eb8",
+      "71ed90d59bffc950bf8437f6819bd0595112272dc5b34aed66f32047d99c2f44"
+    ]
+  },
+  "c17": "PASS",
+  "canvas_stats": {
+    "0": {
+      "fallback_matches_R10_pixelwise": true,
+      "r11_png_bytes": 1587280,
+      "rgb_L1_gt18_pixel_pct_R10_to_R11": 5.6367
+    },
+    "180": {
+      "fallback_matches_R10_pixelwise": true,
+      "r11_png_bytes": 1531511,
+      "rgb_L1_gt18_pixel_pct_R10_to_R11": 5.4107
+    },
+    "270": {
+      "fallback_matches_R10_pixelwise": true,
+      "r11_png_bytes": 1574421,
+      "rgb_L1_gt18_pixel_pct_R10_to_R11": 5.9292
+    },
+    "90": {
+      "fallback_matches_R10_pixelwise": true,
+      "r11_png_bytes": 1529723,
+      "rgb_L1_gt18_pixel_pct_R10_to_R11": 6.2005
+    }
+  },
+  "core_abi": 5,
+  "cpp_wasm_accepted_intents": {
+    "r01": 100,
+    "r02": 116,
+    "r03": 121,
+    "r04": 121,
+    "r05": 121
+  },
+  "four_facing_billboard_art": "CANDIDATE",
+  "historic_code_hashes_unchanged": {
+    "core/world_r05.cpp": true,
+    "core/world_r05.h": true,
+    "site/assets/opening_animatic.mp4": true,
+    "site/camera4.js": true,
+    "site/facades_r07.js": true,
+    "site/product.wasm": true
+  },
+  "limitations": [
+    "No final art owner ACK",
+    "Building geometry/four side consistency needs human visual review",
+    "Not animated boss/being rigs",
+    "Normal Windows browser not run",
+    "No multiplayer",
+    "AI painting generation itself not a gameplay screenshot"
+  ],
+  "node_facade_contract_assertions": 44,
+  "original_painted_views": 12,
+  "product_status": "PRODUCT_NO_GO",
+  "python_tests": 240,
+  "renderer": "Actual site/world.js with Node Skia Canvas, no Chromium/Windows",
+  "schema": "mmai.product.v1.r11.visual.candidate.qa.v1",
+  "skia_views": 4,
+  "source_sheets": 3,
+  "sqlite_historical_journal": "VERIFIED_R05_121_EVENTS",
+  "technical_status": "PASS",
+  "twelve_output_asset_sha256_unique": true
+}

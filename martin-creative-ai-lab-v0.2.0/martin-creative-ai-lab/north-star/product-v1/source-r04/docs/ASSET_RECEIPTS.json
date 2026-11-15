@@ -1,0 +1,106 @@
+[
+  {
+    "name": "brand.png",
+    "source": "ChatGPT ImageGen 2026-11-15 / original generation",
+    "sha256": "4cd3a531f51ff94923efd4d23e6ba712641076e7803d16252fc2125e9817400c",
+    "review": "AUTHOR_ART_REVIEW_PENDING",
+    "gameplay_rendered": false,
+    "license_gate": "PENDING_PUBLICATION_RIGHTS_CHECK"
+  },
+  {
+    "name": "title.png",
+    "source": "ChatGPT ImageGen 2026-11-15 / original generation",
+    "sha256": "5fe3eb6a8b7f0835173ae15ff2cc06e3ba46ace6aba2a42856746cf206b35d66",
+    "review": "AUTHOR_ART_REVIEW_PENDING",
+    "gameplay_rendered": false,
+    "license_gate": "PENDING_PUBLICATION_RIGHTS_CHECK"
+  },
+  {
+    "name": "ensemble.png",
+    "source": "ChatGPT ImageGen 2026-11-15 / original generation",
+    "sha256": "e574add9b76c8c5b7b2750627fc0c79a4f99d8c34b0e95c0fefea3ac4b721638",
+    "review": "AUTHOR_ART_REVIEW_PENDING",
+    "gameplay_rendered": false,
+    "license_gate": "PENDING_PUBLICATION_RIGHTS_CHECK"
+  },
+  {
+    "name": "city.png",
+    "source": "ChatGPT ImageGen 2026-11-15 / original generation",
+    "sha256": "78f7ee70304c131956bea2a9821848eaab8a01d1253be7a0886d85f7522ed3af",
+    "review": "AUTHOR_ART_REVIEW_PENDING",
+    "gameplay_rendered": false,
+    "license_gate": "PENDING_PUBLICATION_RIGHTS_CHECK"
+  },
+  {
+    "name": "presentation.png",
+    "source": "ChatGPT ImageGen 2026-11-15 / original generation",
+    "sha256": "e1cc373dbec832f7b27ed0f99372719db1ec91007f3c26e25506ce146019df3a",
+    "review": "AUTHOR_ART_REVIEW_PENDING",
+    "gameplay_rendered": false,
+    "license_gate": "PENDING_PUBLICATION_RIGHTS_CHECK"
+  },
+  {
+    "name": "art_sources/world_props/brazier.png",
+    "source": "P03 historical AI-generated fantasy prop sheet, repurposed as preproduction visual research",
+    "sha256": "fe11181cfc10619cf2b4c5e7f7d1ad64f6b0a9761821f73fc3f4f6a7154140ec",
+    "review": "AUTHOR_ART_REVIEW_PENDING",
+    "camera_views": 1,
+    "rights": "PENDING_RIGHTS_REVIEW",
+    "gameplay_rendered": "CANVAS_CLIENT_ART_PENDING_BROWSER"
+  },
+  {
+    "name": "art_sources/world_props/deadpine.png",
+    "source": "P03 historical AI-generated fantasy prop sheet, repurposed as preproduction visual research",
+    "sha256": "61ab9d28fea093bd9bce495a4defdf9d2a612ce306a006ecc2d050fab1d1dac9",
+    "review": "AUTHOR_ART_REVIEW_PENDING",
+    "camera_views": 1,
+    "rights": "PENDING_RIGHTS_REVIEW",
+    "gameplay_rendered": "CANVAS_CLIENT_ART_PENDING_BROWSER"
+  },
+  {
+    "name": "art_sources/world_props/runestone.png",
+    "source": "P03 historical AI-generated fantasy prop sheet, repurposed as preproduction visual research",
+    "sha256": "4b2ebab7c576e1caf06fa5d50b2a41ccac4bd8890196f40693512807384d3f95",
+    "review": "AUTHOR_ART_REVIEW_PENDING",
+    "camera_views": 1,
+    "rights": "PENDING_RIGHTS_REVIEW",
+    "gameplay_rendered": "CANVAS_CLIENT_ART_PENDING_BROWSER"
+  },
+  {
+    "name": "art_sources/world_props/wagon.png",
+    "source": "P03 historical AI-generated fantasy prop sheet, repurposed as preproduction visual research",
+    "sha256": "4c22e34822538f4eceb07897678fcbbc50dd121231789a1c8b017ea890a0255e",
+    "review": "AUTHOR_ART_REVIEW_PENDING",
+    "camera_views": 1,
+    "rights": "PENDING_RIGHTS_REVIEW",
+    "gameplay_rendered": "CANVAS_CLIENT_ART_PENDING_BROWSER"
+  },
+  {
+    "name": "art_sources/world_props/watchtower.png",
+    "source": "P03 historical AI-generated fantasy prop sheet, repurposed as preproduction visual research",
+    "sha256": "e639b949222d46cf3c9f3bb58774b4d49f641ee33e02dba2e05b2e19bedb730d",
+    "review": "AUTHOR_ART_REVIEW_PENDING",
+    "camera_views": 1,
+    "rights": "PENDING_RIGHTS_REVIEW",
+    "gameplay_rendered": "CANVAS_CLIENT_ART_PENDING_BROWSER"
+  },
+  {
+    "name": "art_sources/world_props/well.png",
+    "source": "P03 historical AI-generated fantasy prop sheet, repurposed as preproduction visual research",
+    "sha256": "40878649a918f35c6e6a633168b2f0fcb59eb00d883a29bc895c14be371b40eb",
+    "review": "AUTHOR_ART_REVIEW_PENDING",
+    "camera_views": 1,
+    "rights": "PENDING_RIGHTS_REVIEW",
+    "gameplay_rendered": "CANVAS_CLIENT_ART_PENDING_BROWSER"
+  },
+  {
+    "name": "art_sources/hero_four_view_sheet_source.png",
+    "source": "ChatGPT ImageGen 2026-11-15 2x2 character-facing sheet; generated specifically for R01",
+    "sha256": "466ca584fdde7f421c92c7315e33abe159861b9cb33cd4e6fb5500df37248818",
+    "review": "AUTHOR_ART_REVIEW_PENDING",
+    "camera_views": 4,
+    "derived": "site/assets/world/hero_0..3.webp",
+    "rights": "PENDING_RIGHTS_REVIEW",
+    "gameplay_rendered": "CANVAS_CLIENT_ART_PENDING_BROWSER"
+  }
+]

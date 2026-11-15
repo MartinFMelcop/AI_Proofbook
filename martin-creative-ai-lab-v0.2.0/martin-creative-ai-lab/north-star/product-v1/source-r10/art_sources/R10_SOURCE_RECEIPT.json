@@ -1,0 +1,298 @@
+{
+  "schema": "mmai.r10.generated-art-preflight.v1",
+  "state": "ART_CANDIDATE_UNREVIEWED",
+  "artwork_generated_in_this_conversation": true,
+  "source_approval": "PENDING_AUTHOR",
+  "image_generation_provenance": "OpenAI image generation in user conversation 2026-11-15",
+  "rights_independently_verified": false,
+  "buildings": {
+    "cottage": {
+      "source_image": "cottage_source.png",
+      "faces": [
+        {
+          "angle": 0,
+          "source_quadrant": [
+            0,
+            0
+          ],
+          "source_sha256": "0963c6d7bbde086d07ced26f6a7402baad11e5aeb786da5fffe6f26a490e8f85",
+          "cutout_png": "R10_cottage_0.png",
+          "png_sha256": "61d80e4cb805a8e542ff30797553c49af327619cc746e8cf52bd4e7538e05c1b",
+          "artwork_bbox": [
+            41,
+            17,
+            601,
+            588
+          ],
+          "target_bbox": [
+            51,
+            64,
+            588,
+            612
+          ]
+        },
+        {
+          "angle": 90,
+          "source_quadrant": [
+            0,
+            1
+          ],
+          "source_sha256": "0963c6d7bbde086d07ced26f6a7402baad11e5aeb786da5fffe6f26a490e8f85",
+          "cutout_png": "R10_cottage_1.png",
+          "png_sha256": "709fd02b21cc4e06b6d45514bdf1d890768d2a0f196919232d7614385bbf6136",
+          "artwork_bbox": [
+            56,
+            23,
+            579,
+            578
+          ],
+          "target_bbox": [
+            62,
+            64,
+            578,
+            612
+          ]
+        },
+        {
+          "angle": 180,
+          "source_quadrant": [
+            1,
+            0
+          ],
+          "source_sha256": "0963c6d7bbde086d07ced26f6a7402baad11e5aeb786da5fffe6f26a490e8f85",
+          "cutout_png": "R10_cottage_2.png",
+          "png_sha256": "70072d4a7738ccc961cb5c015a7908ce974550b71a76fa559af700846871a717",
+          "artwork_bbox": [
+            42,
+            18,
+            610,
+            580
+          ],
+          "target_bbox": [
+            51,
+            80,
+            589,
+            612
+          ]
+        },
+        {
+          "angle": 270,
+          "source_quadrant": [
+            1,
+            1
+          ],
+          "source_sha256": "0963c6d7bbde086d07ced26f6a7402baad11e5aeb786da5fffe6f26a490e8f85",
+          "cutout_png": "R10_cottage_3.png",
+          "png_sha256": "2c88ff712016a69079cc7667f612c63982c7bbf5a1b94d44472c31e8699df84d",
+          "artwork_bbox": [
+            46,
+            19,
+            579,
+            577
+          ],
+          "target_bbox": [
+            58,
+            64,
+            581,
+            612
+          ]
+        }
+      ]
+    },
+    "forge": {
+      "source_image": "forge_source.png",
+      "faces": [
+        {
+          "angle": 0,
+          "source_quadrant": [
+            0,
+            0
+          ],
+          "source_sha256": "316ff93843d8a0a477e41b8198399af66024e3c2c85e8883a5942560af0138e2",
+          "cutout_png": "R10_forge_0.png",
+          "png_sha256": "a633a6dc2ceeff404850b8e807188df2277988a8cce459a9f9a7b04d37d10e20",
+          "artwork_bbox": [
+            54,
+            14,
+            626,
+            575
+          ],
+          "target_bbox": [
+            51,
+            84,
+            589,
+            612
+          ]
+        },
+        {
+          "angle": 90,
+          "source_quadrant": [
+            0,
+            1
+          ],
+          "source_sha256": "316ff93843d8a0a477e41b8198399af66024e3c2c85e8883a5942560af0138e2",
+          "cutout_png": "R10_forge_1.png",
+          "png_sha256": "4f702671c2d69ca39c03370a569944e077a6857e617ba28ecdec097b9e090e97",
+          "artwork_bbox": [
+            52,
+            18,
+            579,
+            547
+          ],
+          "target_bbox": [
+            51,
+            72,
+            589,
+            612
+          ]
+        },
+        {
+          "angle": 180,
+          "source_quadrant": [
+            1,
+            0
+          ],
+          "source_sha256": "316ff93843d8a0a477e41b8198399af66024e3c2c85e8883a5942560af0138e2",
+          "cutout_png": "R10_forge_2.png",
+          "png_sha256": "c20aeb2350ec0b736d598c39cdd6b7fc9574c8e1a4b878ab14b7c3fadba48870",
+          "artwork_bbox": [
+            41,
+            0,
+            609,
+            564
+          ],
+          "target_bbox": [
+            51,
+            78,
+            589,
+            612
+          ]
+        },
+        {
+          "angle": 270,
+          "source_quadrant": [
+            1,
+            1
+          ],
+          "source_sha256": "316ff93843d8a0a477e41b8198399af66024e3c2c85e8883a5942560af0138e2",
+          "cutout_png": "R10_forge_3.png",
+          "png_sha256": "a26c92c394a1979bea1b17c547159c71c258b7b81d474847902739f68f4fb15a",
+          "artwork_bbox": [
+            40,
+            0,
+            585,
+            555
+          ],
+          "target_bbox": [
+            51,
+            64,
+            589,
+            612
+          ]
+        }
+      ]
+    },
+    "apothecary": {
+      "source_image": "apothecary_source.png",
+      "faces": [
+        {
+          "angle": 0,
+          "source_quadrant": [
+            0,
+            0
+          ],
+          "source_sha256": "12910f1941cdc79b893646446ffe36f9b80af0b31fdcc91e456c2b2b2bec7d7c",
+          "cutout_png": "R10_apothecary_0.png",
+          "png_sha256": "53acab8fc1ad4df23a270c9cc7b6761d609226f234a8d934aff8d033247887e6",
+          "artwork_bbox": [
+            66,
+            9,
+            589,
+            569
+          ],
+          "target_bbox": [
+            64,
+            64,
+            576,
+            612
+          ]
+        },
+        {
+          "angle": 90,
+          "source_quadrant": [
+            0,
+            1
+          ],
+          "source_sha256": "12910f1941cdc79b893646446ffe36f9b80af0b31fdcc91e456c2b2b2bec7d7c",
+          "cutout_png": "R10_apothecary_1.png",
+          "png_sha256": "226039804ff18b1742215c226676d5e3b48f9396d99252c442f019deb7c480fa",
+          "artwork_bbox": [
+            86,
+            11,
+            586,
+            568
+          ],
+          "target_bbox": [
+            74,
+            64,
+            566,
+            612
+          ]
+        },
+        {
+          "angle": 180,
+          "source_quadrant": [
+            1,
+            0
+          ],
+          "source_sha256": "12910f1941cdc79b893646446ffe36f9b80af0b31fdcc91e456c2b2b2bec7d7c",
+          "cutout_png": "R10_apothecary_2.png",
+          "png_sha256": "2c9a0adfabbdeaf33964172b4894aa80a88cb5c2c1a574741dccb0a298b29ea0",
+          "artwork_bbox": [
+            68,
+            0,
+            588,
+            548
+          ],
+          "target_bbox": [
+            60,
+            64,
+            580,
+            612
+          ]
+        },
+        {
+          "angle": 270,
+          "source_quadrant": [
+            1,
+            1
+          ],
+          "source_sha256": "12910f1941cdc79b893646446ffe36f9b80af0b31fdcc91e456c2b2b2bec7d7c",
+          "cutout_png": "R10_apothecary_3.png",
+          "png_sha256": "50a284d48f136ae6652a88eea0bbbaf247de24a6ed825edaea51d7fb5e27eed7",
+          "artwork_bbox": [
+            87,
+            0,
+            577,
+            557
+          ],
+          "target_bbox": [
+            79,
+            64,
+            561,
+            612
+          ]
+        }
+      ]
+    }
+  },
+  "no_rotated_or_mirrored_views": true,
+  "atlas": {
+    "path": "R10_SOURCE_ATLAS_3x4.png",
+    "size": [
+      2560,
+      1920
+    ],
+    "sha256": "25cadf5ca172872e207ab6efc71161c7eed7a007bdbb05b281441022bf0483c8"
+  }
+}

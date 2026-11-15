@@ -1,0 +1,86 @@
+{
+  "schema": "mmai.r08.fourview.atlas-candidate.v1",
+  "state": "ART_CANDIDATE_UNREVIEWED",
+  "origin": {
+    "creator": "OpenAI image generation for author project",
+    "origin": "User conversation, 2026-11-15; three art sheets original four painted orientations per building"
+  },
+  "buildings": {
+    "1": {
+      "name": "cottage",
+      "faces": [
+        "r07_cottage_0",
+        "r07_cottage_1",
+        "r07_cottage_2",
+        "r07_cottage_3"
+      ],
+      "sha256": [
+        "c8430635b5c67c5f0c3126c69431ede3f4503af70fd13aa4127e542fbba6114e",
+        "8c6abe4f5307c7391aa8f47511d1cbb9746669deb7ab6db2adb48da5c0e58425",
+        "bbbeb07133591a9a7484b99e7422f8e843a510c82280cc1098cc2b77183391de",
+        "2dff045b0a18b53fbb30e5bc7ea9dc7ab099ed29899c4bad889ca8e742ac3605"
+      ],
+      "license_checked": false,
+      "scale_anchor_reviewed": false,
+      "source_atlas_sha256": "25cadf5ca172872e207ab6efc71161c7eed7a007bdbb05b281441022bf0483c8",
+      "source_cell_order": [
+        "0",
+        "90",
+        "180",
+        "270"
+      ]
+    },
+    "2": {
+      "name": "forge",
+      "faces": [
+        "r07_forge_0",
+        "r07_forge_1",
+        "r07_forge_2",
+        "r07_forge_3"
+      ],
+      "sha256": [
+        "3004af085cd190edc1e6b3352692fa1e625e2d6297bf4e13e25acbf745ef2537",
+        "d08c5c347ea650907efd4864a982b658717ed7ba37388488abc7ea8b68d7b613",
+        "9fa4f195109644d621baa704fa9d490f6c0f6a0d60fc97607933ad4a10be8841",
+        "8fe4f9d79d5c6f409681dbf1686c0aad6c80d461b69532867902c414d4309ba4"
+      ],
+      "license_checked": false,
+      "scale_anchor_reviewed": false,
+      "source_atlas_sha256": "25cadf5ca172872e207ab6efc71161c7eed7a007bdbb05b281441022bf0483c8",
+      "source_cell_order": [
+        "0",
+        "90",
+        "180",
+        "270"
+      ]
+    },
+    "3": {
+      "name": "apothecary",
+      "faces": [
+        "r07_apothecary_0",
+        "r07_apothecary_1",
+        "r07_apothecary_2",
+        "r07_apothecary_3"
+      ],
+      "sha256": [
+        "ddf3df6ae38ef4ae8b388a3daa18b55f29175b55764520012db40f022d01abf5",
+        "5c3c31c0ff3eb0f942a7ae88e64a9e0209ecd68f508c2b99ebd4cf726dd6ead7",
+        "c6a97d2c35d18e4c2963ecd2a988db05b892eb46037f5d16a1df0dcdb3e7f45e",
+        "e0d206bd7200edb946d469145bc2ca97a5c5fc0dc1d77656d77835a3623c702c"
+      ],
+      "license_checked": false,
+      "scale_anchor_reviewed": false,
+      "source_atlas_sha256": "25cadf5ca172872e207ab6efc71161c7eed7a007bdbb05b281441022bf0483c8",
+      "source_cell_order": [
+        "0",
+        "90",
+        "180",
+        "270"
+      ]
+    }
+  },
+  "art_quality_approved": false,
+  "copyright_verified": false,
+  "ready_for_game_render": false,
+  "warning": "12 cutouts were COPIED from a source artwork; four coherent perspectives NOT proven. Owner must inspect each in gameplay."
+}

@@ -1,0 +1,137 @@
+{
+  "schema": "mmai.product_v1.r15.owner_synchronized_painted_visual.v1",
+  "technical": "PASS_AS_TESTED",
+  "art": "ART_REVIEW_PENDING",
+  "product": "PRODUCT_NO_GO",
+  "new_images_generated": 0,
+  "image_generation": "FAILED_NO_RETRY",
+  "pixels_of_92_R14_assets_modified": 0,
+  "corrected_in_canvas": "92_ALPHA_MEASURED_GROUND_ANCHORS_AND_BOSS_NATIVE_PHASE_SYNCHRONIZATION",
+  "source_sheets_unchanged": 8,
+  "sprite_webp_unchanged": 92,
+  "python_tests": 257,
+  "node_graphical_checks": {
+    "R07": 44,
+    "R12": 67,
+    "R13": 26,
+    "R14": 191,
+    "R15": 363
+  },
+  "native_cpp20_c17_abi5": "PASS_COMPILATION_AND_EXECUTION_IN_VERIFY_R12",
+  "cpp_wasm_actions": {
+    "R05": 121,
+    "R04": 121,
+    "R03": 121,
+    "R02": 116,
+    "R01": 100
+  },
+  "sqlite_121": "VERIFIED_BY_VERIFY_R12",
+  "real_renderer": "ACTUAL_SITE_WORLD_JS_WITH_CXX_ABI5_PRODUCT_WASM_AND_SKIA_CPU",
+  "browser_windows_gpu": "NOT_RUN_BROWSER_BINARY_UNAVAILABLE",
+  "r15_rendered_frame_count": 24,
+  "four_angles": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "four_angle_pixel_changes_not_quality_score": {
+    "0": {
+      "changed_rgb_gt18_percent": 8.8144,
+      "mean_rgb_abs": 4.5294
+    },
+    "90": {
+      "changed_rgb_gt18_percent": 8.8503,
+      "mean_rgb_abs": 4.6061
+    },
+    "180": {
+      "changed_rgb_gt18_percent": 8.3032,
+      "mean_rgb_abs": 4.2273
+    },
+    "270": {
+      "changed_rgb_gt18_percent": 8.5512,
+      "mean_rgb_abs": 4.4109
+    }
+  },
+  "default_fallback_matches_R14": {
+    "0": true,
+    "90": true,
+    "180": true,
+    "270": true
+  },
+  "boss_true_cpp_native_transition_sequence": {
+    "1": {
+      "changes_between_stages_gt18_pct": [
+        3.0712,
+        4.313,
+        3.8563
+      ],
+      "native_intents": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "sprite_cols": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "2": {
+      "changes_between_stages_gt18_pct": [
+        3.0654,
+        4.9971,
+        3.7484
+      ],
+      "native_intents": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "sprite_cols": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "3": {
+      "changes_between_stages_gt18_pct": [
+        4.8624,
+        6.5776,
+        5.9876
+      ],
+      "native_intents": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "sprite_cols": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "player_accepted_movement_frame_changes": {
+    "1": 1.1125,
+    "2": 1.4274,
+    "3": 1.5208
+  },
+  "unchanged_sha256_files": 109,
+  "all_immutables_sha256_match": true,
+  "limitations": [
+    "No newly painted roofs, chimneys, doors or silhouettes; this round could not perform visual regeneration",
+    "Alpha/trim is measured and corrected in Canvas; existing image pixels and fringing not repainted",
+    "Frames are 4x4 painted states, not skeletal rigs; source sheet orientation continuity still requires art review",
+    "Boss impact visual is post-adjudication: no synthetic attack or damage timer in JavaScript",
+    "Different pixel percentages prove rendering changed, not human artistic satisfaction",
+    "Standard Windows/Chromium, approved rights, 21 class canon, 3 boss canon, opening and MMO not finished"
+  ],
+  "reproduced_with": "complete_previous_regression_executed_then_independent_pure_qa_using_same_turn_evidence_after_single_monolithic_timeout"
+}

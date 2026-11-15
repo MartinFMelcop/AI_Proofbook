@@ -1,0 +1,314 @@
+{
+  "schema": "mmai.r11.paint-preflight.v1",
+  "status": "CANDIDATE_NOT_APPROVED",
+  "source": "Newly generated original four-perspective sheets, conversation 2026-11-15",
+  "paintings": 12,
+  "author_art_ack": false,
+  "rights_review_complete": false,
+  "no_fabricated_rotations_or_mirrors": true,
+  "cell_size": [
+    640,
+    640
+  ],
+  "atlas_file": "R11_PAINTED_ATLAS_3x4.png",
+  "atlas_sha256": "b1be6a77e373c22b71e8cd38989272cd83ec388b79cda72f947f9a99b67e27aa",
+  "buildings": [
+    {
+      "building": "cottage",
+      "source_file": "cottage.png",
+      "source_sha256": "9f0e8fb50b4d89d73e0e749e6f057852c604eb1ab5dac3f72da317a1159aeb82",
+      "faces": [
+        {
+          "angle": 0,
+          "source_quadrant": [
+            0,
+            0
+          ],
+          "crop_box": [
+            38,
+            15,
+            615,
+            589
+          ],
+          "target_box": [
+            53,
+            80,
+            587,
+            611
+          ],
+          "png_sha256": "3c7f0cea534c5db61b9019c3a9596d00d81dc4056f49b8deeb45ddf0f5d5e889",
+          "webp_sha256": "de79a45f624a7bdbf69eab5ebc48bd5c08bf3226e74535baa8561692c0aca872",
+          "colors_unique": 148022,
+          "opaque_pixels": 194013
+        },
+        {
+          "angle": 90,
+          "source_quadrant": [
+            0,
+            1
+          ],
+          "crop_box": [
+            48,
+            18,
+            588,
+            581
+          ],
+          "target_box": [
+            57,
+            63,
+            583,
+            611
+          ],
+          "png_sha256": "98983d3e155dc11277d57556252765e9b0e125a18381193bb8321da17efa9c24",
+          "webp_sha256": "3c358e7553ad9b7a282dfe3aaf2950ebcd18305bf65697aa0f8060b6dd23004c",
+          "colors_unique": 142385,
+          "opaque_pixels": 180838
+        },
+        {
+          "angle": 180,
+          "source_quadrant": [
+            1,
+            0
+          ],
+          "crop_box": [
+            38,
+            12,
+            615,
+            580
+          ],
+          "target_box": [
+            53,
+            85,
+            587,
+            611
+          ],
+          "png_sha256": "dab31105cc1acc3014169c295aea3a3638df41327e8d28a7d1c11a1f1e2cc718",
+          "webp_sha256": "9ebbb5242a8898e0afbbd3cac6c97147013a99426c4d6ed0fbe3602a90d40121",
+          "colors_unique": 138779,
+          "opaque_pixels": 195264
+        },
+        {
+          "angle": 270,
+          "source_quadrant": [
+            1,
+            1
+          ],
+          "crop_box": [
+            40,
+            14,
+            586,
+            577
+          ],
+          "target_box": [
+            54,
+            63,
+            585,
+            611
+          ],
+          "png_sha256": "69be26fdb346bf9d9b6c688532b307294ca10b7e00e3311bb6f9359e6f24b988",
+          "webp_sha256": "938acc41ac5974af4caa47f37dc6e97f7b0cca822ea304920d00b1dcec990138",
+          "colors_unique": 141488,
+          "opaque_pixels": 182060
+        }
+      ]
+    },
+    {
+      "building": "forge",
+      "source_file": "forge.png",
+      "source_sha256": "dad32c41f3c1fc05117ff97f0c7789e63c12b580156df3762d3001ba834ca59f",
+      "faces": [
+        {
+          "angle": 0,
+          "source_quadrant": [
+            0,
+            0
+          ],
+          "crop_box": [
+            38,
+            10,
+            626,
+            580
+          ],
+          "target_box": [
+            53,
+            93,
+            587,
+            611
+          ],
+          "png_sha256": "ba8c3f6b7ffb891e099de5074f6eff65ab82aab2b997fbcd6a2d1cf2fc349f3f",
+          "webp_sha256": "6a95431cf6c9362cf55f15463293cfb865716b057b97cd2cd9825001aeee9fa4",
+          "colors_unique": 145223,
+          "opaque_pixels": 174644
+        },
+        {
+          "angle": 90,
+          "source_quadrant": [
+            0,
+            1
+          ],
+          "crop_box": [
+            43,
+            15,
+            592,
+            552
+          ],
+          "target_box": [
+            53,
+            89,
+            587,
+            611
+          ],
+          "png_sha256": "212c851183de1d661f672e4a85d6365b115b4f018928aeebeec4b690d97a84f3",
+          "webp_sha256": "65e31e09904f913dab18901cf24d4a0dd8deb0416a6b3873c11e9cb4b9a3df19",
+          "colors_unique": 146243,
+          "opaque_pixels": 185100
+        },
+        {
+          "angle": 180,
+          "source_quadrant": [
+            1,
+            0
+          ],
+          "crop_box": [
+            31,
+            0,
+            609,
+            566
+          ],
+          "target_box": [
+            53,
+            88,
+            587,
+            611
+          ],
+          "png_sha256": "be964d17b68bb39893ff9242069b191683189d9bd68714c09e2294774b9aea51",
+          "webp_sha256": "46f4673da5e66818a73e31b6fc43783ab5d13337d82e757855584a4a505d6eb8",
+          "colors_unique": 143692,
+          "opaque_pixels": 181946
+        },
+        {
+          "angle": 270,
+          "source_quadrant": [
+            1,
+            1
+          ],
+          "crop_box": [
+            35,
+            0,
+            594,
+            561
+          ],
+          "target_box": [
+            53,
+            75,
+            587,
+            611
+          ],
+          "png_sha256": "425100c7ffcb527f4e9da6c544dee38c7a0886cbac8db0f3aab6d6995271ff67",
+          "webp_sha256": "71ed90d59bffc950bf8437f6819bd0595112272dc5b34aed66f32047d99c2f44",
+          "colors_unique": 137680,
+          "opaque_pixels": 183757
+        }
+      ]
+    },
+    {
+      "building": "apothecary",
+      "source_file": "apothecary.png",
+      "source_sha256": "b13b4d024d1a942cb6ef3963e12b49c78dd6c762e9b9ffb7cf9301cc0e8f7a36",
+      "faces": [
+        {
+          "angle": 0,
+          "source_quadrant": [
+            0,
+            0
+          ],
+          "crop_box": [
+            58,
+            15,
+            603,
+            597
+          ],
+          "target_box": [
+            63,
+            63,
+            576,
+            611
+          ],
+          "png_sha256": "97f349db41ff37672abe23f9de17e9eafa39e7972fbed043209b9a08946625f2",
+          "webp_sha256": "43ed14fc7f134cb1a1905202f5164f295e1d5d3f1f55eded2a07d93da403dacf",
+          "colors_unique": 165609,
+          "opaque_pixels": 207102
+        },
+        {
+          "angle": 90,
+          "source_quadrant": [
+            0,
+            1
+          ],
+          "crop_box": [
+            44,
+            17,
+            570,
+            595
+          ],
+          "target_box": [
+            70,
+            63,
+            569,
+            611
+          ],
+          "png_sha256": "0b0e740daf19279e762b74f3188ad0b1ac23302056cc8ef81ae2537361868616",
+          "webp_sha256": "13cd88342753daf9c2e304421e58c6651c3f5bc79fcbbd0ffe4d92cb943f584e",
+          "colors_unique": 154798,
+          "opaque_pixels": 192585
+        },
+        {
+          "angle": 180,
+          "source_quadrant": [
+            1,
+            0
+          ],
+          "crop_box": [
+            58,
+            6,
+            601,
+            584
+          ],
+          "target_box": [
+            62,
+            63,
+            577,
+            611
+          ],
+          "png_sha256": "467319b240844062535b7d8aa0948a8b59a899c0e9ff5e550cc7d5d7d008dc5b",
+          "webp_sha256": "5c60062712b3d3ed82dae14254c5dbe32f443285f52423682898355db38ba1b6",
+          "colors_unique": 156862,
+          "opaque_pixels": 208641
+        },
+        {
+          "angle": 270,
+          "source_quadrant": [
+            1,
+            1
+          ],
+          "crop_box": [
+            38,
+            14,
+            567,
+            590
+          ],
+          "target_box": [
+            68,
+            63,
+            571,
+            611
+          ],
+          "png_sha256": "426af0b31e6275a80630cde8b1b09b85e513dd0911c5531fdd16d66ebfc55f39",
+          "webp_sha256": "ea6e29ae7a775a50f7eacd128e2176474164a97ffc5b604514fecfba6a683d9a",
+          "colors_unique": 151318,
+          "opaque_pixels": 191510
+        }
+      ]
+    }
+  ]
+}

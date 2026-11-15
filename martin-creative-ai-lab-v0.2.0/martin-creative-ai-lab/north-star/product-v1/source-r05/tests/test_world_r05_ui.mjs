@@ -1,0 +1,41 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+const req=createRequire(import.meta.url);
+const camera=req('../site/camera4.js');
+globalThis.NSCamera4=camera;globalThis.NSArchitectureR05=req('../site/architecture_r05.js');
+const wasm=fs.readFileSync(new URL('../site/product.wasm',import.meta.url));
+const {instance}=await WebAssembly.instantiate(wasm,{});const engine=instance.exports;
+assert.equal(engine.nsw_abi(),5);assert.equal(engine.nsw_wasm_create(6,17),1);
+const dom=new Map();const canvas={width:0,height:0,getBoundingClientRect(){return{width:1200,height:760,left:0,top:0};},addEventListener(){},removeEventListener(){},getContext(){return ctx;}};
+let draws=0,rotations=0;
+const gradient=()=>({addColorStop(){}});
+const ctx=new Proxy({createLinearGradient:gradient,createRadialGradient:gradient,fillRect(){draws++},clearRect(){},drawImage(){},setTransform(){},beginPath(){},moveTo(){},lineTo(){},closePath(){},quadraticCurveTo(){},ellipse(){},arc(){},fill(){},stroke(){},save(){},restore(){},translate(){},scale(){},rotate(){},fillText(){}},
+ {get(target,key){return key in target?target[key]:undefined;},set(target,key,value){target[key]=value;return true;}});
+for(const id of ['world-location','world-quest-title','world-quest-text','world-hp','world-sp','world-herbs','world-kit-primary','world-kit-secondary','world-profession','world-npc-state','world-remedies','world-camera','world-coordinates','world-boss-name','world-boss-hp','world-boss-bar','world-boss-tell','world-interact-hint','world-notice','world-combat'])dom.set(id,{textContent:'',style:{},hidden:true,querySelectorAll(){return[]}});
+dom.set('world-canvas',canvas);dom.set('world-interact',{querySelectorAll(){return[]}});
+globalThis.document={getElementById(id){return dom.get(id);}};
+globalThis.Image=class{constructor(){this.complete=true;this.naturalWidth=130;this.naturalHeight=260;}set src(x){this._src=x}get src(){return this._src}};
+let raf=[],listener=null;
+globalThis.devicePixelRatio=1;
+globalThis.requestAnimationFrame=f=>{raf.push(f);return raf.length};
+globalThis.cancelAnimationFrame=()=>{};
+globalThis.addEventListener=(type,fn)=>{if(type==='keydown')listener=fn};
+globalThis.removeEventListener=(type,fn)=>{if(type==='keydown'&&listener===fn)listener=null};
+const world=req('../site/world.js');
+const action=(type,value=0)=>engine.nsw_wasm_apply(engine.nsw_wasm_revision(),type,value);
+world.mount({engine,action,profile:{primary:6,secondary:17},openMenu(){},lastMessage:'Testando render'});
+assert.equal(world.active,true);
+assert.equal(dom.get('world-quest-title').textContent,'A Estrada do Sul');
+const first=raf.shift();first(500);
+assert.ok(draws>400,`draws=${draws}`);
+const before=[engine.nsw_wasm_revision(),engine.nsw_wasm_x(),engine.nsw_wasm_y()];
+for(let i=0;i<4;i++){world.rotate(1);assert.equal(Number(dom.get('world-camera').textContent.match(/\d+/)[0]),(i+1)%4+1);}
+assert.deepEqual([engine.nsw_wasm_revision(),engine.nsw_wasm_x(),engine.nsw_wasm_y()],before);
+assert.equal(typeof listener,'function');
+listener({key:'w',preventDefault(){}});
+assert.equal(engine.nsw_wasm_y(),before[2]-1);
+assert.equal(engine.nsw_wasm_revision(),before[0]+1);
+assert.equal(action(2,2),13); // cannot interact with village leader from south
+world.unmount();assert.equal(world.active,false);
+console.log(JSON.stringify({suite:'world_r05_ui_wasm_mock_canvas',PASS:true,draws,orientationCycles:4,authorityRevision:engine.nsw_wasm_revision()}));

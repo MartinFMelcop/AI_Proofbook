@@ -1,0 +1,112 @@
+{
+  "art_status": "ART_REVIEW_PENDING",
+  "author_approved_facades": 0,
+  "boss_art_directed_visual_delta_vs_r12": {
+    "1": {
+      "0": {
+        "changed_pixels_gt18_pct": 21.155,
+        "mean_rgb_abs_difference": 12.8245
+      },
+      "1": {
+        "changed_pixels_gt18_pct": 21.2486,
+        "mean_rgb_abs_difference": 12.8689
+      }
+    },
+    "2": {
+      "0": {
+        "changed_pixels_gt18_pct": 21.6066,
+        "mean_rgb_abs_difference": 13.0664
+      },
+      "1": {
+        "changed_pixels_gt18_pct": 21.6201,
+        "mean_rgb_abs_difference": 13.0732
+      }
+    },
+    "3": {
+      "0": {
+        "changed_pixels_gt18_pct": 25.9476,
+        "mean_rgb_abs_difference": 15.7721
+      },
+      "1": {
+        "changed_pixels_gt18_pct": 25.8021,
+        "mean_rgb_abs_difference": 15.6893
+      }
+    }
+  },
+  "four_camera_scene_delta_without_boss": {
+    "0": {
+      "changed_pixels_gt18_pct": 0.1481,
+      "mean_rgb_abs_difference": 0.166
+    },
+    "180": {
+      "changed_pixels_gt18_pct": 0.1481,
+      "mean_rgb_abs_difference": 0.166
+    },
+    "270": {
+      "changed_pixels_gt18_pct": 0.1477,
+      "mean_rgb_abs_difference": 0.1642
+    },
+    "90": {
+      "changed_pixels_gt18_pct": 0.1481,
+      "mean_rgb_abs_difference": 0.166
+    }
+  },
+  "graphics_source": "ACTUAL site/world.js via skia-canvas CPU; no Windows/browser/GPU",
+  "image_generation": "FAILED_TOOL_NO_RETRY",
+  "immutable_files_verified": 18,
+  "immutable_sha256": {
+    "artifacts/R05_SQLITE_WORLD_JOURNAL.sqlite": "0981786ad2192b2dd2311910b41331836fdd843558ad31ae04d5233ea786e82b",
+    "core/world_r05.cpp": "4cfe6d912f831326c2289a64cd0c912f4869ab1d2263aba8cd2e2ecc201275e3",
+    "core/world_r05.h": "53bdba1ebe1a3d265dfc852242bda1d8108c92efe8e845f4275b0195ae10fa51",
+    "site/assets/world/r11_apothecary_0.webp": "43ed14fc7f134cb1a1905202f5164f295e1d5d3f1f55eded2a07d93da403dacf",
+    "site/assets/world/r11_apothecary_1.webp": "13cd88342753daf9c2e304421e58c6651c3f5bc79fcbbd0ffe4d92cb943f584e",
+    "site/assets/world/r11_apothecary_2.webp": "5c60062712b3d3ed82dae14254c5dbe32f443285f52423682898355db38ba1b6",
+    "site/assets/world/r11_apothecary_3.webp": "ea6e29ae7a775a50f7eacd128e2176474164a97ffc5b604514fecfba6a683d9a",
+    "site/assets/world/r11_cottage_0.webp": "de79a45f624a7bdbf69eab5ebc48bd5c08bf3226e74535baa8561692c0aca872",
+    "site/assets/world/r11_cottage_1.webp": "3c358e7553ad9b7a282dfe3aaf2950ebcd18305bf65697aa0f8060b6dd23004c",
+    "site/assets/world/r11_cottage_2.webp": "9ebbb5242a8898e0afbbd3cac6c97147013a99426c4d6ed0fbe3602a90d40121",
+    "site/assets/world/r11_cottage_3.webp": "938acc41ac5974af4caa47f37dc6e97f7b0cca822ea304920d00b1dcec990138",
+    "site/assets/world/r11_forge_0.webp": "6a95431cf6c9362cf55f15463293cfb865716b057b97cd2cd9825001aeee9fa4",
+    "site/assets/world/r11_forge_1.webp": "65e31e09904f913dab18901cf24d4a0dd8deb0416a6b3873c11e9cb4b9a3df19",
+    "site/assets/world/r11_forge_2.webp": "46f4673da5e66818a73e31b6fc43783ab5d13337d82e757855584a4a505d6eb8",
+    "site/assets/world/r11_forge_3.webp": "71ed90d59bffc950bf8437f6819bd0595112272dc5b34aed66f32047d99c2f44",
+    "site/camera4.js": "0bbef4bf8042bd96fc4e79a6491675ed7a1ef26e6ad6c1f286db675bd4266d0b",
+    "site/product.wasm": "ee34bcf284951c79fce076c808140a96fc376ac34c29afbddd1ea6ba67e06ba7",
+    "site/r12_finishing.js": "facd45ea81466e6626ae3597c76cb5a17a76450865639bdbb543730e334a8561"
+  },
+  "inherited_cpp_wasm_events": {
+    "R01": 100,
+    "R02": 116,
+    "R03": 121,
+    "R04": 121,
+    "R05": 121
+  },
+  "inherited_r12_python_tests": 251,
+  "inherited_r12_visual_node_checks": 67,
+  "limitations": [
+    "No original four-view roof/chimney/entrance redrawing. 12 R11 paintings unchanged",
+    "R13 stagecraft uses existing sprite pixels enlarged; no skeletal rig or new character images",
+    "Stagecraft sigils/particles are cosmetic and do not represent authoritative hitboxes",
+    "C++20 ABI5 retains all rules, positions and telegraphs",
+    "Combat focus is camera-only; no client gameplay authority",
+    "Human artistic quality, source rights, 3 boss identity and 21 classes remain owner-gated",
+    "No Windows browser GPU or end-to-end MMORPG verification"
+  ],
+  "new_authored_boss_rigs": 0,
+  "new_generated_painted_facades": 0,
+  "product_status": "PRODUCT_NO_GO",
+  "r13_graphic_node_checks": 26,
+  "r13_skia_scenes": {
+    "four_camera_no_boss": 4,
+    "three_cpp_owned_bosses_two_times": 6
+  },
+  "schema": "mmai.product_v1.r13.real_stagecraft_evidence.v1",
+  "sqlite": "R05 121 event journal verified in inherited suite",
+  "technical_status": "PASS",
+  "unchanged_normal_client_fallback": {
+    "0": true,
+    "180": true,
+    "270": true,
+    "90": true
+  }
+}

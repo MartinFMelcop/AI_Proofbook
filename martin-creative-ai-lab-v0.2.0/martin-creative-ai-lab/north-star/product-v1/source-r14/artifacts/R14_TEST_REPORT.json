@@ -1,0 +1,105 @@
+{
+  "schema": "mmai.product_v1.r14.real_art_integration.v1",
+  "state": "ENGINEERING_LAB_PASS_ART_REVIEW_PENDING_PRODUCT_NO_GO",
+  "source_sheets": 8,
+  "new_original_sheet_sprite_cutouts": 92,
+  "building_frames": 12,
+  "npc_and_hero_frames": 32,
+  "boss_frames": 48,
+  "source": "Eight original ImageGen sheets from 2026-11-15; physical image bytes archived; no source sheet rotated to fake independent views",
+  "art_review": "PENDING_SCALE_FACE_MATCH_ALPHA_CLEANUP_RIGHTS_NARRATIVE_ACK",
+  "python_tests": 257,
+  "r14_node_checks": 191,
+  "historical_node_checks": {
+    "R07": 44,
+    "R12": 67,
+    "R13": 26
+  },
+  "cpp20_c17_abi5": "PASS_COMPILED_AND_EXECUTED",
+  "native_cpp_to_wasm_actions": 121,
+  "historical_wasm_regressions": {
+    "R04": 121,
+    "R03": 121,
+    "R02": 116,
+    "R01": 100
+  },
+  "sqlite": "R05_121_EVENT_JOURNAL_VERIFY_PASS",
+  "render_engine": "ACTUAL site/world.js + C++ ABI5 product.wasm + Skia CPU",
+  "rendered_camera_views": 4,
+  "rendered_boss_frames": 6,
+  "rendered_fallback_views": 4,
+  "render_no_owner_mutation": "PASS_VERIFIED_IN_EACH_RENDER_SCRIPT",
+  "immutable_sources": {
+    "core/world_r05.cpp": true,
+    "core/world_r05.h": true,
+    "site/product.wasm": true,
+    "site/camera4.js": true,
+    "site/r13_stagecraft.js": true,
+    "site/assets/opening_animatic.mp4": true
+  },
+  "default_fallback_pixel_identical_to_R13": {
+    "0": true,
+    "90": true,
+    "180": true,
+    "270": true
+  },
+  "visual_scene_delta_R13_to_R14": {
+    "0": {
+      "pixel_change_rgb_gt18_pct": 9.1124,
+      "average_rgb_difference": 4.7519
+    },
+    "90": {
+      "pixel_change_rgb_gt18_pct": 9.5695,
+      "average_rgb_difference": 5.1263
+    },
+    "180": {
+      "pixel_change_rgb_gt18_pct": 8.5763,
+      "average_rgb_difference": 4.415
+    },
+    "270": {
+      "pixel_change_rgb_gt18_pct": 8.599,
+      "average_rgb_difference": 4.4905
+    }
+  },
+  "boss_image_delta_R13_to_R14": {
+    "1": {
+      "0": {
+        "pixel_change_rgb_gt18_pct": 22.9058,
+        "average_rgb_difference": 13.2758
+      },
+      "1": {
+        "pixel_change_rgb_gt18_pct": 22.8519,
+        "average_rgb_difference": 13.2647
+      }
+    },
+    "2": {
+      "0": {
+        "pixel_change_rgb_gt18_pct": 22.5137,
+        "average_rgb_difference": 13.5222
+      },
+      "1": {
+        "pixel_change_rgb_gt18_pct": 23.6965,
+        "average_rgb_difference": 14.0422
+      }
+    },
+    "3": {
+      "0": {
+        "pixel_change_rgb_gt18_pct": 26.677,
+        "average_rgb_difference": 15.6002
+      },
+      "1": {
+        "pixel_change_rgb_gt18_pct": 26.8081,
+        "average_rgb_difference": 15.5805
+      }
+    }
+  },
+  "limitations": [
+    "No human art approval; AI-generated sprite sheet frames are candidate paintings only",
+    "Original building side consistency (doors, roofs, chimney) is improved but requires authored visual QA",
+    "Foreground-alpha matte detection may remove dark detail / keep tiny fragments",
+    "Sprite sheets provide discrete frames; no skeletal rigs or interpolation guarantee",
+    "Camera and rendering do not change combat/quest/collision; JS remains observer only",
+    "Boss B03 is still separate from the independent Rave Masters historical canon",
+    "No Windows/Chromium/GPU or complete live MMO proof; not a release"
+  ]
+}

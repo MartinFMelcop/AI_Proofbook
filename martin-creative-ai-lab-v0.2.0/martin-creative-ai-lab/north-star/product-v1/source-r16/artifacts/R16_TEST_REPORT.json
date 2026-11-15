@@ -1,0 +1,88 @@
+{
+  "schema": "mmai.product_v1.r16.art_edge_derivatives_and_real_gameplay_qa.v1",
+  "gate": "PRODUCT_NO_GO",
+  "art_gate": "ART_REVIEW_PENDING",
+  "release": false,
+  "image_generation": "FAILED_DO_NOT_RETRY_UNTIL_NEW_REQUEST",
+  "new_original_paintings": 0,
+  "new_derived_painted_edge_assets": 92,
+  "original_92_R14_webp_unchanged": true,
+  "eight_R14_source_sheets_unchanged": true,
+  "other_frozen_authority_and_opening_files": 8,
+  "all_frozen_sha_matches": 108,
+  "cleaning": "conservative RGB edge decontamination plus removal of alpha<=4 residue; no semantic repaints",
+  "physical_modified_pixel_count_in_derived_assets": 3033486,
+  "alpha_core_conservation": "each source retained >=99% alpha>=215 where originally >=220",
+  "contract_node_check_totals": {
+    "R07": 44,
+    "R12": 67,
+    "R13": 26,
+    "R14": 191,
+    "R15": 363,
+    "R16": 292
+  },
+  "contract_node_total": 983,
+  "native_cpp20_wasm_current_and_historic_actions": {
+    "R05": 121,
+    "R04": 121,
+    "R03": 121,
+    "R02": 116,
+    "R01": 100
+  },
+  "python_tests": 257,
+  "C17_and_SQLite": "PASS_AS_IN_COMPLETED_VERIFY_R12_LOG",
+  "skia_actual_gameplay_frames": 24,
+  "four_camera_rotations": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "three_boss_native_accepted_defend_sequences": 3,
+  "stage_mapping": {
+    "CXX_intent_1": [
+      0,
+      1
+    ],
+    "CXX_intent_2_post_adjudication": [
+      2,
+      3
+    ]
+  },
+  "fallback_default_identical": {
+    "0": true,
+    "90": true,
+    "180": true,
+    "270": true
+  },
+  "world_pixel_change_from_R15_not_beauty_score": {
+    "0": {
+      "pixel_gt18_pct": 0.1978,
+      "pixel_gt3_pct": 0.3309,
+      "mean_abs_rgb": 0.2507
+    },
+    "90": {
+      "pixel_gt18_pct": 0.1978,
+      "pixel_gt3_pct": 0.3533,
+      "mean_abs_rgb": 0.2515
+    },
+    "180": {
+      "pixel_gt18_pct": 0.1978,
+      "pixel_gt3_pct": 0.3595,
+      "mean_abs_rgb": 0.254
+    },
+    "270": {
+      "pixel_gt18_pct": 0.1975,
+      "pixel_gt3_pct": 0.3364,
+      "mean_abs_rgb": 0.2473
+    }
+  },
+  "browser_windows_GPU": "NOT_RUN",
+  "artistic_limits": [
+    "No new roof/door/chimney paintings",
+    "No new skeletal rigs",
+    "Small in-scene pixel difference does not imply major art progress",
+    "Rights, painterly coherence, the 21 kits and boss canon require human adjudication"
+  ],
+  "publisher_note": "R16 consists of additive derivative assets and QA; never overwrite R14 originals or merge to main without author approval."
+}

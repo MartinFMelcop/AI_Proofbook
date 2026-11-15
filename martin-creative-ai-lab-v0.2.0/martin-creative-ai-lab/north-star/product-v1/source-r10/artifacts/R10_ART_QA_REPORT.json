@@ -1,0 +1,192 @@
+{
+  "schema": "mmai.product.v1.r10.original-art.candidate-qa.v1",
+  "state": {
+    "new_painted_facade_views_created": 12,
+    "new_painted_facade_views_approved": 0,
+    "art": "ART_REVIEW_PENDING",
+    "product": "PRODUCT_NO_GO",
+    "author_playtest": "NOT_REQUESTED"
+  },
+  "source": {
+    "origin": "three new AI-generated paintings in user conversation 2026-11-15, each 2x2",
+    "source_atlas_sha256": "25cadf5ca172872e207ab6efc71161c7eed7a007bdbb05b281441022bf0483c8",
+    "raw_source_sha256": {
+      "cottage": "0963c6d7bbde086d07ced26f6a7402baad11e5aeb786da5fffe6f26a490e8f85",
+      "forge": "316ff93843d8a0a477e41b8198399af66024e3c2c85e8883a5942560af0138e2",
+      "apothecary": "12910f1941cdc79b893646446ffe36f9b80af0b31fdcc91e456c2b2b2bec7d7c"
+    }
+  },
+  "technical_art": {
+    "files": [
+      {
+        "building_id": "1",
+        "quarter": 0,
+        "name": "r07_cottage_0",
+        "sha256": "c8430635b5c67c5f0c3126c69431ede3f4503af70fd13aa4127e542fbba6114e",
+        "bytes": 399808
+      },
+      {
+        "building_id": "1",
+        "quarter": 1,
+        "name": "r07_cottage_1",
+        "sha256": "8c6abe4f5307c7391aa8f47511d1cbb9746669deb7ab6db2adb48da5c0e58425",
+        "bytes": 344934
+      },
+      {
+        "building_id": "1",
+        "quarter": 2,
+        "name": "r07_cottage_2",
+        "sha256": "bbbeb07133591a9a7484b99e7422f8e843a510c82280cc1098cc2b77183391de",
+        "bytes": 378054
+      },
+      {
+        "building_id": "1",
+        "quarter": 3,
+        "name": "r07_cottage_3",
+        "sha256": "2dff045b0a18b53fbb30e5bc7ea9dc7ab099ed29899c4bad889ca8e742ac3605",
+        "bytes": 343284
+      },
+      {
+        "building_id": "2",
+        "quarter": 0,
+        "name": "r07_forge_0",
+        "sha256": "3004af085cd190edc1e6b3352692fa1e625e2d6297bf4e13e25acbf745ef2537",
+        "bytes": 362654
+      },
+      {
+        "building_id": "2",
+        "quarter": 1,
+        "name": "r07_forge_1",
+        "sha256": "d08c5c347ea650907efd4864a982b658717ed7ba37388488abc7ea8b68d7b613",
+        "bytes": 372648
+      },
+      {
+        "building_id": "2",
+        "quarter": 2,
+        "name": "r07_forge_2",
+        "sha256": "9fa4f195109644d621baa704fa9d490f6c0f6a0d60fc97607933ad4a10be8841",
+        "bytes": 363694
+      },
+      {
+        "building_id": "2",
+        "quarter": 3,
+        "name": "r07_forge_3",
+        "sha256": "8fe4f9d79d5c6f409681dbf1686c0aad6c80d461b69532867902c414d4309ba4",
+        "bytes": 351046
+      },
+      {
+        "building_id": "3",
+        "quarter": 0,
+        "name": "r07_apothecary_0",
+        "sha256": "ddf3df6ae38ef4ae8b388a3daa18b55f29175b55764520012db40f022d01abf5",
+        "bytes": 437558
+      },
+      {
+        "building_id": "3",
+        "quarter": 1,
+        "name": "r07_apothecary_1",
+        "sha256": "5c3c31c0ff3eb0f942a7ae88e64a9e0209ecd68f508c2b99ebd4cf726dd6ead7",
+        "bytes": 390724
+      },
+      {
+        "building_id": "3",
+        "quarter": 2,
+        "name": "r07_apothecary_2",
+        "sha256": "c6a97d2c35d18e4c2963ecd2a988db05b892eb46037f5d16a1df0dcdb3e7f45e",
+        "bytes": 422202
+      },
+      {
+        "building_id": "3",
+        "quarter": 3,
+        "name": "r07_apothecary_3",
+        "sha256": "e0d206bd7200edb946d469145bc2ca97a5c5fc0dc1d77656d77835a3623c702c",
+        "bytes": 395434
+      }
+    ],
+    "distinct_hashes": 12,
+    "dimensions": [
+      640,
+      640
+    ],
+    "r08_inspection_status": "BLOCKED",
+    "r08_inspection_issues": [
+      "1:license_checked_not_verified",
+      "1:scale_anchor_reviewed_not_verified",
+      "2:license_checked_not_verified",
+      "2:scale_anchor_reviewed_not_verified",
+      "3:license_checked_not_verified",
+      "3:scale_anchor_reviewed_not_verified"
+    ],
+    "perceptual_copy_suspicions": 0,
+    "automated_approval": false
+  },
+  "engine": {
+    "owner_cpp20_abi": "ABI5_UNCHANGED",
+    "authoritative_cpp_wasm_parity_events": 121,
+    "historical_regression_events": {
+      "R04": 121,
+      "R03": 121,
+      "R02": 116,
+      "R01": 100
+    },
+    "python_unit_tests": 240,
+    "node_facade_assertions": 44,
+    "c17_compiled": "PASS",
+    "sqlite_replay_events": 121,
+    "frozen_unchanged_hashes": {
+      "core/world_r05.cpp": true,
+      "core/world_r05.h": true,
+      "site/product.wasm": true,
+      "site/assets/opening_animatic.mp4": true,
+      "site/camera4.js": true,
+      "site/facades_r07.js": true
+    }
+  },
+  "render": {
+    "renderer": "ACTUAL_site/world.js_ON_Skia_CPU_not_browser",
+    "camera_views": [
+      {
+        "angle": 0,
+        "filename": "R10_CANDIDATE_VIEW_0.png",
+        "sha256": "6bb6ffc377d0af2d1079b7c4571594d19485dff2828e9edab8ba083cb9801f9d"
+      },
+      {
+        "angle": 90,
+        "filename": "R10_CANDIDATE_VIEW_1.png",
+        "sha256": "1fe985ad2499f8c2afeca447dc4f8496c30368fad8bfff0355122d9f09f797b4"
+      },
+      {
+        "angle": 180,
+        "filename": "R10_CANDIDATE_VIEW_2.png",
+        "sha256": "ed13ed7d4c1408f19576093d0d94df9778eddddd98b7e4f158254376fc6baadc"
+      },
+      {
+        "angle": 270,
+        "filename": "R10_CANDIDATE_VIEW_3.png",
+        "sha256": "c4ffa54f324bc694fc2deb9c26fe00bec8bc439066479b8c3599da0a1e93c656"
+      }
+    ],
+    "percent_pixels_rgb_mean_gt18_vs_R07_by_angle": [
+      4.7041,
+      5.5599,
+      4.8991,
+      5.751
+    ],
+    "fallback_same_pixels_as_R07": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "camera_does_not_change_revision_or_world_position": "PASS_ASSERTED_PER_VIEW"
+  },
+  "blockers": [
+    "artist/author approval of visual coherence and four facade orientation",
+    "architectural details across quarters not independently judged",
+    "scale and lighting against final world not approved",
+    "creator output provenance recorded; rights clearance pending",
+    "four-view appearance for other props/beings and boss rigs incomplete",
+    "opening/21 class kits/three bosses/Windows release not approved"
+  ],
+  "delivery": "art-only package + source delta; no full game archive; original R06 unchanged"
+}

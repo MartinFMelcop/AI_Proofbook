@@ -1,0 +1,106 @@
+{
+  "art_status": "ART_REVIEW_PENDING",
+  "artwork_sha256": {
+    "apothecary_0": "43ed14fc7f134cb1a1905202f5164f295e1d5d3f1f55eded2a07d93da403dacf",
+    "apothecary_1": "13cd88342753daf9c2e304421e58c6651c3f5bc79fcbbd0ffe4d92cb943f584e",
+    "apothecary_2": "5c60062712b3d3ed82dae14254c5dbe32f443285f52423682898355db38ba1b6",
+    "apothecary_3": "ea6e29ae7a775a50f7eacd128e2176474164a97ffc5b604514fecfba6a683d9a",
+    "cottage_0": "de79a45f624a7bdbf69eab5ebc48bd5c08bf3226e74535baa8561692c0aca872",
+    "cottage_1": "3c358e7553ad9b7a282dfe3aaf2950ebcd18305bf65697aa0f8060b6dd23004c",
+    "cottage_2": "9ebbb5242a8898e0afbbd3cac6c97147013a99426c4d6ed0fbe3602a90d40121",
+    "cottage_3": "938acc41ac5974af4caa47f37dc6e97f7b0cca822ea304920d00b1dcec990138",
+    "forge_0": "6a95431cf6c9362cf55f15463293cfb865716b057b97cd2cd9825001aeee9fa4",
+    "forge_1": "65e31e09904f913dab18901cf24d4a0dd8deb0416a6b3873c11e9cb4b9a3df19",
+    "forge_2": "46f4673da5e66818a73e31b6fc43783ab5d13337d82e757855584a4a505d6eb8",
+    "forge_3": "71ed90d59bffc950bf8437f6819bd0595112272dc5b34aed66f32047d99c2f44"
+  },
+  "being_temporal_differences": {
+    "1": {
+      "mean_rgb_difference": 0.2738,
+      "rgb_L1_gt18_pixel_pct": 0.3701
+    },
+    "2": {
+      "mean_rgb_difference": 0.3973,
+      "rgb_L1_gt18_pixel_pct": 0.5965
+    },
+    "3": {
+      "mean_rgb_difference": 0.4899,
+      "rgb_L1_gt18_pixel_pct": 0.781
+    }
+  },
+  "bosses_canonized": false,
+  "c17_abi5": "PASS_EXECUTED",
+  "cpp_wasm_accepted_intents": {
+    "R01": 100,
+    "R02": 116,
+    "R03": 121,
+    "R04": 121,
+    "R05": 121
+  },
+  "engine": "C++20/C17 owner ABI5 unchanged",
+  "four_camera_improvements": {
+    "0": {
+      "fallback_identical_to_R11": true,
+      "mean_rgb_difference": 4.1727,
+      "rgb_L1_gt18_pixel_pct": 7.6294
+    },
+    "180": {
+      "fallback_identical_to_R11": true,
+      "mean_rgb_difference": 3.8074,
+      "rgb_L1_gt18_pixel_pct": 7.2896
+    },
+    "270": {
+      "fallback_identical_to_R11": true,
+      "mean_rgb_difference": 4.2492,
+      "rgb_L1_gt18_pixel_pct": 7.8478
+    },
+    "90": {
+      "fallback_identical_to_R11": true,
+      "mean_rgb_difference": 4.6832,
+      "rgb_L1_gt18_pixel_pct": 8.4766
+    }
+  },
+  "limitations": [
+    "Image generator returned an error; no painted roof/door/chimney fixes were created",
+    "Four-view painted architecture remains candidate with differing door/chimney details",
+    "Animated sprite warping and effects are temporal lab presentation, not hand-authored skeletal rigs",
+    "Three boss identities, 21 kit identities, rights and canon gates remain unapproved",
+    "No normal-user Windows browser or GPU run; no finished opening or multiplayer MMO"
+  ],
+  "new_art_created": false,
+  "new_skeleton_rigs_created": false,
+  "node_r07_assertions": 44,
+  "node_r12_assertions": 67,
+  "original_cxx_and_wasm_hashes_unchanged": {
+    "core/world_r05.cpp": true,
+    "core/world_r05.h": true,
+    "site/assets/opening_animatic.mp4": true,
+    "site/camera4.js": true,
+    "site/product.wasm": true
+  },
+  "product_status": "PRODUCT_NO_GO",
+  "python_unittest_cases": 251,
+  "renderer": "actual site/world.js with skia-canvas CPU; NOT browser/Windows",
+  "schema": "mmai.product.v1.r12.actual.renderer.qa.v1",
+  "skia_camera_views": 4,
+  "skia_default_fallback_views": 4,
+  "skia_temporal_being_frames": 4,
+  "skia_temporal_boss_frames": 6,
+  "sqlite_historical_121_event_journal": "VERIFIED",
+  "technical_status": "PASS",
+  "three_boss_temporal_differences": {
+    "1": {
+      "mean_rgb_difference": 0.4732,
+      "rgb_L1_gt18_pixel_pct": 0.6971
+    },
+    "2": {
+      "mean_rgb_difference": 0.6372,
+      "rgb_L1_gt18_pixel_pct": 1.0777
+    },
+    "3": {
+      "mean_rgb_difference": 1.6805,
+      "rgb_L1_gt18_pixel_pct": 2.657
+    }
+  },
+  "twelve_R11_artworks_unchanged_by_sha256": true
+}

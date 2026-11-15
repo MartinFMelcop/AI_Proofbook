@@ -1,0 +1,14 @@
+{
+  "schema":"mmai.r03.beings-observation.v1",
+  "authority":"C++20 world_r03.cpp ABI3",
+  "status":"LAB_ONLY_NOT_NPC_CANON",
+  "beings":[
+    {"id":1,"role":"guarda","illustration":"npc_1_0..3.webp","mood_policy":"approach_early_quest_patrol_alert","talk":"nearby_only"},
+    {"id":2,"role":"lider","illustration":"npc_2_0..3.webp","mood_policy":"quest_1_concern_attention","talk":"nearby_only"},
+    {"id":3,"role":"mercador","illustration":"npc_3_0..3.webp","mood_policy":"market_activity_and_attention","talk":"nearby_only"},
+    {"id":4,"role":"herbalista","illustration":"npc_4_0..3.webp","mood_policy":"herb_work_and_attention","talk":"nearby_only"}
+  ],
+  "evidence_fields":["world_tick","being_last_talk","being_talk_mask","last_talk_tick"],
+  "cannot_claim":["remote_npc_observation","mind_reading","consciousness","persistent_cross_session_memory","author-approved_npc_identity"],
+  "author_ack":"PENDING"
+}

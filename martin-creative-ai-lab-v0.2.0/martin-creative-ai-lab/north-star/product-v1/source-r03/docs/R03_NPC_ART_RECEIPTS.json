@@ -1,0 +1,242 @@
+{
+  "source": "art_sources/r03_npc_four_view_original.png",
+  "source_sha256": "7db0ed32c7350be4cac000287dc82348bbceec9848c33be618ff41ea5effb1ba",
+  "source_resolution": [
+    1240,
+    1269
+  ],
+  "orientations": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "sprites": [
+    {
+      "being": 1,
+      "character": "guard",
+      "view": 0,
+      "src_bbox": [
+        99,
+        9,
+        245,
+        303
+      ],
+      "alpha_pixels": 11557,
+      "file": "site/assets/world/npc_1_0.webp",
+      "sha256": "752b9cc7b285e2e4555734e7f2ad294a35b31093893b67ef64666a1150184732"
+    },
+    {
+      "being": 1,
+      "character": "guard",
+      "view": 1,
+      "src_bbox": [
+        95,
+        9,
+        244,
+        297
+      ],
+      "alpha_pixels": 11563,
+      "file": "site/assets/world/npc_1_1.webp",
+      "sha256": "b0a91f9b45517d28935ff4d794a47066d2d80fdd4ad675e7578867a74e215435"
+    },
+    {
+      "being": 1,
+      "character": "guard",
+      "view": 2,
+      "src_bbox": [
+        82,
+        10,
+        221,
+        297
+      ],
+      "alpha_pixels": 11772,
+      "file": "site/assets/world/npc_1_2.webp",
+      "sha256": "e5f36ba1bbda102b10ab0dfa4ccd53819d7d079e75e736a245606e308fc1b818"
+    },
+    {
+      "being": 1,
+      "character": "guard",
+      "view": 3,
+      "src_bbox": [
+        64,
+        9,
+        215,
+        305
+      ],
+      "alpha_pixels": 10816,
+      "file": "site/assets/world/npc_1_3.webp",
+      "sha256": "b3d945f281409ca1d08f1fb48e1acfc2ceadcd547c3fe1d16514e7dbb98e0ba4"
+    },
+    {
+      "being": 2,
+      "character": "leader",
+      "view": 0,
+      "src_bbox": [
+        88,
+        5,
+        245,
+        308
+      ],
+      "alpha_pixels": 14397,
+      "file": "site/assets/world/npc_2_0.webp",
+      "sha256": "deba96de8a078e78f6cd40e0f0cdd7b5e1a98dfb8a4667a66dfa3d7ad6f4165c"
+    },
+    {
+      "being": 2,
+      "character": "leader",
+      "view": 1,
+      "src_bbox": [
+        89,
+        7,
+        236,
+        307
+      ],
+      "alpha_pixels": 13525,
+      "file": "site/assets/world/npc_2_1.webp",
+      "sha256": "572dce97a6cd9b8262913b6a9b3d6fc7b23f0832693025cc776f839bf61bbb36"
+    },
+    {
+      "being": 2,
+      "character": "leader",
+      "view": 2,
+      "src_bbox": [
+        75,
+        8,
+        222,
+        305
+      ],
+      "alpha_pixels": 14391,
+      "file": "site/assets/world/npc_2_2.webp",
+      "sha256": "b319fe26df50c9361d295f9b5f53a9afc45a34eca64cd7b8d394fa3f52441b40"
+    },
+    {
+      "being": 2,
+      "character": "leader",
+      "view": 3,
+      "src_bbox": [
+        64,
+        8,
+        219,
+        310
+      ],
+      "alpha_pixels": 14268,
+      "file": "site/assets/world/npc_2_3.webp",
+      "sha256": "b3ce112c40c2ffe46e3bf857d5014600cf29a7c94cc97fd1d03780b0b1614cc6"
+    },
+    {
+      "being": 3,
+      "character": "merchant",
+      "view": 0,
+      "src_bbox": [
+        84,
+        12,
+        251,
+        310
+      ],
+      "alpha_pixels": 14539,
+      "file": "site/assets/world/npc_3_0.webp",
+      "sha256": "a875d89a594fa4cd5273f4b2fccc2b151baeda4a733f126602c9ff93b86a58f1"
+    },
+    {
+      "being": 3,
+      "character": "merchant",
+      "view": 1,
+      "src_bbox": [
+        88,
+        5,
+        247,
+        307
+      ],
+      "alpha_pixels": 13482,
+      "file": "site/assets/world/npc_3_1.webp",
+      "sha256": "e6b62bcfc2409a8b694798e3ce35c374604e888639e8a8ac611e01d4d81f638b"
+    },
+    {
+      "being": 3,
+      "character": "merchant",
+      "view": 2,
+      "src_bbox": [
+        65,
+        11,
+        225,
+        307
+      ],
+      "alpha_pixels": 14802,
+      "file": "site/assets/world/npc_3_2.webp",
+      "sha256": "980982f2c675cbe884b3925d9a64d0aca7a1d0e4d9b69d80f57faa6812068880"
+    },
+    {
+      "being": 3,
+      "character": "merchant",
+      "view": 3,
+      "src_bbox": [
+        59,
+        11,
+        219,
+        310
+      ],
+      "alpha_pixels": 14103,
+      "file": "site/assets/world/npc_3_3.webp",
+      "sha256": "efbfa3ab8e10739ef57ca9d0995f1c0bf840a24f91d7047f2222e042ef22cde5"
+    },
+    {
+      "being": 4,
+      "character": "herbalist",
+      "view": 0,
+      "src_bbox": [
+        86,
+        11,
+        258,
+        306
+      ],
+      "alpha_pixels": 12375,
+      "file": "site/assets/world/npc_4_0.webp",
+      "sha256": "588a76c892047d422eafbe53de4017168dc6e9243f1ddbb57da3b6bd38af10c6"
+    },
+    {
+      "being": 4,
+      "character": "herbalist",
+      "view": 1,
+      "src_bbox": [
+        96,
+        8,
+        237,
+        298
+      ],
+      "alpha_pixels": 11454,
+      "file": "site/assets/world/npc_4_1.webp",
+      "sha256": "70bc48a2affc3486b521d2075e64b7c382959b3ef653875dd9bb141a565cb401"
+    },
+    {
+      "being": 4,
+      "character": "herbalist",
+      "view": 2,
+      "src_bbox": [
+        67,
+        8,
+        210,
+        303
+      ],
+      "alpha_pixels": 11850,
+      "file": "site/assets/world/npc_4_2.webp",
+      "sha256": "9a071e72980bcebc0ff52ba52d2af9d2206fd9c84fe837605ab62dd65a36c3c6"
+    },
+    {
+      "being": 4,
+      "character": "herbalist",
+      "view": 3,
+      "src_bbox": [
+        56,
+        12,
+        203,
+        308
+      ],
+      "alpha_pixels": 11258,
+      "file": "site/assets/world/npc_4_3.webp",
+      "sha256": "4df65b8a60a9d224c37d3b984b3adefaf6ddea9bae1ec51a9776fc6387ed3161"
+    }
+  ],
+  "approval": "ART_REVIEW_PENDING",
+  "note": "not a rig, no human visual approval, four-view poses not independently authored animations"
+}

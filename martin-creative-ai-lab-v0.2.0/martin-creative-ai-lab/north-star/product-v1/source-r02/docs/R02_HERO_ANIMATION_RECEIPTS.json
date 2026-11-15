@@ -1,0 +1,286 @@
+{
+  "source": "art_sources/hero_r02_walk_sheet.png",
+  "source_sha256": "4061285fc09c4a118e3990cc0e934ccf4c0ed90c2f1066f07d2de75fdcb3f071",
+  "source_resolution": [
+    1247,
+    1261
+  ],
+  "cols": 4,
+  "rows": 4,
+  "frames": [
+    {
+      "orientation": 0,
+      "pose": 0,
+      "path": "site/assets/world/hero_0_0.webp",
+      "pivot": [
+        112,
+        220
+      ],
+      "source_alpha_bbox": [
+        119,
+        11,
+        293,
+        295
+      ],
+      "possible_cell_bleed": false,
+      "sha256": "dc27453133a9519e29554aa06b0f85bf088d2351701c3eb2bd70e2905efde4e8"
+    },
+    {
+      "orientation": 0,
+      "pose": 1,
+      "path": "site/assets/world/hero_0_1.webp",
+      "pivot": [
+        112,
+        220
+      ],
+      "source_alpha_bbox": [
+        109,
+        12,
+        274,
+        282
+      ],
+      "possible_cell_bleed": false,
+      "sha256": "3e5343ff1779dcaefeb53cf279bc748732d0f5885a79f7cdf79f84de9856af8d"
+    },
+    {
+      "orientation": 0,
+      "pose": 2,
+      "path": "site/assets/world/hero_0_2.webp",
+      "pivot": [
+        112,
+        220
+      ],
+      "source_alpha_bbox": [
+        83,
+        15,
+        251,
+        304
+      ],
+      "possible_cell_bleed": false,
+      "sha256": "54ab9845c5073d2959f9c82dff3bc12ca37aec13c9148adb7936bb558c79a886"
+    },
+    {
+      "orientation": 0,
+      "pose": 3,
+      "path": "site/assets/world/hero_0_3.webp",
+      "pivot": [
+        112,
+        220
+      ],
+      "source_alpha_bbox": [
+        70,
+        15,
+        230,
+        296
+      ],
+      "possible_cell_bleed": false,
+      "sha256": "be0ec2fa768bc7c08221d966a9ed1fbfa52b62c4fb52b3044dbb3472dcbfdaf0"
+    },
+    {
+      "orientation": 1,
+      "pose": 0,
+      "path": "site/assets/world/hero_1_0.webp",
+      "pivot": [
+        112,
+        220
+      ],
+      "source_alpha_bbox": [
+        82,
+        6,
+        243,
+        293
+      ],
+      "possible_cell_bleed": false,
+      "sha256": "c4156032e352d981fc10aaaad85cb3b356a27fee5ffe16d153cccec20d0b0fd8"
+    },
+    {
+      "orientation": 1,
+      "pose": 1,
+      "path": "site/assets/world/hero_1_1.webp",
+      "pivot": [
+        112,
+        220
+      ],
+      "source_alpha_bbox": [
+        57,
+        13,
+        220,
+        286
+      ],
+      "possible_cell_bleed": false,
+      "sha256": "f7aedaab870f9163cd592225ee728adba1db1fb8c3d192de17d9171ecf6122a6"
+    },
+    {
+      "orientation": 1,
+      "pose": 2,
+      "path": "site/assets/world/hero_1_2.webp",
+      "pivot": [
+        112,
+        220
+      ],
+      "source_alpha_bbox": [
+        37,
+        11,
+        202,
+        286
+      ],
+      "possible_cell_bleed": false,
+      "sha256": "c4ce10f2d915020509ad07c08cfa8a7acb0bc2538114c372a8425640bd6b52d1"
+    },
+    {
+      "orientation": 1,
+      "pose": 3,
+      "path": "site/assets/world/hero_1_3.webp",
+      "pivot": [
+        112,
+        220
+      ],
+      "source_alpha_bbox": [
+        34,
+        10,
+        194,
+        289
+      ],
+      "possible_cell_bleed": false,
+      "sha256": "70500547e762437fa41e695e3264b77745441d77da8867eeedfd56fa346e86c5"
+    },
+    {
+      "orientation": 2,
+      "pose": 0,
+      "path": "site/assets/world/hero_2_0.webp",
+      "pivot": [
+        112,
+        220
+      ],
+      "source_alpha_bbox": [
+        116,
+        6,
+        273,
+        290
+      ],
+      "possible_cell_bleed": false,
+      "sha256": "f61c557e82bc5f293ba1a3584374115a32424d4ff8db9c127d22b5a97d44a660"
+    },
+    {
+      "orientation": 2,
+      "pose": 1,
+      "path": "site/assets/world/hero_2_1.webp",
+      "pivot": [
+        112,
+        220
+      ],
+      "source_alpha_bbox": [
+        92,
+        7,
+        272,
+        287
+      ],
+      "possible_cell_bleed": false,
+      "sha256": "6e06bc4453e9bcbeda4f976e45e6b5bb63f4bee7092699e9fabd4ae9229397a0"
+    },
+    {
+      "orientation": 2,
+      "pose": 2,
+      "path": "site/assets/world/hero_2_2.webp",
+      "pivot": [
+        112,
+        220
+      ],
+      "source_alpha_bbox": [
+        59,
+        10,
+        224,
+        279
+      ],
+      "possible_cell_bleed": false,
+      "sha256": "12f9c893e9fabdfc96087a73dce9e26bbe0e381a4fa2ee25708b6ed8acab05d4"
+    },
+    {
+      "orientation": 2,
+      "pose": 3,
+      "path": "site/assets/world/hero_2_3.webp",
+      "pivot": [
+        112,
+        220
+      ],
+      "source_alpha_bbox": [
+        58,
+        7,
+        214,
+        278
+      ],
+      "possible_cell_bleed": false,
+      "sha256": "6eb40f13c06b334d03db93f260d7d888a74590f1058be3fc32a3871c5f43b2e6"
+    },
+    {
+      "orientation": 3,
+      "pose": 0,
+      "path": "site/assets/world/hero_3_0.webp",
+      "pivot": [
+        112,
+        220
+      ],
+      "source_alpha_bbox": [
+        86,
+        4,
+        254,
+        296
+      ],
+      "possible_cell_bleed": false,
+      "sha256": "a97dceb94db6cd3971d3119dd1e6d8d644604cad3b706d0c2a762fe69415600e"
+    },
+    {
+      "orientation": 3,
+      "pose": 1,
+      "path": "site/assets/world/hero_3_1.webp",
+      "pivot": [
+        112,
+        220
+      ],
+      "source_alpha_bbox": [
+        70,
+        3,
+        221,
+        282
+      ],
+      "possible_cell_bleed": false,
+      "sha256": "0a27f28abc54e28b06ea78a1546a4fd3db5990c818ba040f52aa335c1ed918b3"
+    },
+    {
+      "orientation": 3,
+      "pose": 2,
+      "path": "site/assets/world/hero_3_2.webp",
+      "pivot": [
+        112,
+        220
+      ],
+      "source_alpha_bbox": [
+        47,
+        8,
+        210,
+        294
+      ],
+      "possible_cell_bleed": false,
+      "sha256": "c0cf0418cef0ea0328ef59d2671bb569c1ae1010d7b20f291feb3c00d4bf6858"
+    },
+    {
+      "orientation": 3,
+      "pose": 3,
+      "path": "site/assets/world/hero_3_3.webp",
+      "pivot": [
+        112,
+        220
+      ],
+      "source_alpha_bbox": [
+        30,
+        11,
+        190,
+        286
+      ],
+      "possible_cell_bleed": false,
+      "sha256": "5f684c3797430f43e332abf5b0e4029d4f7623109f18b8073a7f6e360defabf8"
+    }
+  ],
+  "approval": "ART_REVIEW_PENDING",
+  "note": "4x4 frame groups generated as motion studies, not a verified rig or continuous animation"
+}
