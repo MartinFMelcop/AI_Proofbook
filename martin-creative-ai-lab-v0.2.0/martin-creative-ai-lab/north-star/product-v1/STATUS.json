@@ -5,17 +5,17 @@
   "product": "Virgo Diamond: The North Star",
   "status": {
     "integration": "INTERNAL_PREPRODUCTION",
-    "technical": "101_PYTHON_PASS_116_NATIVE_WASM_PARITY_4_SKIA_VIEWS",
+    "technical": "132_PYTHON_PASS_121_NATIVE_WASM_116_R02_100_R01_4_SKIA_11_SOURCE_MATCH",
     "art": "ART_REVIEW_PENDING",
     "product": "PRODUCT_NO_GO",
     "publication": "NOT_AUTHORIZED"
   },
   "package": {
-    "drive_file_id": "1I81NOh4eI83g-gYGJkGZtOyIbjzTeDVL",
-    "name": "MMAI_PRODUCT_V1_20261115_R02.zip",
-    "bytes": 29080893,
-    "sha256_local": "ec71760455d19fedc78639fee42f859a33841d0bc199bc469929e2b4ef804fa8",
-    "file_count": 124,
+    "drive_file_id": "1gV0_gPI9P_7sQ7UWZt4lnKSAF0CYJklB",
+    "name": "MMAI_PRODUCT_V1_20261115_R03.zip",
+    "bytes": 37147998,
+    "sha256_local": "6f99e378ee19b2cef319e04aef4c427b48ab27d19af9699ed4ea73f7755a3ce8",
+    "file_count": 223,
     "zip_integrity": "CRC_AND_PER_FILE_SHA256_VERIFIED_LOCAL",
     "remote_metadata_readback": "SIZE_AND_PARENT_MATCH",
     "remote_binary_readback": "NOT_PERFORMED",
@@ -28,10 +28,10 @@
     "rave_masters": "1Q3LwmkiD-p2gvw65756ZLk1bkNmJc32Z"
   },
   "evidence": {
-    "python_native_tests": 101,
+    "python_native_tests": 132,
     "node_wasm": "PASS",
     "node_camera4": "PASS",
-    "chromium": "NOT_RUN_BLOCKED_PRIOR_EXECUTOR",
+    "chromium": "NOT_RUN",
     "windows": "NOT_RUN",
     "human_art": "NOT_APPROVED",
     "world_native_intents": 100,
@@ -43,13 +43,23 @@
     "original_opening_seconds": 18,
     "r02_native_wasm_field_parity_events": 116,
     "legacy_r01_native_wasm_parity_events": 100,
-    "c17_to_cpp20": "PASS",
+    "c17_to_cpp20": "PASS_ABI3",
     "camera_views_skia_render": 4,
     "skia_canvas_source_executed": true,
     "sqlite_hash_chain_r02_events": 116,
     "hero_pose_frames": 16,
     "material_tiles": 9,
-    "opening_seconds": 18
+    "opening_seconds": 18,
+    "r03_native_wasm_field_parity_events": 121,
+    "r02_historic_wasm_events": 116,
+    "r01_historic_wasm_events": 100,
+    "skia_actual_renderer_views": 4,
+    "illustrated_npc_faces": 16,
+    "material_variants": 45,
+    "sqlite_hash_chain_r03_events": 121,
+    "historic_R02_unchanged_hash_files": 10,
+    "source_git_r03_files": 77,
+    "source_git_sample_readback": "11_OF_11_EXACT"
   },
   "experience_requirements": [
     "studio_brand",
@@ -89,10 +99,11 @@
   "classes": {
     "profiles": 21,
     "mode_actions": "21_LAB_RESEARCH_MODES_PRIMARY_OR_SECONDARY_IMPLEMENTED",
-    "full_kits": "NOT_IMPLEMENTED",
+    "full_kits": "NOT_APPROVED_NOT_BALANCED",
     "canon": "NOT_AUTHORIZED",
     "rogue_independence": "UNVERIFIED",
-    "source_id": "1hd8QM4x5aKP3gh6LnaedpbauHzMpFFZJM47N0-kBKY8"
+    "source_id": "1hd8QM4x5aKP3gh6LnaedpbauHzMpFFZJM47N0-kBKY8",
+    "lab_kits": "21 research profiles each one signature active, one utility active and one limited passive (7 passive families), NOT canonical kits"
   },
   "encounters": [
     {
@@ -112,14 +123,15 @@
     }
   ],
   "gates": {
-    "visual_style": "REPEATED_GRID_GEOMETRIC_BEINGS_NOT_SATISFACTORY_ART_REVIEW_PENDING",
-    "opening_final": "NOT_IMPLEMENTED_ANIMATIC_18S_ONLY",
-    "native_world_four_view": "FOUR_SKIA_FRAMES_ACTUAL_CANVAS_CODE_NOT_BROWSER_OR_ART_APPROVAL",
-    "classes_and_skills": "21_EXPERIMENTAL_CLASS_MODES_NO_FULL_KITS",
+    "visual_style": "BELOW_TARGET_AUTHOR_ART_PENDING",
+    "opening_final": "NOT_IMPLEMENTED_18S_ANIMATIC_UNCHANGED",
+    "native_world_four_view": "FOUR_REAL_SKIA_CPU_FRAMES_NOT_BROWSER_OR_ART_APPROVAL",
+    "classes_and_skills": "21_SIGN+UTILITY+PASSIVE_RESEARCH_KITS_NO_CANON_NO_BALANCE",
     "professions_quests": "CXX_MECHANICAL_MINING_SMELTING_UPGRADE_NOT_CANON",
-    "boss_behavior": "DIFFERENT_NATIVE_TELEGRAPHS_STILL_FIXTURE_NONCANON",
+    "boss_behavior": "3_LAB_MECHANICS_SYNTHETIC_PHASE_COUNTERPROOFS_NO_AUTHOR_BOSSES",
     "standard_user_windows": "NOT_RUN",
-    "owners_C_E_B_D": "PENDING"
+    "owners_C_E_B_D": "PENDING",
+    "beings": "4_ILLUSTRATED_X4_VIEWS_BOUNDED_TALK_MEMORY_NO_AI_APPROVAL"
   },
   "historical_blocks": [
     "R51_OPEN",
@@ -140,7 +152,7 @@
     "vea": false,
     "unity": false
   },
-  "current_revision": "PRODUCT_V1_R02_2026-11-15",
+  "current_revision": "PRODUCT_V1_R03_2026-11-15",
   "package_previous": {
     "drive_file_id": "1fsbHm8vHKnTD7nj8M-Ua8NbQWbLb8uz0",
     "name": "MMAI_PRODUCT_V1_20261115.zip",
@@ -149,15 +161,16 @@
     "remote_binary_readback": "NOT_PERFORMED"
   },
   "code_status": {
-    "single_runtime_owner": "core/world_r02.cpp",
+    "single_runtime_owner": "core/world_r03.cpp (LAB, ABI3)",
     "previous_owner_archived_for_regression": "core/world.cpp and core/product.cpp unchanged by SHA256",
-    "client_wasm_abi": 2,
-    "save_localstorage_schema": 3,
-    "source_location": "GitHub PR #3 branch source-r02/ has 49 textual files, and Drive ZIP R02 contains executable source, binaries, original assets and test artifacts",
+    "client_wasm_abi": 3,
+    "save_localstorage_schema": 4,
+    "source_location": "77 R03 text sources mirrored in same PR #3 branch source-r03/; full R03 ZIP on Drive has binaries, original art, sprites, audit images, SQLite",
     "sql": "Python SQLite journal 116 events is LAB_ONLY, not browser save or MMO database",
     "github_text_sources": "49_PUSHED_AND_READBACK_SAMPLED_7_OF_7_EXACT",
-    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r02/",
-    "source_commit": "7083c59029610d5e29090b5e55288055703f7d52"
+    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r03/",
+    "source_commit": "624051d8fc9dd1cde1f6e7482d0c6ff4766902b8",
+    "previous_owners": "R01 + R02 unchanged for independent regression"
   },
   "world": {
     "dimensions": [
@@ -170,13 +183,15 @@
     "quests": "SPATIAL_PROXIMITY_NATIVE",
     "profession": "MINING_SMELTING_TOOL_UPGRADE_NATIVE",
     "bosses": [
-      "B01_PROPOSED",
-      "B02_PROPOSED",
+      "B01_PROPOSED_NOT_CANON",
+      "B02_PROPOSED_NOT_CANON",
       "B03_RAVE_MASTERS_HISTORIC_NOT_NORTH_STAR_CANON"
     ],
-    "boss_mechanics": "DIFFERENT_TELEGRAPHS_AND_PHASES_LAB_NOT_BALANCED",
-    "camera": "4_QUARTER_TURNS_CANVAS_SKIA_RENDERED",
-    "visual_render_quality": "ART_REVIEW_PENDING_REPEATED_TILE_GRID_GEOMETRIC_NPCS"
+    "boss_mechanics": "B01 feint, B02 phase corrosive SP zone, B03 phase root pressure, ALL LAB_ONLY",
+    "camera": "FOUR_SKIA_CPU_ACTUAL_CANVAS_PROJECTIONS",
+    "visual_render_quality": "LOW_DETAIL_UNIFORM_BIOMES_MISSING_SEVEN_HOUSES_SOME_PROPS_SINGLE_FACED_ART_REVIEW_PENDING",
+    "illustrated_NPCs": "4_IDENTITIES_X4_VIEWS_CONCEPT_NOT_ART_APPROVED",
+    "npc_observation": "NEARBY_TALK_MASK_LAST_TALK_TICK_OWNER_ONLY_NO_REMOTE_OBSERVATION"
   },
   "package_r01": {
     "drive_file_id": "19U1f3Yr7xhfResYMdrEtDAduJA6yscaV",
@@ -186,5 +201,16 @@
     "zip_integrity": "CRC_AND_PER_FILE_SHA256_VERIFIED_LOCAL",
     "remote_metadata_readback": "SIZE_AND_PARENT_MATCH",
     "remote_binary_readback": "NOT_PERFORMED"
+  },
+  "package_r02": {
+    "drive_file_id": "1I81NOh4eI83g-gYGJkGZtOyIbjzTeDVL",
+    "name": "MMAI_PRODUCT_V1_20261115_R02.zip",
+    "bytes": 29080893,
+    "sha256_local": "ec71760455d19fedc78639fee42f859a33841d0bc199bc469929e2b4ef804fa8",
+    "file_count": 124,
+    "zip_integrity": "CRC_AND_PER_FILE_SHA256_VERIFIED_LOCAL",
+    "remote_metadata_readback": "SIZE_AND_PARENT_MATCH",
+    "remote_binary_readback": "NOT_PERFORMED",
+    "drive_parent_id": "1jVrmdP6yjTGI1udqKkSvjbD49sts0CGk"
   }
 }
