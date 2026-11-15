@@ -5,20 +5,20 @@
   "product": "Virgo Diamond: The North Star",
   "status": {
     "integration": "INTERNAL_PREPRODUCTION",
-    "technical": "132_PYTHON_PASS_121_NATIVE_WASM_116_R02_100_R01_4_SKIA_11_SOURCE_MATCH",
+    "technical": "167_PYTHON_PASS_121_R04_WASM_121_R03_116_R02_100_R01_4_SKIA_3_BOSS_SKIA_12_SOURCE_MATCH",
     "art": "ART_REVIEW_PENDING",
     "product": "PRODUCT_NO_GO",
     "publication": "NOT_AUTHORIZED"
   },
   "package": {
-    "drive_file_id": "1gV0_gPI9P_7sQ7UWZt4lnKSAF0CYJklB",
-    "name": "MMAI_PRODUCT_V1_20261115_R03.zip",
-    "bytes": 37147998,
-    "sha256_local": "6f99e378ee19b2cef319e04aef4c427b48ab27d19af9699ed4ea73f7755a3ce8",
-    "file_count": 223,
-    "zip_integrity": "CRC_AND_PER_FILE_SHA256_VERIFIED_LOCAL",
+    "drive_file_id": "1tU1Tk6g7JshWv5IGlUdLx7-gTf0f-zif",
+    "name": "MMAI_PRODUCT_V1_20261115_R04.zip",
+    "bytes": 55322074,
+    "sha256_local": "89eb4a57c1c6dfb912c7c1a9d8afc2ac8bc272f8710cab5a3cc93efcc54e9656",
+    "file_count": 279,
+    "zip_integrity": "CRC_AND_EACH_ENTRY_SHA256_MATCH_LOCAL",
     "remote_metadata_readback": "SIZE_AND_PARENT_MATCH",
-    "remote_binary_readback": "NOT_PERFORMED",
+    "remote_binary_hash": "NOT_PERFORMED",
     "drive_parent_id": "1jVrmdP6yjTGI1udqKkSvjbD49sts0CGk"
   },
   "documentation": {
@@ -28,7 +28,7 @@
     "rave_masters": "1Q3LwmkiD-p2gvw65756ZLk1bkNmJc32Z"
   },
   "evidence": {
-    "python_native_tests": 132,
+    "python_native_tests": 167,
     "node_wasm": "PASS",
     "node_camera4": "PASS",
     "chromium": "NOT_RUN",
@@ -43,7 +43,7 @@
     "original_opening_seconds": 18,
     "r02_native_wasm_field_parity_events": 116,
     "legacy_r01_native_wasm_parity_events": 100,
-    "c17_to_cpp20": "PASS_ABI3",
+    "c17_to_cpp20": "PASS_ABI4",
     "camera_views_skia_render": 4,
     "skia_canvas_source_executed": true,
     "sqlite_hash_chain_r02_events": 116,
@@ -59,7 +59,20 @@
     "sqlite_hash_chain_r03_events": 121,
     "historic_R02_unchanged_hash_files": 10,
     "source_git_r03_files": 77,
-    "source_git_sample_readback": "11_OF_11_EXACT"
+    "source_git_sample_readback": "11_OF_11_EXACT",
+    "r04_native_wasm_field_parity_events": 121,
+    "r04_wasm_threat_probes_per_step": 4,
+    "historical_r03_wasm_events": 121,
+    "historical_r02_wasm_events": 116,
+    "historical_r01_wasm_events": 100,
+    "skia_real_boss_scenes": 3,
+    "architecture_prop_types": 9,
+    "r04_derived_boss_sprites": 6,
+    "r04_new_render_assets": 15,
+    "visual_delta_r03_to_r04_pixel_percent": 17.82,
+    "source_github_text_files": 102,
+    "github_sampled_exact_matches": "12_OF_12",
+    "browser": "NOT_RUN"
   },
   "experience_requirements": [
     "studio_brand",
@@ -123,15 +136,16 @@
     }
   ],
   "gates": {
-    "visual_style": "BELOW_TARGET_AUTHOR_ART_PENDING",
-    "opening_final": "NOT_IMPLEMENTED_18S_ANIMATIC_UNCHANGED",
-    "native_world_four_view": "FOUR_REAL_SKIA_CPU_FRAMES_NOT_BROWSER_OR_ART_APPROVAL",
-    "classes_and_skills": "21_SIGN+UTILITY+PASSIVE_RESEARCH_KITS_NO_CANON_NO_BALANCE",
+    "visual_style": "BELOW_AUTHOR_TARGET_ART_REVIEW_PENDING_NOT_APPROVED",
+    "opening_final": "NOT_IMPLEMENTED_18S_ANIMATIC_ONLY",
+    "native_world_four_view": "FOUR_SKIA_FRAMES_REAL_CANVAS_QUARTER_TURNS_BUT_BILLBOARD_PROP_ART",
+    "classes_and_skills": "21_RESEARCH_SIGNATURE_UTILITY_PASSIVE_HISTORICAL_NO_CANON",
     "professions_quests": "CXX_MECHANICAL_MINING_SMELTING_UPGRADE_NOT_CANON",
-    "boss_behavior": "3_LAB_MECHANICS_SYNTHETIC_PHASE_COUNTERPROOFS_NO_AUTHOR_BOSSES",
+    "boss_behavior": "THREE_LAB_ENCOUNTERS_SKIA_ACTUAL_3_SCENES_THREAT_MATCH_CPP_NONCANON",
     "standard_user_windows": "NOT_RUN",
     "owners_C_E_B_D": "PENDING",
-    "beings": "4_ILLUSTRATED_X4_VIEWS_BOUNDED_TALK_MEMORY_NO_AI_APPROVAL"
+    "beings": "4_ILLUSTRATED_NPCS_CONTEXT_ROUTINES_NOT_FINAL_ANIMATION_AI",
+    "windows": "NOT_RUN"
   },
   "historical_blocks": [
     "R51_OPEN",
@@ -152,7 +166,7 @@
     "vea": false,
     "unity": false
   },
-  "current_revision": "PRODUCT_V1_R03_2026-11-15",
+  "current_revision": "PRODUCT_V1_R04_2026-11-15",
   "package_previous": {
     "drive_file_id": "1fsbHm8vHKnTD7nj8M-Ua8NbQWbLb8uz0",
     "name": "MMAI_PRODUCT_V1_20261115.zip",
@@ -161,16 +175,22 @@
     "remote_binary_readback": "NOT_PERFORMED"
   },
   "code_status": {
-    "single_runtime_owner": "core/world_r03.cpp (LAB, ABI3)",
+    "single_runtime_owner": "core/world_r04.cpp C++20 ABI4",
     "previous_owner_archived_for_regression": "core/world.cpp and core/product.cpp unchanged by SHA256",
-    "client_wasm_abi": 3,
-    "save_localstorage_schema": 4,
-    "source_location": "77 R03 text sources mirrored in same PR #3 branch source-r03/; full R03 ZIP on Drive has binaries, original art, sprites, audit images, SQLite",
+    "client_wasm_abi": 4,
+    "save_localstorage_schema": 5,
+    "source_location": "source-r04/ 102 exact UTF-8 files on existing draft PR; full 279-file R04 ZIP in Drive",
     "sql": "Python SQLite journal 116 events is LAB_ONLY, not browser save or MMO database",
     "github_text_sources": "49_PUSHED_AND_READBACK_SAMPLED_7_OF_7_EXACT",
-    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r03/",
-    "source_commit": "624051d8fc9dd1cde1f6e7482d0c6ff4766902b8",
-    "previous_owners": "R01 + R02 unchanged for independent regression"
+    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r04/",
+    "source_commit": "a3d819dc0713e86ff282d551aa8329ccf5f97bbe",
+    "previous_owners": "R01 + R02 unchanged for independent regression",
+    "legacy_binary_versions": [
+      "world_r01.wasm",
+      "world_r02.wasm",
+      "world_r03.wasm",
+      "product_legacy.wasm"
+    ]
   },
   "world": {
     "dimensions": [
@@ -188,10 +208,13 @@
       "B03_RAVE_MASTERS_HISTORIC_NOT_NORTH_STAR_CANON"
     ],
     "boss_mechanics": "B01 feint, B02 phase corrosive SP zone, B03 phase root pressure, ALL LAB_ONLY",
-    "camera": "FOUR_SKIA_CPU_ACTUAL_CANVAS_PROJECTIONS",
-    "visual_render_quality": "LOW_DETAIL_UNIFORM_BIOMES_MISSING_SEVEN_HOUSES_SOME_PROPS_SINGLE_FACED_ART_REVIEW_PENDING",
+    "camera": "FOUR_ACTUAL_SKIA_CPU_PROJECTIONS",
+    "visual_render_quality": "R04_ADDED_LIT_COTTAGES_FORGE_APOTHECARY_BRIDGE_FOUNTAIN_FLORA_BOSS_CONCEPTS; ART_REVIEW_PENDING",
     "illustrated_NPCs": "4_IDENTITIES_X4_VIEWS_CONCEPT_NOT_ART_APPROVED",
-    "npc_observation": "NEARBY_TALK_MASK_LAST_TALK_TICK_OWNER_ONLY_NO_REMOTE_OBSERVATION"
+    "npc_observation": "NEARBY_TALK_MASK_LAST_TALK_TICK_OWNER_ONLY_NO_REMOTE_OBSERVATION",
+    "architecture_props": "9_TRANSPARENT_IMAGE_BILLBOARDS_NOT_AUTHORED_FOUR_FACING_MESHES",
+    "r04_boss_concept_art": "B01 4 derived directional; B02 single procedural specter; B03 recolored original tree, all NONCANON",
+    "telegraph": "CXX_ABI4_PURE_BOSS_THREAT_PREDICATE_SHARED_WITH_HIT_AND_CANVAS"
   },
   "package_r01": {
     "drive_file_id": "19U1f3Yr7xhfResYMdrEtDAduJA6yscaV",
@@ -208,6 +231,17 @@
     "bytes": 29080893,
     "sha256_local": "ec71760455d19fedc78639fee42f859a33841d0bc199bc469929e2b4ef804fa8",
     "file_count": 124,
+    "zip_integrity": "CRC_AND_PER_FILE_SHA256_VERIFIED_LOCAL",
+    "remote_metadata_readback": "SIZE_AND_PARENT_MATCH",
+    "remote_binary_readback": "NOT_PERFORMED",
+    "drive_parent_id": "1jVrmdP6yjTGI1udqKkSvjbD49sts0CGk"
+  },
+  "package_r03": {
+    "drive_file_id": "1gV0_gPI9P_7sQ7UWZt4lnKSAF0CYJklB",
+    "name": "MMAI_PRODUCT_V1_20261115_R03.zip",
+    "bytes": 37147998,
+    "sha256_local": "6f99e378ee19b2cef319e04aef4c427b48ab27d19af9699ed4ea73f7755a3ce8",
+    "file_count": 223,
     "zip_integrity": "CRC_AND_PER_FILE_SHA256_VERIFIED_LOCAL",
     "remote_metadata_readback": "SIZE_AND_PARENT_MATCH",
     "remote_binary_readback": "NOT_PERFORMED",
