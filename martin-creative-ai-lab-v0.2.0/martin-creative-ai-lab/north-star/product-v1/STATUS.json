@@ -153,8 +153,11 @@
     "previous_owner_archived_for_regression": "core/world.cpp and core/product.cpp unchanged by SHA256",
     "client_wasm_abi": 2,
     "save_localstorage_schema": 3,
-    "source_location": "Drive ZIP R02 includes full C++/C17/Python/JS source and original assets; GitHub PR stores index/gates (code not yet mirrored)",
-    "sql": "Python SQLite journal 116 events is LAB_ONLY, not browser save or MMO database"
+    "source_location": "GitHub PR #3 branch source-r02/ has 49 textual files, and Drive ZIP R02 contains executable source, binaries, original assets and test artifacts",
+    "sql": "Python SQLite journal 116 events is LAB_ONLY, not browser save or MMO database",
+    "github_text_sources": "49_PUSHED_AND_READBACK_SAMPLED_7_OF_7_EXACT",
+    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r02/",
+    "source_commit": "7083c59029610d5e29090b5e55288055703f7d52"
   },
   "world": {
     "dimensions": [
