@@ -136,3 +136,16 @@ Detalhes: [R06_COMPOSED_DELTA](source-r06/docs/R06_COMPOSED_DELTA.md), [R06_VISU
 Arquivos de prova: [R07_COMPOSED_DELTA](source-r07/docs/R07_COMPOSED_DELTA.md), [R07_VISUAL_AUDIT](source-r07/docs/R07_VISUAL_AUDIT.md), [R07_TEST_REPORT](source-r07/artifacts/R07_TEST_REPORT.json).
 
 **Não solicite teste humano, não faça merge, não apresente mockup como gameplay.** Próximo incremento deve gerar/obter arte original de 12 vistas e chefes autorais coerentes, integrar no renderer e comprovar qualidade comparando as quatro vistas; sem isso, manter NO-GO e não ocupar mais espaço na biblioteca.
+
+
+## R08 — importador de atlas 3×4 e rejeição de cópias; arte ainda bloqueada (15/11/2026)
+
+**ART_BLOCKED_FACADES / PRODUCT_NO_GO. Sem novas pinturas e sem ZIP integral.** A geração de imagem falhou nesta operação e não foi repetida. A folha R04 tem uma única vista por construção; a pasta VEA de recuperação foi listada (17 filhos diretos, sobretudo arquivos de código/interop), sem atlas de 12 vistas identificado. O conteúdo interno dos ZIPs VEA não foi exaurido, então a busca não prova inexistência global.
+
+- [Delta R08 real (7 arquivos)](source-r08/), na mesma branch e PR rascunho #3, **7/7 arquivos relidos com correspondência exata**. tools/import_fourview_atlas_r08.py só aceita folha pintada RGBA de **3 linhas ×4 colunas** e recorta 12 vistas sem espelhamentos, inventar pixels ou sobrescrever arquivos. Emite ART_CANDIDATE_UNREVIEWED, com direitos e aprovação em aberto. tools/fourview_inspector_r08.py detecta suspeita de versões apenas espelhadas, giradas ou recoloridas apesar de hashes diferentes, inconsistências de âncora, transparência, SHA e origem. Heurística não prova originalidade nem concede autorização artística.
+- **234 testes Python** (215 históricos+19 novos), 44 checagens Node, C17 ABI5, 121 ações C++/WASM com paridade, regressões independentes R04 121 / R03 121 / R02 116 / R01 100 e SQLite 121 ações/replay. O mesmo Canvas real do site/world.js foi renderizado em Skia CPU. **7 screenshots reais** (4 vistas+3 chefes) são **idênticos pixel a pixel ao R07**. Dez fontes/assets históricos foram comparados por SHA-256: iguais.
+- **0/12 fachadas ilustradas prontas.** Nenhuma mudança visual foi integrada ao gameplay, nenhuma nova animação ou arte autoral de boss, nenhuma homologação de 21 kits. A validação perceptual pode ter falsos positivos/negativos; somente inspeção humana em quatro ângulos e confirmação de direitos podem encaminhar a arte ao autor.
+- Último pacote integral continua [R06 no Drive](https://drive.google.com/file/d/1vfOaM9mHEPJpqHklSsyLyUOtxdYz4OwT/view). Para aplicar a pesquisa R08, usar uma **cópia R06** + source-r07 + source-r08; não fazer merge nem distribuir jogo prematuro. R07/08 são deltas de código; a main está intacta.
+- Evidência: [R08_ART_INTAKE_AND_AUDIT](source-r08/docs/R08_ART_INTAKE_AND_AUDIT.md), [R08_TEST_REPORT](source-r08/artifacts/R08_TEST_REPORT.json), [verify_r08](source-r08/tools/verify_r08.py).
+
+O próximo gate deve focar **criar ou recuperar artes originais de quatro perspectivas** e inspecionar o resultado dentro do renderizador, antes de abrir nova frente de código ou gerar outro pacote integral.
