@@ -1,0 +1,121 @@
+{
+  "schema_version": "mmai.product.composite.v1",
+  "date": "2026-11-15",
+  "author_direction": "C_OWN_ENGINE",
+  "product": "Virgo Diamond: The North Star",
+  "status": {
+    "integration": "INTERNAL_PREPRODUCTION",
+    "technical": "LAB_FIXTURES_PASS_LINUX",
+    "art": "ART_REVIEW_PENDING",
+    "product": "PRODUCT_NO_GO",
+    "publication": "NOT_AUTHORIZED"
+  },
+  "package": {
+    "drive_file_id": "1fsbHm8vHKnTD7nj8M-Ua8NbQWbLb8uz0",
+    "name": "MMAI_PRODUCT_V1_20261115.zip",
+    "bytes": 17935594,
+    "sha256_local": "27a194e6e76d6bd3be44586f968919a519774313544a9388a853c3c568be10f5",
+    "remote_binary_readback": "NOT_PERFORMED"
+  },
+  "documentation": {
+    "drive_doc_id": "1HwKtQ3WLnCFEKMtjUN4cwYi0uRMQickM6SJHZNJkZPU",
+    "baseline_c02": "103SZI0xfvsaJxb15FXpsJs7BpltzQCmfkP-UUCsqVas",
+    "combat": "1hd8QM4x5aKP3gh6LnaedpbauHzMpFFZJM47N0-kBKY8",
+    "rave_masters": "1Q3LwmkiD-p2gvw65756ZLk1bkNmJc32Z"
+  },
+  "evidence": {
+    "python_native_tests": 33,
+    "node_wasm": "PASS",
+    "node_camera4": "PASS",
+    "chromium": "BLOCKED_BY_ADMINISTRATOR",
+    "windows": "NOT_RUN",
+    "human_art": "NOT_APPROVED"
+  },
+  "experience_requirements": [
+    "studio_brand",
+    "opening_video",
+    "press_to_start",
+    "main_menu_and_options",
+    "character_creation_21_profiles_up_to_2",
+    "initial_adventure_professions_skills_quests",
+    "first_three_bosses",
+    "satisfactory_original_art",
+    "believable_beings",
+    "four_camera_orientations"
+  ],
+  "historical_class_profiles": [
+    "R01 Soldier",
+    "R02 Dragon Slayer",
+    "R03 Berserker",
+    "R04 Rogue A",
+    "R05 Rogue B",
+    "R06 Knight",
+    "R07 Ranger",
+    "R08 Warrior",
+    "R09 Monk",
+    "R10 Battlemage",
+    "R11 Dark Mage",
+    "R12 Pyromancer",
+    "R13 Necromancer",
+    "R14 Esper",
+    "R15 Alchemist",
+    "R16 Cryomancer",
+    "R17 Bard",
+    "R18 Cleric",
+    "R19 Druid",
+    "R20 Sentinel",
+    "R21 Shaman"
+  ],
+  "classes": {
+    "profiles": 21,
+    "legacy_keys": 20,
+    "rogue_independence": "UNVERIFIED",
+    "kits": "NOT_IMPLEMENTED"
+  },
+  "encounters": [
+    {
+      "id": "B01",
+      "name": "Vigia das Ruínas",
+      "state": "PROPOSED_NOT_CANON"
+    },
+    {
+      "id": "B02",
+      "name": "Sussurro do Brejo",
+      "state": "PROPOSED_NOT_CANON"
+    },
+    {
+      "id": "B03",
+      "name": "Árvore Guardiã",
+      "state": "RAVE_MASTERS_HISTORICAL_MINIBOSS_NOT_NORTH_STAR_CANON"
+    }
+  ],
+  "gates": {
+    "visual_style": "PENDING_AUTHOR",
+    "opening_final": "NOT_IMPLEMENTED",
+    "native_world_four_view": "NOT_IMPLEMENTED",
+    "classes_and_skills": "NOT_IMPLEMENTED",
+    "professions_quests": "PROTOTYPE_ONLY",
+    "boss_behavior": "LAB_FIXTURE_ONLY",
+    "standard_user_windows": "NOT_RUN",
+    "owners_C_E_B_D": "PENDING"
+  },
+  "historical_blocks": [
+    "R51_OPEN",
+    "R60_OPEN",
+    "R61_OPEN",
+    "INT-C01-001_OPEN",
+    "RP-R03-P03_PENDING",
+    "RP-G02-A03_PENDING",
+    "C30_STOP_DOCUMENTARY_PENDING_OWNER",
+    "ARENA_S1_HOLD",
+    "C05-P01-P07_OPEN"
+  ],
+  "modifications": {
+    "github_main": false,
+    "legacy_docs": false,
+    "makers": false,
+    "mer": false,
+    "vea": false,
+    "unity": false
+  }
+}
