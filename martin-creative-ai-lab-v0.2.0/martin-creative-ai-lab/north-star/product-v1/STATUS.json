@@ -5,8 +5,8 @@
   "product": "Virgo Diamond: The North Star",
   "status": {
     "integration": "INTERNAL_PREPRODUCTION",
-    "technical": "234_PYTHON_PASS_44_NODE_FACADE_121_WASM_NATIVE_458_HIST_WASM_11_SKIA_7_GIT_SOURCE_MATCH_7_PNG_IDENTICAL",
-    "art": "ART_BLOCKED_FACADES",
+    "technical": "R10_240_PYTHON_44_NODE_121_NATIVE_WASM_458_HIST_121_SQLITE_4_SKIA_4_FALLBACK_MATCH",
+    "art": "ART_REVIEW_PENDING_12_CANDIDATE_VIEWS_0_APPROVED",
     "product": "PRODUCT_NO_GO",
     "publication": "NOT_AUTHORIZED"
   },
@@ -145,7 +145,30 @@
     "r09_new_artworks": 0,
     "r09_archive_indices_inspected": 9,
     "r09_new_render_images": 0,
-    "r09_windows": "NOT_RUN"
+    "r09_windows": "NOT_RUN",
+    "r10_python_unittest": 240,
+    "r10_js_facade_checks": 44,
+    "r10_cpp_wasm_parity": 121,
+    "r10_historical_wasm_events": {
+      "R04": 121,
+      "R03": 121,
+      "R02": 116,
+      "R01": 100
+    },
+    "r10_c17": "COMPILED_EXECUTED_PASS",
+    "r10_sqlite_replay": 121,
+    "r10_skia_candidate_views": 4,
+    "r10_skia_fallback_identical_views": 4,
+    "r10_pixel_change_pct_against_r07": [
+      4.7041,
+      5.5599,
+      4.8991,
+      5.751
+    ],
+    "r10_camera_does_not_mutate_owner": "ASSERTED_4_VIEWS",
+    "r10_gameplay_frozen_sources": "6_OF_6_SHA_IDENTICAL",
+    "r10_art_status": "HUMAN_REVIEW_PENDING",
+    "r10_source_readback": "10_OF_10_EXACT"
   },
   "experience_requirements": [
     "studio_brand",
@@ -212,9 +235,9 @@
     }
   ],
   "gates": {
-    "visual_style": "NO_VISUAL_QUALITY_CHANGE_R07_TO_R08",
+    "visual_style": "FOUR_VIEW_ART_CANDIDATE_PENDING_HUMAN_VISUAL_APPROVAL",
     "opening_final": "ANIMATIC_18S_ONLY",
-    "native_world_four_view": "FOUR_SKIA_SCENE_VIEWS_BUT_BUILDINGS_STILL_SINGLE_FACE_R04",
+    "native_world_four_view": "FOUR_REAL_SKIA_CANDIDATE_VIEWS_DEFAULT_FALLBACK_UNCHANGED",
     "classes_and_skills": "21_RESEARCH_KITS_441_PAIRINGS_NOT_CANON",
     "professions_quests": "CXX_MECHANICAL_MINING_SMELTING_UPGRADE_NOT_CANON",
     "boss_behavior": "R05_CXX_OWNED_MECHANICS_UNCHANGED_B02_DERIVED_CONCEPT_ONLY",
@@ -222,10 +245,10 @@
     "owners_C_E_B_D": "PENDING",
     "beings": "R06_DERIVED_ONLY_NOT_FINAL",
     "windows": "NOT_RUN",
-    "facade_art": "ART_BLOCKED_0_OF_12_ORIGINAL_PAINTINGS",
+    "facade_art": "12_PAINTED_CANDIDATE_VIEWS_AVAILABLE_0_OF_12_AUTHOR_APPROVED",
     "being_animation": "R06_DERIVED_MOTION_NOT_FINAL_RIG",
     "boss_art": "R06_DERIVED_ONLY_NONCANON",
-    "facade_preflight": "PERCEPTUAL_REUSE_AND_ATLAS_IMPORTER_TESTED_HUMAN_ART_REVIEW_MANDATORY"
+    "facade_preflight": "12_DISTINCT_PHYSICAL_PAINTINGS_ANCHOR_CHECK_PASS_LICENSE_AND_AUTHOR_ACK_PENDING"
   },
   "historical_blocks": [
     "R51_OPEN",
@@ -246,7 +269,7 @@
     "vea": false,
     "unity": false
   },
-  "current_revision": "PRODUCT_V1_R09_ART_RECOVERY_GATE_2026-11-15",
+  "current_revision": "PRODUCT_V1_R10_FOURVIEW_ART_CANDIDATE_2026-11-15",
   "package_previous": {
     "drive_file_id": "1fsbHm8vHKnTD7nj8M-Ua8NbQWbLb8uz0",
     "name": "MMAI_PRODUCT_V1_20261115.zip",
@@ -255,14 +278,14 @@
     "remote_binary_readback": "NOT_PERFORMED"
   },
   "code_status": {
-    "single_runtime_owner": "core/world_r05.cpp C++20/C17 ABI5 UNCHANGED",
+    "single_runtime_owner": "core/world_r05.cpp C++20/ABI5 UNCHANGED",
     "previous_owner_archived_for_regression": "core/world.cpp and core/product.cpp unchanged by SHA256",
     "client_wasm_abi": 5,
     "save_localstorage_schema": 6,
-    "source_location": "same draft PR source-r08 contains 7 code/docs/test files layered on source-r07 and R06 complete; no new binary or artwork package",
+    "source_location": "Existing PR #3 source-r10/ 10 text changes; 12 generated WebP assets and provenance in one 25 MB Drive art-candidate ZIP; full R06 unchanged",
     "sql": "Python SQLite journal 116 events is LAB_ONLY, not browser save or MMO database",
     "github_text_sources": "49_PUSHED_AND_READBACK_SAMPLED_7_OF_7_EXACT",
-    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r08/",
+    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r10/",
     "source_commit": "db3633435271687d37764828333650479a4846ef",
     "previous_owners": "R01 + R02 unchanged for independent regression",
     "legacy_binary_versions": [
@@ -412,5 +435,34 @@
       "note": "Archive directory entries were inspected. M09-M13 contain technical images and studies; no identifiable 3-by-4 facade atlas in filenames. Not proof that no suitable image exists anywhere or that all images were manually inspected."
     },
     "rule": "Do not create ZIP or claim visual progress without original aligned illustrated faces and in-render four-view comparison."
+  },
+  "r10_delivery": {
+    "mode": "ORIGINAL_ART_CANDIDATE_AND_SOURCE_DELTA_NOT_FULL_GAME_ZIP",
+    "package_drive_file_id": "1UFkYT8YdRMvawM1PNDZ0cRlluUDPz47W",
+    "package_name": "MMAI_PRODUCT_V1_R10_ART_CANDIDATE.zip",
+    "package_bytes": 25204151,
+    "package_sha256_local": "9c13d78fc4afe14ed3fb3d75b24c58b43e5834e44a1c2bd9eb40ca66e632f853",
+    "zip_entries": 32,
+    "crc_and_member_hash": "PASS_LOCAL",
+    "drive_size_parent_readback": "MATCH",
+    "drive_remote_sha256": "NOT_PERFORMED",
+    "source_folder": "source-r10/",
+    "source_files": 10,
+    "source_commit": "c80de19bdb115a2f4d7e1e2dfdf765a28b7adf91",
+    "source_readback": "10_OF_10_EXACT",
+    "latest_full_game_package": "1vfOaM9mHEPJpqHklSsyLyUOtxdYz4OwT",
+    "previous_deltas": [
+      "source-r07/",
+      "source-r08/"
+    ],
+    "r09_no_art_checkpoint": true,
+    "new_source_sheets": 3,
+    "new_original_painted_view_cutouts": 12,
+    "author_approved_paintings": 0,
+    "technical_art_preflight": "12_RGBA_640x640_UNIQUE_SHA256_ALL_PRESENT",
+    "r08_inspector_status": "BLOCKED_DUE_LICENSE_AND_SCALE_ACK_PENDING",
+    "art_fallback": "R04_UNCHANGED_EXACT_PIXELS_WHEN_PREVIEW_OFF",
+    "preview": "R10_ART_CANDIDATE_NOT_APPROVED_WATERMARK_ONLY",
+    "gameplay_mutations": 0
   }
 }
