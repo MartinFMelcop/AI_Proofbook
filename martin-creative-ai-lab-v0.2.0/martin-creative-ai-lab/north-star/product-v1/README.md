@@ -149,3 +149,16 @@ Arquivos de prova: [R07_COMPOSED_DELTA](source-r07/docs/R07_COMPOSED_DELTA.md), 
 - Evidência: [R08_ART_INTAKE_AND_AUDIT](source-r08/docs/R08_ART_INTAKE_AND_AUDIT.md), [R08_TEST_REPORT](source-r08/artifacts/R08_TEST_REPORT.json), [verify_r08](source-r08/tools/verify_r08.py).
 
 O próximo gate deve focar **criar ou recuperar artes originais de quatro perspectivas** e inspecionar o resultado dentro do renderizador, antes de abrir nova frente de código ou gerar outro pacote integral.
+
+
+## R10 — 12 pinturas originais candidatas em quatro vistas, integradas à prévia real (15/11/2026)
+
+**Avanço artístico material, mas ainda não aprovado pelo autor nem PRODUCT_GO.** Três novas folhas 2x2 ilustradas para casa, forja e botica foram geradas nesta conversa, totalizando 12 perspectivas pintadas; recortadas em atlas 3x4 e 12 arquivos WEBP RGBA 640x640 com hashes distintos. Nenhuma perspectiva foi criada por rotação, espelhamento ou recoloração da mesma fachada.
+
+- Arte candidata e evidências no Drive: https://drive.google.com/file/d/1UFkYT8YdRMvawM1PNDZ0cRlluUDPz47W/view — 25.204.151 bytes, 32 arquivos, SHA-256 local 9c13d78fc4afe14ed3fb3d75b24c58b43e5834e44a1c2bd9eb40ca66e632f853. CRC e SHA-256 de cada entrada conferidos localmente; Drive readback por tamanho/pasta, não hash de redownload. Não é ZIP integral de jogo.
+- [source-r10/](source-r10/) contém 10 arquivos textuais reais, 10/10 verificados por leitura posterior. site/world.js possui flag de **prévia interna** NSR10ArtPreview, desativada por padrão, e sempre marca a imagem como ART CANDIDATE - NOT APPROVED. Sem esta flag, a cena reproduz exatamente os 4 screenshots anteriores, e o gate oficial NSFacadeR07 continua intacto.
+- Renderização real do próprio site/world.js em Skia CPU: quatro quadros de 1200x760 nos ângulos 0/90/180/270. Diferença em pixels por vista versus R07: 4,7041 / 5,5599 / 4,8991 / 5,7510% no limiar RGB médio >18. Mudança não é nota artística. Câmera não mudou posição/revisão do C++.
+- Testes: 240 Python unittest PASS; 44 Node checks, ABI5 C17 recompilada e executada, 121 ações C++/WASM, regressões R04 121/R03 121/R02 116/R01 100, journal SQLite 121 eventos, owner e WASM preservados por SHA256.
+- O inspetor R08 registra 12 arquivos físicos distintos e âncoras consistentes, porém **BLOCKED para aprovação** por direitos/proveniência, escala e inspeção humana. Fachadas, personagens, bosses, kits e opening final não homologados. Zero das 12 pinturas com AUTHOR_ART_APPROVED.
+
+Reproduzir somente em cópia isolada de R06 + deltas R07/R08/R10 + assets do pacote candidato; nunca sobrescrever histórico nem fazer merge antes da aprovação. Ver [R10_ART_AND_INTEGRATION](source-r10/docs/R10_ART_AND_INTEGRATION.md) e [R10_QA](source-r10/artifacts/R10_ART_QA_REPORT.json).
