@@ -29,3 +29,19 @@ Rave Masters v0.2 (separate historical work): https://drive.google.com/file/d/1Q
 5. C/E/B/D owner acknowledgements and independent canon gates, preserving R51/R60/R61/INT-C01-001 OPEN, RP-R03-P03/RP-G02-A03 PENDING, C30 STOP_DOCUMENTARY_PENDING_OWNER, Arena S1 HOLD, C05-P01–P07 OPEN, F5/VEA decisions and 737 critiques.
 
 This change is additive and reviewable. Existing baselines, Makers, MER, VEA, Unity and independent works are unchanged.
+
+
+## R01 — World-owned spatial slice, no product promotion (2026-11-15)
+
+**One composed revision of the same V1**, not a disconnected demo:
+- New source ZIP (full, standalone snapshot) https://drive.google.com/file/d/19U1f3Yr7xhfResYMdrEtDAduJA6yscaV/view (22,111,513 bytes; SHA-256 local `cfce150ea5cd021c0fcd9ae30e2502f5ecec262117cbeeb86ab402338fefe553`; Google Drive size/parent readback only, remote binary hash not verified).
+- R00 remains preserved at Drive ID `1fsbHm8vHKnTD7nj8M-Ua8NbQWbLb8uz0`; R01 supplements it and becomes the active laboratory source. No historical overwrite.
+- World owner: `core/world.cpp`, one C++20-to-wasm32 executable rule set with a C ABI. The previous `core/product.cpp` is built separately only for legacy regression.
+- Reality of play: a 24x20 grid rendered isometrically, native tile collisions, river/bridge, WASD/click movement, four actual orthographic quarter-turn projections, deterministic basic NPC routes, guard/leader/herbs/crafting, and three distinct mechanical encounters with telegraphs/guard/retreat, in one title/menu/creator/opening product flow.
+- Evidence: 60 Python tests PASS; **100 native C++ intentions replayed in real WASM with matching state after each action**, 4 rotations + input observed under simulated Canvas/DOM, local hash-chained SQLite journal of 100 actions verified, 18-second H.264/AAC animatic unchanged. Browser rendering, Windows, art quality and player UX remain NOT_RUN/NOT_APPROVED.
+- The 21 historical classes are selectable **but 21 class kits are not implemented**; skills are noncanonical laboratory techniques. B01/B02 are proposals; B03 is a separate Rave Masters legacy minichefe. No canonical boss, region or class power has been introduced.
+- Art direction: extra 4-facing character sheet plus 6 prop sources, all derivations and source hashes in the package; 4-view object self-orientation, rigs, animations, performance and artistic acceptance are **pending**.
+- Python/SQLite handles a reproducible **laboratory journal only**, not account persistence or browser save infrastructure. No multiplayer authority proven.
+- Technical details in `docs/R01_SPATIAL_DELTA.md` and `artifacts/R01_TEST_REPORT.json` inside the R01 ZIP; this PR remains **DRAFT / PRODUCT_NO_GO**.
+
+Next source-consumer work: four-facing coherent in-game architecture and animation with artistic gates; real 1–2-class kit binding; beings with personality-specific behavior; richer authored three-boss encounters; Windows standard-user build and human art/play review. No extra author-facing test ZIP until composite quality warrants it.
