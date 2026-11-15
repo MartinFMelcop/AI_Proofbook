@@ -80,3 +80,17 @@ After the full R02 source ZIP was uploaded to Drive and its local integrity veri
 - Details and source anchors: `source-r03/docs/R03_COMPOSED_DELTA.md`, `source-r03/docs/R03_VISUAL_AUDIT.md`, `source-r03/artifacts/R03_TEST_REPORT.json`.
 
 Continue on the **same** V1 package and PR; do not open fragmented author-facing demos. Next gate is the qualitative jump: detailed architecture/vegetation, richer NPC/hero motion in all four views, boss creature art and counterplay, 21 class kits with canon owners/balance, cinematic-quality opening and standard-user Windows build. Historical blocks and independent work remain unchanged; main is untouched.
+
+
+## R04 — arquitetura de vila in-game, chefe ilustrado e telegraph único do owner (15/11/2026)
+
+**DRAFT / ENGINEERING_LAB_PASS / ART_REVIEW_PENDING / PRODUCT_NO_GO**. Isto não é um lançamento nem convite para teste autoral.
+
+- **Pacote integral R04 no Drive:** https://drive.google.com/file/d/1tU1Tk6g7JshWv5IGlUdLx7-gTf0f-zif/view — 55.322.074 bytes, 279 arquivos, SHA-256 local `89eb4a57c1c6dfb912c7c1a9d8afc2ac8bc272f8710cab5a3cc93efcc54e9656`. Verificados localmente CRC e hash de cada arquivo; Drive confirmou tamanho e pasta, **não** hash por redownload remoto. R00–R03 preservados.
+- **102 arquivos textuais R04 publicados nesta mesma branch:** [source-r04/](source-r04/). Conjunto contém C++20/ABI C17, Python+SQLite, Canvas JS, testes Node/Python, documentação e recibos; **12 arquivos críticos** comparados exatamente à fonte. Assets/binaries/video/frames apenas no ZIP Drive.
+- **Gameplay:** `core/world_r04.cpp` é o único owner do cliente, ABI4. A nova máscara de perigo `nsw_boss_threatens` é a mesma função pura usada pelo dano de chefe; `site/world.js` somente consulta a saída WASM e desenha no tile isométrico. Revisões de gameplay não mudam ao girar a câmera/desenhar.
+- **Arte in-game (conceitos não aprovados):** nove props com arquitetura, forja, boticário, ponte, fonte e flora; B01 derivado de quatro sprites de guarda, B02 espírito procedural, B03 variação diferenciada de árvore. Camadas com oclusão mitigada no combate. Props são billboards, **não são malhas e não possuem quatro fachadas autênticas**. Falta mundo completo, animação convincente, personagens e chefões finais.
+- **Evidência executada:** 167 Python tests PASS; consumidor C17 ↔ C++20 PASS; **121 intents R04** pareados com WASM e **4 amostras de ameaça por evento**, regressões R03 121/R02 116/R01 100, journal SQLite R04 121 eventos e contraprovas, **4 Skia imagens reais** + **3 Skia imagens reais de chefes**. Na vista equivalente, 17,82% dos pixels tiveram L1 RGB médio >18 vs R03; **mudança não é prova de beleza**. Browser/Windows NOT_RUN.
+- **Classes / beings / lore / opening:** 21 kits ainda hipóteses de pesquisa (assinatura+auxiliar+passiva); beings com estados limitados; B01/B02 candidatos e B03 referência separada de Rave Masters — nenhum canonizado. Opening continua animatic 18s. Owner ACKs e todos bloqueios históricos preservados.
+
+Leia [R04_COMPOSED_DELTA](source-r04/docs/R04_COMPOSED_DELTA.md), [R04_VISUAL_AUDIT](source-r04/docs/R04_VISUAL_AUDIT.md) e [R04_TEST_REPORT](source-r04/artifacts/R04_TEST_REPORT.json). Nenhuma alteração em main, Unity/C#, Makers, MER, VEA ou cânone; só documentação/filiais de trabalho. O próximo avanço R05 deve mirar coerência de fachadas e colisões, animação real de beings/chefes, design autoral de classes e chefes, opening final e Windows sob usuário comum, sem enviar testes fragmentados ao autor.
