@@ -108,3 +108,17 @@ Leia [R04_COMPOSED_DELTA](source-r04/docs/R04_COMPOSED_DELTA.md), [R04_VISUAL_AU
 - **Resultado artístico:** imagem padrão R05 difere apenas 0,24%–1,30% dos pixels relevantes R04; geometria muda 5,88%–7,88% mas perde acabamento. Alteração de pixel não prova qualidade. **Não alcançamos o salto visual solicitado.** A geração de novas artes falhou; material promocional não foi usado como screenshot de gameplay. Quatro fachadas ilustradas, gait/rig, chefes finais, opening, Windows e MMO continuam pendentes.
 
 Fontes: [R05_COMPOSED_DELTA](source-r05/docs/R05_COMPOSED_DELTA.md), [R05_VISUAL_AUDIT](source-r05/docs/R05_VISUAL_AUDIT.md), [R05_TEST_REPORT](source-r05/artifacts/R05_TEST_REPORT.json). R05 é revisão de integridade/autoridade com **NO-GO artístico explícito**. Próxima frente deve produzir fachadas e animação próprias multivista antes de ampliar o catálogo.
+
+
+## R06 — ciclos derivados, B02 espectral de laboratório e quatro vistas (15/11/2026)
+
+**Mesmo produto composto, sem autorização de teste autoral: PRODUCT_NO_GO / ART_REVIEW_PENDING.**
+
+- Pacote integral R06 Drive: https://drive.google.com/file/d/1vfOaM9mHEPJpqHklSsyLyUOtxdYz4OwT/view (92.955.749 bytes; 429 arquivos; SHA256 local cc94c5da05ffd446943aa8cbb30420ce20a7bba894ce206607e68920aade6008). CRC e SHA de todos os membros verificados localmente; Drive confirmou nome/tamanho/pasta, não redownload binário. R00–R05 preservados.
+- Delta textual R06 nesta mesma branch: [source-r06/](source-r06/), 18 arquivos de renderização JavaScript, geração reprodutível Python, contratos/testes/relatórios. 8/8 arquivos críticos tiveram readback exato. Fontes anteriores R04/R05 intactas.
+- Um único owner C++20/C17 permanece core/world_r05.cpp ABI5, sem alterar regras ou versão de save. **205 testes Python PASS**; C17 real PASS; 121 intenções C++↔WASM; regressões R04=121, R03=121, R02=116, R01=100; SQLite 121 eventos e replay/negativos.
+- **Motion studies no renderizador real:** 48 quadros derivados de NPC (4 seres ×4 direções ×3 deformações), 18 de bosses e 16 estudos de B02 derivados de arte de NPC #4. Quatro vistas +3 bosses +4 momentos da mesma vista executados via Canvas Skia CPU; GIF temporal no pacote. Deformações observacionais, **não rigs ou arte final**.
+- **Não houve avanço estético substancial da cena estática:** R05→R06 registrou 0,004–0,011% de pixels alterados nas vistas equivalentes; quadros consecutivos 0,535–0,816%; boss B02 0,969%. Variação de pixels NÃO é nota estética. Nenhum boss foi canonizado.
+- **BLOQUEIO REAL:** a geração de fachadas ilustradas four-facing falhou; preservados os billboards R04 e rejeitada novamente a geometria feia R05. Nenhuma abertura cinematográfica final ou build Windows/browser. ART_REVIEW_PENDING / PRODUCT_NO_GO.
+
+Detalhes: [R06_COMPOSED_DELTA](source-r06/docs/R06_COMPOSED_DELTA.md), [R06_VISUAL_AUDIT](source-r06/docs/R06_VISUAL_AUDIT.md), [R06_TEST_REPORT](source-r06/artifacts/R06_TEST_REPORT.json). Próximo R07 deve priorizar arte original das quatro fachadas e animações convincentes, antes de solicitar teste humano do RPG.
