@@ -5,7 +5,7 @@
   "product": "Virgo Diamond: The North Star",
   "status": {
     "integration": "INTERNAL_PREPRODUCTION",
-    "technical": "215_PYTHON_PASS_44_NODE_FACADE_ASSERT_121_WASM_NATIVE_458_HIST_WASM_11_SKIA_12_READBACK",
+    "technical": "234_PYTHON_PASS_44_NODE_FACADE_121_WASM_NATIVE_458_HIST_WASM_11_SKIA_7_GIT_SOURCE_MATCH_7_PNG_IDENTICAL",
     "art": "ART_BLOCKED_FACADES",
     "product": "PRODUCT_NO_GO",
     "publication": "NOT_AUTHORIZED"
@@ -28,7 +28,7 @@
     "rave_masters": "1Q3LwmkiD-p2gvw65756ZLk1bkNmJc32Z"
   },
   "evidence": {
-    "python_native_tests": 215,
+    "python_native_tests": 234,
     "node_wasm": "PASS",
     "node_camera4": "PASS",
     "chromium": "NOT_RUN",
@@ -122,7 +122,23 @@
     ],
     "source_sampled_exact": "12_OF_12",
     "new_illustrated_facades": 0,
-    "real_browser": "NOT_RUN"
+    "real_browser": "NOT_RUN",
+    "r08_new_python_tests": 19,
+    "r08_js_assertions_unchanged": 44,
+    "r08_cpp_wasm_parity_events": 121,
+    "r08_wasm_historical_actions": {
+      "R04": 121,
+      "R03": 121,
+      "R02": 116,
+      "R01": 100
+    },
+    "r08_skia_views": 4,
+    "r08_skia_bosses": 3,
+    "r08_skia_temporal": 4,
+    "r08_real_game_boss_screenshots_pixel_identical_to_R07": "7_OF_7",
+    "r08_untouched_core_graphics_sources_sha_identical": "10_OF_10",
+    "r08_github_source_readback": "7_OF_7_EXACT",
+    "author_art": "NOT_APPROVED"
   },
   "experience_requirements": [
     "studio_brand",
@@ -189,7 +205,7 @@
     }
   ],
   "gates": {
-    "visual_style": "ART_BLOCKED_NEW_FOUR_VIEW_PAINTINGS_FAILED",
+    "visual_style": "NO_VISUAL_QUALITY_CHANGE_R07_TO_R08",
     "opening_final": "ANIMATIC_18S_ONLY",
     "native_world_four_view": "FOUR_SKIA_SCENE_VIEWS_BUT_BUILDINGS_STILL_SINGLE_FACE_R04",
     "classes_and_skills": "21_RESEARCH_KITS_441_PAIRINGS_NOT_CANON",
@@ -197,11 +213,12 @@
     "boss_behavior": "R05_CXX_OWNED_MECHANICS_UNCHANGED_B02_DERIVED_CONCEPT_ONLY",
     "standard_user_windows": "NOT_RUN",
     "owners_C_E_B_D": "PENDING",
-    "beings": "MOTION_DERIVATIONS_OBSERVATIONAL_ONLY_NO_FINAL_RIG",
+    "beings": "R06_DERIVED_ONLY_NOT_FINAL",
     "windows": "NOT_RUN",
-    "facade_art": "3_BUILDINGS_X4_GENUINE_PAINTINGS_REQUIRED_0_OF_12_READY",
+    "facade_art": "ART_BLOCKED_0_OF_12_ORIGINAL_PAINTINGS",
     "being_animation": "R06_DERIVED_MOTION_NOT_FINAL_RIG",
-    "boss_art": "R06_DERIVED_NONCANON_NOT_FINAL"
+    "boss_art": "R06_DERIVED_ONLY_NONCANON",
+    "facade_preflight": "PERCEPTUAL_REUSE_AND_ATLAS_IMPORTER_TESTED_HUMAN_ART_REVIEW_MANDATORY"
   },
   "historical_blocks": [
     "R51_OPEN",
@@ -222,7 +239,7 @@
     "vea": false,
     "unity": false
   },
-  "current_revision": "PRODUCT_V1_R07_SOURCE_DELTA_2026-11-15",
+  "current_revision": "PRODUCT_V1_R08_SOURCE_DELTA_2026-11-15",
   "package_previous": {
     "drive_file_id": "1fsbHm8vHKnTD7nj8M-Ua8NbQWbLb8uz0",
     "name": "MMAI_PRODUCT_V1_20261115.zip",
@@ -231,14 +248,14 @@
     "remote_binary_readback": "NOT_PERFORMED"
   },
   "code_status": {
-    "single_runtime_owner": "core/world_r05.cpp ABI5 UNCHANGED",
+    "single_runtime_owner": "core/world_r05.cpp C++20/C17 ABI5 UNCHANGED",
     "previous_owner_archived_for_regression": "core/world.cpp and core/product.cpp unchanged by SHA256",
     "client_wasm_abi": 5,
     "save_localstorage_schema": 6,
-    "source_location": "Same PR #3 source-r07/ contains 17 textual R07 delta files; last complete self-contained binary/art package remains R06 on Google Drive",
+    "source_location": "same draft PR source-r08 contains 7 code/docs/test files layered on source-r07 and R06 complete; no new binary or artwork package",
     "sql": "Python SQLite journal 116 events is LAB_ONLY, not browser save or MMO database",
     "github_text_sources": "49_PUSHED_AND_READBACK_SAMPLED_7_OF_7_EXACT",
-    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r07/",
+    "github_source_subfolder": "martin-creative-ai-lab-v0.2.0/martin-creative-ai-lab/north-star/product-v1/source-r08/",
     "source_commit": "db3633435271687d37764828333650479a4846ef",
     "previous_owners": "R01 + R02 unchanged for independent regression",
     "legacy_binary_versions": [
@@ -350,5 +367,19 @@
     "source_commit": "e5dff4d8fe8e31b71ea7c19fd14ed3ea0e73ca77",
     "source_sample_readback": "12_OF_12_EXACT",
     "visual_art_created": false
+  },
+  "r08_delivery": {
+    "mode": "SOURCE_DELTA_ONLY_NO_NEW_FULL_ZIP",
+    "reason": "Generation of 12 original four-sided facade paintings failed; no visual improvement over R07. Avoid waste and misrepresentation.",
+    "base_drive_r06": "1vfOaM9mHEPJpqHklSsyLyUOtxdYz4OwT",
+    "previous_delta": "source-r07/",
+    "delta_folder": "source-r08/",
+    "delta_text_files": 7,
+    "delta_source_commit": "f2527d7af7a2a9182e049e0df80e364f6b112173",
+    "readback": "7_OF_7_EXACT",
+    "created_original_facades": 0,
+    "missing_original_facades": 12,
+    "no_new_art_or_skia_changes": true,
+    "recovered_VEA_art": "NO_EXPLICIT_FOUR_VIEW_ATLAS_FOUND_IN_DIRECT_VEA_RECOVERY_LIST; INNER_ARCHIVES_NOT_EXHAUSTIVELY_INSPECTED"
   }
 }
